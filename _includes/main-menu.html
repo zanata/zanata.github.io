@@ -1,7 +1,7 @@
 <nav>
   <ul class="list--slat">
-    <li><a href="#">Getting Started</a></li>
-    <li><a href="#">Maintainers</a></li>
-    <li><a href="#">Translators</a></li>
+  {% for post in site.categories.help %}
+    <li><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
   </ul>
 </nav>

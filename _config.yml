@@ -1,4 +1,5 @@
 name: Zanata Help
 markdown: redcarpet
 pygments: true
-base_url: help
+url: http://zanata.org/help
+permalink: /:categories/:title
