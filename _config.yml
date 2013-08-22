@@ -3,3 +3,4 @@ markdown: redcarpet
 pygments: true
 url: http://zanata.org/help
 permalink: /:categories/:title
+show_drafts: true
