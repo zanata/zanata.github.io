@@ -1,0 +1,5 @@
+.post img {
+	box-shadow: 0 0 10px #888;
+	-moz-box-shadow: 0 0 10px #888;
+	-webkit-box-shadow: 0 0 10px #888;
+}
