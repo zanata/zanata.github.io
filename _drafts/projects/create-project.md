@@ -18,19 +18,19 @@ Anyone with an account can upload source strings to Zanata. The first step is to
 
 To start creating a project on the Zanata website, click the `Create project` button on the `Projects` page, or use the `create your own` link on the user dashboard, at the bottom of the projects summary.
 
-![alt text](/images/302-projects-create-project.png)
+![alt text]({{ site.url }}/images/302-projects-create-project.png)
 
 Project creation button on `Projects` page.
 
 
-![alt text](/images/302-user-dashboard-create-project.png)
+![alt text]({{ site.url }}/images/302-user-dashboard-create-project.png)
 
 Shortcut project creation link on user dashboard.
 
 
 The following screenshot shows the project creation page. In the screenshot, all fields have been filled in to illustrate the process. This example would create a project with a URL ending in '/zanata-server', that will be displayed in the project list as 'Zanata Server'. Details for each of the fields are shown below.
 
-![alt text](/images/302-create-project-completed.png)
+![alt text]({{ site.url }}/images/302-create-project-completed.png)
 
 ------------
 
