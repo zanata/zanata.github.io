@@ -4,3 +4,5 @@ pygments: true
 url: http://zanata.org/help
 permalink: /:categories/:title
 show_drafts: true
+
+cli: zanata-cli
