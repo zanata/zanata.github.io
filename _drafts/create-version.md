@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "Creating Versions"
-categories: help
+categories:
+- help
+- projects
 ---
 
 
@@ -16,10 +18,10 @@ For simple projects, it is typical to create a single version named 'master'. Ot
  1. **Create a version under the project.**
  1. Add documents to the version.
    - Using the website
-   - Using the command-line client
+   - Using the [command-line client push]({{ site.url }}/help/cli/cli-push) command
 
 
-# Version creation through the website
+## Version creation through the website
 
 To add a version to your project, navigate to the project using the menu or user dashboard and click the `Create Version` button. If your project has no versions yet, there will be a link under the project on the user dashboard to jump straight to version creation.
 
@@ -37,8 +39,6 @@ The following screenshot shows the version creation page. The settings in this s
 
 ![Example version creation form with completed name and other settings]({{ site.url }}/images/302-create-version-master.png)
 
-
-## Details
 
 ### Version ID
 
@@ -73,6 +73,6 @@ If your version requires a different set of validations than the parent project,
 For more information, see `Customized list of validations` under [Create a project][].
 
 
-# Version creation through the command line
+## Version creation through the command line
 
 Versions can also be created using the command-line client. See the help output of the client for a list of available options.

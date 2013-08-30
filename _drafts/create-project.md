@@ -3,7 +3,7 @@ layout: post
 title:  "Project Creation"
 categories:
 - help
-
+- projects
 ---
 
 Anyone with an account can upload source strings to Zanata. The first step is to create a project:
@@ -12,9 +12,9 @@ Anyone with an account can upload source strings to Zanata. The first step is to
  1. [Create a version]({{ site.url }}/help/projects/create-version) under the project.
  1. Add documents to the version.
    - Using the website
-   - Using the command-line client
+   - Using the [command-line client push]({{ site.url }}/help/cli/cli-push) command
 
-# Project creation through the website
+## Project creation through the website
 
 To start creating a project on the Zanata website, click the `Create project` button on the `Projects` page, or use the `create your own` link on the user dashboard, at the bottom of the projects summary.
 
@@ -33,8 +33,6 @@ The following screenshot shows the project creation page. In the screenshot, all
 ![Example project creation form with all fields filled in]({{ site.url }}/images/302-create-project-completed.png)
 
 ------------
-
-## Details
 
 
 ### Project ID
@@ -107,6 +105,6 @@ At the time of writing, the recommended validations are recommended:
    - HTML/XML tags
 
 
-# Project creation from command line
+## Project creation from command line
 
 Projects can also be created using the command-line client. See the help output of the client for a list of available options.

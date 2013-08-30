@@ -3,7 +3,7 @@ layout: post
 title:  "Adding Source Strings"
 categories:
 - help
-
+- projects
 ---
 
 Anyone with an account on Zanata can create a translation project for their strings. The basic steps are:
@@ -12,8 +12,9 @@ Anyone with an account on Zanata can create a translation project for their stri
  1. [Create a version][] under the project.
  1. Add documents to the version.
    - Using the website
-   - Using the command-line client
+   - Using the [command-line client push][] command
 
 
-[Project Creation]: {{ site.url }}/help/projects/create-project
-[Version Creation]: {{ site.url }}/help/projects/create-version
+[Create a project]: {{ site.url }}/help/projects/create-project
+[Create a version]: {{ site.url }}/help/projects/create-version
+[command-line client push]: {{ site.url }}/help/cli/cli-push
