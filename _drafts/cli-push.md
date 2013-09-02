@@ -23,10 +23,10 @@ At the time of writing, you will have to specify source and translation director
 
 This command will:
 
- 1. search for source documents in a directory named `src` and any of its subdirectories
- 1. display the current settings and list of source documents that were found
- 1. confirm that you want to proceed with the upload
- 1. upload the located source documents to the server
+ 1. search for source documents in a directory named `src` and any of its subdirectories.
+ 1. display the current settings and list of source documents that were found.
+ 1. confirm that you want to proceed with the upload.
+ 1. upload the located source documents to the server.
 
 
 For a full list of the available options for push, run `{{ site.cli_client_name }} help push`
