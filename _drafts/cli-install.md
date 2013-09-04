@@ -18,7 +18,7 @@ sudo yum install zanata-client
 
 ## {{ site.cli_client_name }} Installation with Ivy
 
-The Ivy distribution of the client will keep itself updated to the latest version. This distribution requires Apache Ivy to run.
+The Ivy distribution of the client is a small script that will download the client the first time it is run. This distribution requires Apache Ivy to run.
 
 Instructions for installing Apache Ivy and the Ivy version of {{ site.cli_client_name }} can be found at [Zanata Ivy Client on github](https://github.com/zanata/zanata-client-ivy).
 
