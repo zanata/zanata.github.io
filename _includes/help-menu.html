@@ -1,7 +1,7 @@
 <nav>
   <ul>
     {% for category in site.categories %}
-      {% if category[0] != 'help' %}
+      {% if category[0] != 'help' and category[0] != 'blog' %}
         <li class="l--push-bottom-half">
           <h2 class="heading--secondary delta">{{ category[0] | capitalize}}</h2>
           <ul class="list--slat">

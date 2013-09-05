@@ -6,7 +6,46 @@
 }
 
 .post img {
-	box-shadow: 0 0 10px #888;
-	-moz-box-shadow: 0 0 10px #888;
-	-webkit-box-shadow: 0 0 10px #888;
+	border: .25em solid #fff;
+  margin: 1.5em 0;
+}
+
+.bg--primary {
+  background-image: url('../images/languages.png');
+}
+
+/*
+Move to zanata css
+*/
+
+.new-zanata .heading--tertitary {
+  font-weight: 300;
+}
+
+.new-zanata .l--pad-v-quarter {
+  padding-top: .375em;
+  padding-bottom: .375em;
+}
+
+.bx--inline-block {
+  @include inline-block;
+}
+
+.bx--flex-16-9 {
+  position: relative;
+  padding-top: 1.5em;
+  padding-bottom: 67.5%;
+  height: 0;
+  margin-bottom: 1em;
+  overflow: hidden;
+}
+
+.bx--flex-16-9 iframe,
+.bx--flex-16-9 object,
+.bx--flex-16-9 video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

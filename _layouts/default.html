@@ -97,10 +97,14 @@
             </div>
             <div class="bg--lowest l--pad-v-1 txt--invert">
               <div class="l__wrapper">
-                <p>
-                  Copyright &copy; 2008-{{ site.time | date: '%Y' }} <a href="http://redhat.com">Red Hat</a>
-                  <span class="l--float-right">Supported by <img width="150" style="vetical-align: middle" src="{{ site.url }}/images/redhat.png" alt="Red Hat"></span>
-                </p>
+                <div class="g l--pad-v-half">
+                  <div class="g__item w--1-2">
+                    <p class="l--pad-v-quarter">Copyright &copy; 2008-{{ site.time | date: '%Y' }} <a href="http://redhat.com">Red Hat</a></p>
+                  </div>
+                  <div class="g__item w--1-2 txt--align-right">
+                    <p>Supported by <img class="bx--inline-block l--push-left-half" style="vertical-align:middle" src="{{ site.url }}/images/redhat.png" alt="Red Hat" ></p>
+                  </div>
+                </div>
               </div>
             </div>
           </footer>
