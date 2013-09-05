@@ -6,86 +6,107 @@
         <title>{{ page.title }}</title>
         <link rel="shortcut icon" href="//assets-zanata.rhcloud.com/1/favicon.ico" type="image/x-icon" />
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="https://assets-zanata.rhcloud.com/master/assets/css/style.css">
+        <!-- <link rel="stylesheet" href="https://assets-zanata.rhcloud.com/master/assets/css/style.css"> -->
+        <link rel="stylesheet" href="http://localhost:5000/assets/css/style.css">
         <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,400italic" />
-        <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/post.css"
+        <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/custom.css" />
+        <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/syntax.css" />
     </head>
     <body class="new-zanata-body">
 
-      <div class="off-canvas__outer">
+      <div class="off-canvas__outer new-zanata">
         <div class="off-canvas__target off-canvas--left" id="off-canvas--left" data-off-canvas="over">
           <header class="off-canvas__header">
             <a href="#off-canvas--left" class="off-canvas__close"><i class="i i--cross"></i><span class="is-invisible">Close</span></a>
           </header>
           <nav id="nav-main-side">
             <ul class="list--slat list--block-links">
-              <li class="l--push-left-half"><a href="{{site.url}}/about">About</a></li>
-              <li class="l--push-left-half"><a href="{{site.url}}/features">Features</a></li>
-              <li class="l--push-left-half"><a href="{{site.url}}/help" class="is-active">Help</a></li>
+              <li><a href="{{site.url}}/about">About</a></li>
+              <li><a href="{{site.url}}/blog">Blog</a></li>
+              <li><a href="{{site.url}}/help"{% if page.layout == "help" %}class="is-active"{% endif %}>Help</a></li>
             </ul>
-            <div class="l--push-all-half"><a href="#" class="button--primary button--full">Sign up</a></div>
+            <div class="l--push-all-half"><a href="http://translate.zanata.org" class="button--primary button--full">Go to the App</a></div>
           </nav>
         </div>
         <div class="off-canvas__inner">
-          <header role="banner" class="bg--pop-highest txt--s-align-center">
-    <!--         <a href="#off-canvas--left" class="off-canvas__toggle--left is-hidden--m-up l--float-left"><i class="i i--huge i--list"></i><span class="is-invisible">Menu</span></a> -->
-            <div class="header__login l--float-right">
-              <a href="{% if page.root %}{{ page.root }}{% endif %}sign-up" class="is-hidden--s button">Sign Up</a>
-              <a href="{% if page.root %}{{ page.root }}{% endif %}dashboard" class="l--push-left-half button--primary">Log In</a>
+          <header role="banner" class="bg--pop-highest txt--s-align-center l--clearfix">
+            <a href="#off-canvas--left" class="off-canvas__toggle--left is-hidden--m-up l--float-left"><i class="i i--huge i--list"></i><span class="is-invisible">Menu</span></a>
+
+            <div class="constrain">
+              {% if page.layout == "home" %}
+              <h1 class="header__title heading--sub"><a href="/"><img class="header__site-logo" src="https://assets-zanata.rhcloud.com/master/logo.svg"> Zanata</a></h1>
+              {% else %}
+              <h2 class="header__title heading--sub"><a href="/"><img class="header__site-logo" src="https://assets-zanata.rhcloud.com/master/logo.svg"> Zanata</a></h2>
+              {% endif %}
+
+              <nav id="nav-main" class="header__menu is-hidden--s l--push-left-half l--float-left">
+                <ul class="list--horizontal">
+                  <li class="l--push-left-half"><a href="{{site.url}}/about">About</a></li>
+                  <li class="l--push-left-half"><a href="{{site.url}}/blog">Blog</a></li>
+                  <li class="l--push-left-half"><a href="{{site.url}}/help"{% if page.layout == "help" %}class="is-active"{% endif %}>Help</a></li>
+                </ul>
+              </nav>
+
+              <div class="header__login l--float-right is-hidden--s">
+                <a href="http://translate.zanata.org" class="button--primary button--full">Go to the app</a>
+              </div>
             </div>
-
-            {% if page.layout == "home" %}
-            <h1 class="header__title heading--sub"><a href="/"><img class="header__site-logo" src="https://assets-zanata.rhcloud.com/master/logo.svg"> Zanata</a></h1>
-            {% else %}
-            <h2 class="header__title heading--sub"><a href="/"><img class="header__site-logo" src="https://assets-zanata.rhcloud.com/master/logo.svg"> Zanata</a></h2>
-            {% endif %}
-
-            <nav id="nav-main" class="header__menu is-hidden--s l--push-left-half">
-              <ul class="list--horizontal">
-                <li class="l--push-left-half"><a href="{{site.url}}/about">About</a></li>
-                <li class="l--push-left-half"><a href="{{site.url}}/features">Features</a></li>
-                <li class="l--push-left-half"><a href="{{site.url}}/help" class="is-active">Help</a></li>
-              </ul>
-            </nav>
-
           </header>
 
-          <main role="main" class="l--push-v-1">
-            <div class="l__wrapper">
+          {{ content }}
+
+          <footer role="content-info" class="footer bg--pop-high">
+            <div class="l__wrapper l--pad-v-1">
               <div class="g">
-                <div class="g__item w--1-4">
-                  {% include main-menu.html %}
+                <div class="g__item w--1-4 l--push-bottom-1">
+                  <h2 class="delta">Live Instances</h2>
+                  <ul class="list--slat">
+                    <li><a href="http://translate.zanata.org">translate.zanata.org</a></li>
+                    <li><a href="http://translate.jboss.org">translate.jboss.org</a></li>
+                  </ul>
                 </div>
-                <div class="g__item w--3-4">
-                  {{ content }}
+                <div class="g__item w--1-4 l--push-bottom-1">
+                  <h2 class="delta">Support</h2>
+                  <ul class="list--slat">
+                    <li><a href="{{ site.url }}/help">Help</a></li>
+                    <li><a href="#">IRC</a></li>
+                    <li><a href="{{ site.url }}/mailing-lists">Mailing Lists</a></li>
+                    <li><a href="{{ site.url }}/issues">Issues</a></li>
+                  </ul>
+                </div>
+                <div class="g__item w--1-4 l--push-bottom-1">
+                  <h2 class="delta">Developers</h2>
+                  <ul class="list--slat">
+                    <li><a href="#">Github Project</a></li>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Developer Wiki</a></li>
+                    <li><a href="#">Ohloh</a></li>
+                    <li><a href="#">Continuous Integration</a></li>
+                  </ul>
+                </div>
+                <div class="g__item w--1-4 l--push-bottom-1">
+                  <h2 class="delta">Technologies</h2>
+                  <ul class="list--slat">
+                    <li><a href="http://www.jboss.org/">JBoss</a></li>
+                    <li><a href="http://www.seamframework.org/">Seam</a></li>
+                    <li><a href="http://hibernate.org/">Hibernate</a></li>
+                    <li><a href="https://zanata.ci.cloudbees.com/">CloudBees</a></li>
+                  </ul>
                 </div>
               </div>
             </div>
-          </main>
-
-          <footer role="content-info" class="footer bg--low">
-            <div class="l__wrapper l--pad-v-1">
-              <div class="g">
-                <div class="g__item w--1-3">
-                  <h2 class="delta">Support</h2>
-                  <ul class="list--slat">
-                    <li><a href="#">IRC</a></li>
-                    <li><a href="#">Email</a></li>
-                    <li><a href="#">Issues</a></li>
-                  </ul>
-                </div>
-                <div class="g__item w--1-3">
-                  <h2 class="delta">Zanata is an open source project</h2>
-                  <ul class="list--slat">
-                    <li><a href="#">How to Contribute</a></li>
-                    <li><a href="#">Github</a></li>
-                    <li><a href="#">Download</a></li>
-                  </ul>
-                </div>
+            <div class="bg--lowest l--pad-v-1 txt--invert">
+              <div class="l__wrapper">
+                <p>
+                  Copyright &copy; 2008-{{ site.time | date: '%Y' }} <a href="http://redhat.com">Red Hat</a>
+                  <span class="l--float-right w--1-8 w--1-6-m w--1-4-s"><img src="{{ site.url }}/images/redhat.png" alt="Red Hat"></span>
+                </p>
               </div>
             </div>
           </footer>
         </div>
       </div>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+      <script src="https://assets-zanata.rhcloud.com/master/assets/js/script.js"></script>
     </body>
 </html>

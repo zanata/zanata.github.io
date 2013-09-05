@@ -1,8 +1,6 @@
 ---
 title: Help
-layout: default
+layout: help
 ---
 
-{% for post in site.categories.help %}
-  <li><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
+## Welcome to Help

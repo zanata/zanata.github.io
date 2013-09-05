@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: help
 title:  "Document Download with Client"
 categories:
 - help

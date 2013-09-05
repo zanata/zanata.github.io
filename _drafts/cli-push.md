@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: help
 title:  "Document Upload with Client"
 categories:
 - help

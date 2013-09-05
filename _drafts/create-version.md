@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: help
 title:  "Creating Versions"
 categories:
 - help

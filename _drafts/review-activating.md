@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: help
 title:  "Turning review on or off"
 categories:
 - help

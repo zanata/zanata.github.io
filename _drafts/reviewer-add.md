@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: help
 title:  "Adding Reviewers"
 categories:
 - help

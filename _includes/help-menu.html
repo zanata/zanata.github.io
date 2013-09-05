@@ -1,11 +1,11 @@
 <nav>
-  <ul class="list--slat">
+  <ul>
     {% for category in site.categories %}
       {% if category[0] != 'help' %}
-        <li>
-          {{ category[0] }}
-          <ul>
-            {% for post in category[1] %}
+        <li class="l--push-bottom-half">
+          <h2 class="heading--secondary delta">{{ category[0] | capitalize}}</h2>
+          <ul class="list--slat">
+            {% for post in category[1]%}
               <li><a href="{{ site.url }}{{ post.url }}" {% if post.url == page.url %}class="is-active"{% endif %}>
                 {{ post.title }}
               </a></li>

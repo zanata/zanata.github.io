@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: help
 title:  "Adding Source Strings"
 categories:
 - help

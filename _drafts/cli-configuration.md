@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: help
 title:  "Configuring the Client"
 categories:
 - help

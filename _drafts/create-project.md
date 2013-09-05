@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: help
 title:  "Project Creation"
 categories:
 - help
