@@ -1,8 +1,8 @@
 name: Zanata Help
 markdown: redcarpet
 pygments: true
-# url: http://zanata.org/help
-url: http://localhost:4000
+url: http://zanata.org/help
+# url: http://localhost:4000
 permalink: /:categories/:title
 show_drafts: true
 
