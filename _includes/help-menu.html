@@ -1,11 +1,11 @@
 <nav>
   <ul>
-    {% for category in site.categories %}
+    {% for category in site.categories reversed %}
       {% if category[0] != 'help' and category[0] != 'blog' %}
         <li class="l--push-bottom-half">
           <h2 class="heading--secondary delta">{{ category[0] | capitalize}}</h2>
           <ul class="list--slat">
-            {% for post in category[1]%}
+            {% for post in category[1] reversed %}
               <li><a href="{{ site.url }}{{ post.url }}" {% if post.url == page.url %}class="is-active"{% endif %}>
                 {{ post.title }}
               </a></li>
