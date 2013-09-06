@@ -5,7 +5,7 @@
   margin-right: auto;
 }
 
-.post img {
+.prose img {
 	border: .25em solid #fff;
   margin: 1.5em 0;
 }
@@ -13,6 +13,22 @@
 .bg--primary {
   background-image: url('../images/languages.png');
 }
+
+.bg--lower a {
+  color: rgb(240, 242, 244);
+}
+
+.bg--lower a:hover {
+  color: #fff;
+}
+
+.bg--lower a:active {
+  color: #999;
+}
+
+/*#zanata-help .off-canvas__inner {
+  background-color: rgb(122, 140, 158);
+}*/
 
 /*
 Move to zanata css
