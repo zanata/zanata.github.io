@@ -5,16 +5,19 @@ layout: default
 <main role="main" class="l--push-v-1">
   <div class="l__wrapper">
     <div class="g">
-      <div class="g__item w--1-4">
-        {% include help-menu.html %}
-      </div>
       <div class="g__item w--3-4">
         <h1>{{ page.title }}</h1>
+        <p class="l--push-bottom-1">
+          <a href="{{ site.url }}/help"><i class="i i--arrow-left"></i> Back to help</a>
+        </p>
 
         <div class="post">
         {{ content }}
           <p>{{ page.tags }}</p>
         </div>
+      </div>
+      <div class="g__item w--1-4">
+        {% include help-menu.html %}
       </div>
     </div>
   </div>

@@ -1,6 +1,6 @@
 ---
 title: Help
-layout: help
+layout: help-home
 ---
 
-## Welcome to Help
+Get started with Zanata.
