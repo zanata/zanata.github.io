@@ -14,3 +14,5 @@ For projects hosted at jboss.org, please use the JBoss instance of Zanata at [tr
 Zanata is free software, licensed under the LGPL.
 
 For more information, see the Zanata Quick Start Guide and other documentation.
+
+<a href="http://translate.zanata.org" class="button--primary">Go to the app</a>
