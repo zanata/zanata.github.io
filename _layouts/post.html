@@ -4,11 +4,16 @@ layout: default
 
 <main role="main" class="l--push-v-1">
   <div class="l__wrapper">
-    <h1>{{ page.title }}</h1>
-
-    <div class="post">
-    {{ content }}
-      <p>{{ page.tags }}</p>
+    <div class="g">
+      <div class="g__item w--1-4-l w--1-4-h l--push-bottom-half">
+        <h1>{{ page.title }}</h1>
+        <p class="l--push-bottom-1">
+          <a href="{{ site.url }}/blog"><i class="i i--arrow-left"></i> Back to blog</a>
+        </p>
+      </div>
+      <div class="g__item w--3-4-l w--3-4-h">
+        {{ content }}
+      </div>
     </div>
   </div>
 </main>
