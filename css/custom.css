@@ -1,3 +1,9 @@
+@media (min-width: 87.5em) {
+  html.new-zanata {
+    font-size: 18px;
+  }
+}
+
 .new-zanata .l__wrapper,
 .constrain {
   max-width: 70em;
