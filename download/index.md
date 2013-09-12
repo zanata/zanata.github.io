@@ -3,13 +3,23 @@ title: Download
 layout: download
 ---
 
+Setting up a Zanata server takes a few simple steps:
+
+ 1. download and unzip the server package
+ 1. create a database for your Zanata data
+ 1. configure the admin user and email
+ 1. start up the server
+
 ## 1. Download
 
-Download the package that best suits you:
+Download  and extract the package that best suits you:
 
-**Zanata Server:** Easiest way to get Zanata up and running. Extract the contents of this file. The following steps will refer to this location as <ZANATA DIR>.
+**Latest Version:** Easiest way to get Zanata up and running.
 
-**Zanata Previous Releases:** For more experienced users. You will need to provide a JBoss installation, configure it, and deploy Zanata manually.
+**Previous Zanata Releases:** For older releases, use the "Previous Zanata Releases" link, navigate to the release number of interest and download the zip.
+
+The following steps will refer to the extracted location as <ZANATA DIR>.
+
 
 ## 2. Setup the Zanata Database
 
@@ -28,6 +38,7 @@ This file contains the database settings for Zanata. Modify the values for the f
 - `connection-url`: This is the database location. By default it is configured to localhost, port 3306 and a schema named `'zanata'`.
 - `user-name`: Database user name. This user name should have full  table creation permissions on the database instance.
 - `password`: Database password.
+
 
 ## 3. Configure Zanata
 
@@ -64,6 +75,7 @@ java:global/zanata/smtp/tls
 java:global/zanata/smtp/ssl
 ```
 
+
 ## 4. Start Zanata
 
 Starting zanata is as easy as running the 'start-zanata' executable found at
@@ -78,6 +90,7 @@ Starting zanata is as easy as running the 'start-zanata' executable found at
 <ZANATA DIR>/bin/start-zanata.bat
 ```
 
+
 ## 5. Start Using it!
 
 Zanata should be available at
@@ -86,7 +99,7 @@ Zanata should be available at
 http://localhost:8080/zanata
 ```
 
-For more information, check out our [documentation](https://github.com/zanata/zanata-server/wiki/Developer-Guide).
+You should now be able to upload some source strings and start translating. To get started, see [Adding Source Strings]({{ site.url }}/help/projects/add-source-strings).
 
 <div class="txt--meta l--push-top-2">
 <h3 class="epsilon">A few things to note:</h3>
