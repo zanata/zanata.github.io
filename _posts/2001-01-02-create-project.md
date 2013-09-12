@@ -10,7 +10,7 @@ Anyone with an account can upload source strings to Zanata. The first step is to
 
  1. **Create a project.**
  1. [Create a version]({{ site.url }}/help/projects/create-version) under the project.
- 1. Add documents to the version.
+ 1. Add documents to the version:
    - Using the website
    - Using the [command-line client push]({{ site.url }}/help/cli/cli-push) command
 

@@ -10,7 +10,7 @@ Anyone with an account on Zanata can create a translation project for their stri
 
  1. [Create a project][].
  1. [Create a version][] under the project.
- 1. Add documents to the version.
+ 1. Add documents to the version:
    - Using the website
    - Using the [command-line client push][] command
 
