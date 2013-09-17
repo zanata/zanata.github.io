@@ -6,4 +6,4 @@ url: http://zanata.org/new
 permalink: /:categories/:title
 show_drafts: true
 
-cli: zanata-cli
+cli_client_name: zanata-cli
