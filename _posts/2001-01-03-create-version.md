@@ -1,6 +1,6 @@
 ---
 layout: help
-title:  "Creating Versions"
+title:  "Version Creation"
 categories:
 - help
 - projects
