@@ -89,7 +89,7 @@ The access restriction feature is intended for use with special roles that can b
 
 Validations run in the translation editor and help translators to provide translations that are valid for your project. Any validations checked in this list will always be active in the translation editor. Other validations can be toggled by translators to suit their individual workflow.
 
-At the time of writing, the recommended validations are recommended:
+At the time of writing, the following validations are recommended:
 
  - all project types:
    - leading/trailing newline
