@@ -32,6 +32,7 @@ If only some of the translations are in 'translated' state, such as if the docum
 
 ![Filtering translations that are ready for review]({{ site.url }}/images/302-editor-filter-translated.png)
 
+*Note:* When showing only `Translated` strings, any strings that you accept or reject will stop being shown when you move to the next page of the document. If this does not suit your workflow, you can can also show `Rejected` and `Approved` strings to make sure reviewed strings remain visible.
 
 ## Accept and Reject buttons
 
