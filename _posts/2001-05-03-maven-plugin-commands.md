@@ -32,6 +32,8 @@ mvn zanata:help -Ddetail=true -Dgoal=push
 
 These are equivalent to commands `{{ site.cli_client_name }} help` and `{{ site.cli_client_name }} help push` in {{ site.cli_client_name }}.
 
+*Note:* an online view of the same help information can be viewed at [Maven Plugin Reference](https://zanata.ci.cloudbees.com/job/zanata-client-site/site/zanata-maven-plugin/plugin-info.html).
+
 ### Push
 
 The basic push command is
