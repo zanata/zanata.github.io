@@ -39,4 +39,4 @@ Using global or per-project setup will allow the use of the concise form of the 
 mvn zanata:help
 ```
 
-See [Configuring the Maven Plugin]({{ site.url }}/help/maven-plugin/maven-plugin-config) for details.
+See "Global Command Configuration" under [Configuring the Maven Plugin]({{ site.url }}/help/maven-plugin/maven-plugin-config) for details.
