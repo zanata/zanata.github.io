@@ -9,12 +9,12 @@ Stuff about JBoss
 
 ## [Seam](http://www.seamframework.org/)
 
-Stuff about seam
+Seam is a powerful open source development platform for building rich Internet applications in Java.
 
 ## [Hibernate](http://hibernate.org/)
 
-Stuff about Hibernate
+Hibernate is a collection of related projects enabling developers to utilize POJO-style domain models in their applications in ways extending well beyond Object/Relational Mapping.
 
 ## [CloudBees](https://cloudbees.com/)
 
-Stuff about CloudBees and logo
+The CloudBees Platform as a Service (PaaS) architecture provides a powerful foundation for cloud development and deployment services.
