@@ -18,3 +18,5 @@ Hibernate is a collection of related projects enabling developers to utilize POJ
 ## [CloudBees](https://cloudbees.com/)
 
 The CloudBees Platform as a Service (PaaS) architecture provides a powerful foundation for cloud development and deployment services.
+
+<img class="l--float-right" src="http://www.cloudbees.com/sites/default/files/Button-Built-on-CB-1.png" />
