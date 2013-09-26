@@ -3,9 +3,9 @@ title: Technologies
 layout: page
 ---
 
-<h2 class="l--push-top-0"><a href="http://www.jboss.org/">JBoss</a></h2>
+<h2 class="l--push-top-0"><a href="http://www.jboss.org/">JBoss AS</a></h2>
 
-Stuff about JBoss
+JBoss AS (now renamed to WildFly) is an open-source implementation of the Java Platform, Enterprise Edition.
 
 ## [Seam](http://www.seamframework.org/)
 
