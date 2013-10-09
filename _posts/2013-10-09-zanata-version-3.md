@@ -1,5 +1,5 @@
 ---
-title: Zanata - Version 3
+title: Zanata Version 3
 layout: post
 categories:
 - blog
