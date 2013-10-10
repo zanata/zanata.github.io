@@ -10,7 +10,7 @@ tags:
 
 Very soon, [translate.zanata.org](http://translate.zanata.org) will be upgraded to version 3. Zanata version 3 adds some major features and improvements over the currently deployed version 2.2.2.
 
-Here is a previw of what is on the way in the new version:
+Here is a preview of what is on the way in the new version:
 
 
 ### Updated Style
