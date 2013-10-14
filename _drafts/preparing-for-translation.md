@@ -55,3 +55,6 @@ There are several paths to open the translation editor. Some paths will open the
    - click a document name to open the document in the editor.
    - click a locale id to see the editor document list for that locale.
    - click a last translated source string to open the editor at that string.
+
+
+When the editor is open, you can begin entering translations. For more details, see [Translating]({{ site.url }}/help/translation/translating).
