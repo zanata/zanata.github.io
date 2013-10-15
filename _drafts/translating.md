@@ -64,20 +64,8 @@ The Translation Memory (TM) searches for translations of strings the same as or 
 
 Matches can be copied to the translation text box and used as-is or modified before saving. To copy TM matches to the selected text box, click the `Copy` button next to the match, or use `Ctrl+Alt+1` to `Ctrl+Alt+4` keyboard shortcuts to copy the first to fourth match in the list.
 
+You can also search the TM for other phrases by entering them in the TM text box and clicking `Search`.
 
+## Glossary
 
-
- - editor layout
-  * source strings
-  * translation text boxes
-  * main buttons
-  * indicators for other translators
-  * filter checkboxes
-  * translation memory
-  - alerts/settings/validation/chat
-  - stats
-  - search/doclist
-  - key shortcuts
-  - glossary
-  - bookmark links
-  - comments and other info
+If a glossary has been uploaded for your language, each word in the currently selected row will be searched for a glossary entry.
