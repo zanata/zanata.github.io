@@ -60,6 +60,10 @@ In addition to filtering by states, you can check the 'Invalid' checkbox to only
 
 ## Translation Memory
 
+The Translation Memory (TM) searches for translations of strings the same as or similar to the currently selected source string. The search looks across all projects in Zanata for the most similar strings that have a Translated or Approved translation in the correct language.
+
+Matches can be copied to the translation text box and used as-is or modified before saving. To copy TM matches to the selected text box, click the `Copy` button next to the match, or use `Ctrl+Alt+1` to `Ctrl+Alt+4` keyboard shortcuts to copy the first to fourth match in the list.
+
 
 
 
@@ -69,11 +73,11 @@ In addition to filtering by states, you can check the 'Invalid' checkbox to only
   * main buttons
   * indicators for other translators
   * filter checkboxes
+  * translation memory
   - alerts/settings/validation/chat
   - stats
   - search/doclist
   - key shortcuts
-  - translation memory
   - glossary
   - bookmark links
   - comments and other info
