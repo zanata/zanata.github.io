@@ -40,7 +40,25 @@ When you have entered an accurate translation, you can save the translation usin
 If another translator is editing the same translation, their name is shown in the top right of the translation text box. If the other user saves their translation while you are entering a translation, you will be shown a dialog with their translation and your unsaved translation. To keep their translation and discard your version, just close the dialog. To keep editing your translation, click `Copy to Editor` and continue working. It is advised not to edit a translation at the same time as another translator in order to avoid such conflicts and duplicated effort.
 
 
+## Filtering
 
+Translations can be in one of several states that indicate where they are in the translation workflow. The states are:
+
+ - Empty: no translation has been entered.
+ - Fuzzy: a translation has been entered, but is not considered ready for use.
+ - Translated: a translation has been entered and the translator considers it ready for use.
+
+and only in projects that have review turned on:
+
+ - Approved: a translation has been entered and a reviewer considers it ready for use.
+ - Rejected: a translation has been entered, but a reviewer does not consider it ready for use.
+
+You can show or hide translations with any of these states using the filter settings above the editor table. Just check the 'Incomplete' or 'Complete' category, or check individual states within each category to show translations of interest (e.g. showing only Rejected translations to change them after review).
+
+In addition to filtering by states, you can check the 'Invalid' checkbox to only show translations that match one of the selected states *and* have one or more validation warnings.
+
+
+## Translation Memory
 
 
 
@@ -50,7 +68,7 @@ If another translator is editing the same translation, their name is shown in th
   * translation text boxes
   * main buttons
   * indicators for other translators
-  - filter checkboxes
+  * filter checkboxes
   - alerts/settings/validation/chat
   - stats
   - search/doclist
