@@ -20,7 +20,7 @@ This lets you send a message to the coordinators for the language team, in which
 
 If you are a language team coordinator and you want to make someone a reviewer, navigate to the page for your language team, locate the user in the users table, and check the `Reviewer` checkbox.
 
-![Review checkbox on lanugage page]({{ site.url }}/images/302-language-reviewer-checkbox.png)
+![Review checkbox on language page]({{ site.url }}/images/302-language-reviewer-checkbox.png)
 
 You should see a message at the top of the page when you have made someone a reviewer.
 

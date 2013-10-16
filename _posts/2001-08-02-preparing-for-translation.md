@@ -47,9 +47,11 @@ There are several paths to open the translation editor. Some paths will open the
 
  - From a project page, click the Translate link for your language, found on the row of the version you wish to translate. This will open the document list.
  - From a version page, click the language name for your language. This will open the document list.
- - From the locale documents page, click `Translate` on the right to see the document list, or click a 'Translate' icon next to a document to open a specific document in the editor. *Note: the locale documents page is similar to the editor documents page. The locale documents page has a house icon next to the project name:*
+ - From the locale documents page, click `Translate` on the right to see the document list, or click a 'Translate' icon next to a document to open a specific document in the editor.
 
-![Search Results]({{ site.url }}/images/311-locale-documents-page-breadcrumb.png)
+ *Note: the locale documents page is similar to the editor documents page. The locale documents page has a house icon next to the project name:*
+
+ ![Search Results]({{ site.url }}/images/311-locale-documents-page-breadcrumb.png)
 
  - From your dashboard, several options are available to open the editor from your activity items:
    - click a document name to open the document in the editor.
