@@ -46,6 +46,9 @@ For more information on the user dashboard, see [User Dashboard]({{ site.url }}/
 There are several paths to open the translation editor. Some paths will open the editor document list, where you can click a document name to open it in the editor. Other paths will take you straight to a particluar document or string in the editor.
 
  - From a project page, click the Translate link for your language, found on the row of the version you wish to translate. This will open the document list.
+
+ ![Translate Link on Project page]({{ site.url }}/images/311-project-page-translate-link.png)
+
  - From a version page, click the language name for your language. This will open the document list.
  - From the locale documents page, click `Translate` on the right to see the document list, or click a 'Translate' icon next to a document to open a specific document in the editor.
 
