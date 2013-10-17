@@ -16,7 +16,7 @@ For simple projects, it is typical to create a single version named 'master'. Ot
 
  1. [Create a project][].
  1. **Create a version under the project.**
- 1. Add documents to the version:
+ 1. Upload documents to the version:
    - Using the website
    - Using the [command-line client push]({{ site.url }}/help/cli/cli-push) command
 
