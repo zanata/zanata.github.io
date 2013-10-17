@@ -1,6 +1,6 @@
 ---
 layout: help
-title:  "Adding Source Strings"
+title:  "Adding Strings"
 categories:
 - help
 - projects
