@@ -12,7 +12,7 @@ Setting up a Zanata server takes a few simple steps:
 
 ## 1. Download
 
-Download  and extract the package that best suits you:
+Download and extract the package that best suits you:
 
 **Latest Version:** Easiest way to get Zanata up and running.
 
