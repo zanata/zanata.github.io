@@ -3,70 +3,64 @@ title: Download
 layout: download
 ---
 
-Setting up a Zanata server takes a few simple steps:
+Use the following steps to download and configure a Zanata server:
 
- 1. download and unzip the server package
- 1. create a database for your Zanata data
- 1. configure the admin user and email
- 1. start up the server
+<!--- Setting up a Zanata server takes a few simple steps: --->
 
-## 1. Download
+ 1. Download and extract the server archive.
+ 1. Create a database for your Zanata data.
+ 1. Configure the admin user and email.
+ 1. Start the server.
 
-Download and extract the package that best suits you:
+## Download and Extract the Server Archive
 
-**Latest Version:** Easiest way to get Zanata up and running.
+Download and extract the archive that best suits your needs:
 
-**Previous Zanata Releases:** For older releases, use the "Previous Zanata Releases" link, navigate to the release number of interest and download the zip.
+- **Latest Version:** The easiest way to get Zanata up and running.
 
-The following steps will refer to the extracted location as <ZANATA DIR>.
+- **Previous Zanata Releases:** For earlier releases, use the "Previous Zanata Releases" link, navigate to the required release, and download the archive.
 
+The Zanata server runs on JBoss Enterprise Application Platform (EAP). The Zanata archive contains a JBoss server with most of the configuration already complete. Any remaining configuration steps are described below.
 
-## 2. Setup the Zanata Database
-
-Zanata has been thoroughly tested against MySQL 5 so it's recommended that you install and use it with Zanata. You can download a copy Here.
-
-Once you have installed the Database server, create a database schema for Zanata (make sure the default collation is UTF-8).
-
-Now you only need to tell Zanata where to find this database. To do this, open the file:
-
-```
-<ZANATA DIR>/server/zanata/deploy/zanata-ds.xml
-```
-
-This file contains the database settings for Zanata. Modify the values for the following properties according to the database instance you have created for zanata. (If you are using MySQL as recommended, you will only need to change these):
-
-- `connection-url`: This is the database location. By default it is configured to localhost, port 3306 and a schema named `'zanata'`.
-- `user-name`: Database user name. This user name should have full  table creation permissions on the database instance.
-- `password`: Database password.
+In the following procedures, `<ZANATA DIR>` refers to the location where you extracted the Zanata archive.
 
 
-## 3. Configure Zanata
+## Set up the Zanata Database
 
-From version 2.0.x onwards, Zanata will no longer create an admin user by default. Instead, edit the file located at
+ 1. Download and install MySQL 5 from the [MySQL download page](http://dev.mysql.com/downloads/mysql/).
+ Zanata has been thoroughly tested against MySQL 5 and the Zanata team therefore recommends that you install and use this version with Zanata.
 
-```
-<ZANATA_SERVER>/standalone/configuration/standalone.xml
-```
+ 1. Create a database schema for Zanata. NOTE: Ensure that the default collation is UTF-8.
 
-By looking for the following line, and replacing the `'value'` by a list of users that should have administrator priviledges when joining the system.
+ 1. Configure Zanata to find this database.
+ 
+ Open the `<ZANATA DIR>/standalone/deployments/zanata-ds.xml` file, which contains the database settings for Zanata.
 
-```
-<simple name="java:global/zanata/security/admin-users" value="admin"/>
-```
+ 1. Modify the values for the following properties according to the database instance you have created for Zanata. If you are using MySQL as recommended, these are the only changes required.
 
-Now register a user under the name "admin", and it will automatically have administrator privileges. Any number of users may be added to this list in a comma-separated format.
+- `connection-url` This is the database location. By default it is configured to localhost, port 3306, and a schema named `'zanata'`.
+- `user-name` Database user name. This user name should have full table creation permissions on the database instance.
+- `password` Database password.
 
-In the same file, configure other properties to your particular setup by adding more lines if necessary. The following properties should be configured in order for Zanata to run properly:
 
-```
-java:global/zanata/email/default-from-address
-```
+## Configure Zanata
+
+Beginning with version 2.0, Zanata no longer creates an admin user by default. You need to register specific users to have administrative privileges.
+
+ 1. Open the `<ZANATA_SERVER>/standalone/configuration/standalone.xml` file.
+
+ 1. Locate the following line, and replace `"admin"` with a comma-separated list of users that require administrator privileges on the system.
+ `<simple name="java:global/zanata/security/admin-users" value="admin"/>`
+
+ 1. Register a user under the name "admin", and it will automatically have administrator privileges. Any number of users may be added to this list in a comma-separated format.
+
+ 1. In the same file, configure other properties to your particular setup by adding more lines if necessary. The following properties must be configured in order for Zanata to run properly:
+ `java:global/zanata/email/default-from-address`
 
 This is the default email address that will appear as sender on Zanata emails.
 
-The following properties relate to the SMTP email server that Zanata uses to send emails. It defaults to a locally installed server using port 25. If a particular property does not apply to the email server being used, it may be commented out or removed altogether.
-
-```
+ 1. The following properties relate to the SMTP email server that Zanata uses to send emails. It defaults to a locally installed server using port 25. If a particular property does not apply to the email server being used, it may be commented out or removed altogether.
+ ```
 java:global/zanata/smtp/host
 java:global/zanata/smtp/port
 java:global/zanata/smtp/username
@@ -76,30 +70,26 @@ java:global/zanata/smtp/ssl
 ```
 
 
-## 4. Start Zanata
+## Starting the Zanata Server
 
-Starting zanata is as easy as running the 'start-zanata' executable found at
+Run the following shell script to start the Zanata server:
 
 ```
 <ZANATA DIR>/bin/start-zanata.sh
 ```
 
-... or for Windows users
+If you are running Microsoft Windows, run the following batch file:
 
 ```
 <ZANATA DIR>/bin/start-zanata.bat
 ```
 
 
-## 5. Start Using it!
+## Start Using Zanata
 
-Zanata should be available at
+Your Zanata server should be available at `http://localhost:8080/zanata`
 
-```
-http://localhost:8080/zanata
-```
-
-You should now be able to upload some source strings and start translating. To get started, see [Adding Source Strings]({{ site.url }}/help/projects/add-source-strings).
+You can now upload some source strings and start translating. To get started, see [Adding Source Strings]({{ site.url }}/help/projects/add-source-strings).
 
 <div class="txt--meta l--push-top-2">
 <h3 class="epsilon">A few things to note:</h3>
