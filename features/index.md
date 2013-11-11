@@ -42,7 +42,12 @@ Multiple translators can work on the same document using Zanata's Editor. Zanata
  - TM merge - re-use translations from similar documents
 -->
 
-Zanata's Editor has a built-in translation memory that finds the best translation matches out of all the translations in the whole system. The translation memory is updated in realtime, and each page of translations can be pre-populated with the best match. No need to write the same translation twice.
+Translators can avoid writing the same translation twice by using Zanata's Translation Memory (TM). Zanata's TM is a powerful tool for translation reuse:-
+
+ - The TM finds the best translation matches out of all the translations in the whole system.
+ - The TM is built into Zanata's Editor, allowing a streamlined workflow.
+ - The TM is updated in realtime to allow instant reuse.
+ - Each page of translations can be easily pre-filled with the best translation matches.
 
 
 ### Information at Your Fingertips
