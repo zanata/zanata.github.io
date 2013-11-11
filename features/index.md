@@ -12,13 +12,15 @@ layout: page
  - dashboard (recent addition)
 -->
 
-Work with Zanata's rich editor from any browser. No need to install or update applications. No need to work with email or version control systems. No need to learn esoteric document formats. You can be completely focused on the translation, not the tools or formats.
-User dashboard lets you quickly get back to translating your current projects.
+Zanata handles the overall workflow so that translators can be completely focused on translating, not on tools or formats:-
 
-Support for plurals natively in the editor.
+ - Zanata's Editor works on any computer with a web browser; no installation is needed.
+ - Translations can be written in Zanata without the need to work with version control systems, esoteric document formats or confusing email workflows.
+ - Zanata's User Dashboard provides a shortcut to jump straight to any current job.
+ - Plurals are handled natively in Zantat's Editor.
 
 
-### Work together with ease
+### Work Together
 <!--
  - concurrent editing of the same document, immediately shared
     - position indicators
@@ -26,11 +28,12 @@ Support for plurals natively in the editor.
     - chatroom
   -->
 
-Zanata's online editor allows multiple translators to work on the same document without stepping on each other's toes. Indicators show which passages are being edited by other translators, other people's translations are visible as soon as they are saved, conflicts are easily resolved, and a chatroom is provided for each language in the project for realtime collaboration.
+Multiple translators can work on the same document using Zanata's Editor. Zanata's Editor provides a range of features to help translators work together effectively:-
 
-
-*No installation needed, works in a web browser*
-
+ - Translations are visible to all translators as soon as they are saved.
+ - Markers indicate when a passage is being edited by other translators.
+ - A simple dialog prevents work being lost if a conflict occurs.
+ - Each language in the project has a chatroom for realtime communication.
 
 
 ### High Quality Suggestions
@@ -39,10 +42,10 @@ Zanata's online editor allows multiple translators to work on the same document 
  - TM merge - re-use translations from similar documents
 -->
 
-Zanata's editor has a built-in translation memory that finds the best translation matches out of all the translations in the whole system. The translation memory is updated in realtime, and each page of translations can be pre-populated with the best match. No need to write the same translation twice.
+Zanata's Editor has a built-in translation memory that finds the best translation matches out of all the translations in the whole system. The translation memory is updated in realtime, and each page of translations can be pre-populated with the best match. No need to write the same translation twice.
 
 
-### Information at your fingertips
+### Information at Your Fingertips
 <!--
  - syntax highlighting
  - live statistics
@@ -54,7 +57,7 @@ Zanata shows live translation statistics and remaining work estimation for each 
 
 
 
-### Support for High Quality translations
+### Support for High Quality Translations
 <!--
  - project-wide search & replace
  - review workflow
