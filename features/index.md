@@ -73,7 +73,11 @@ Zanata's Editor provides easy access to a range of useful information so that tr
  - review workflow
 -->
 
-Review tools to ensure all translations meet the required standard. Validatiors run in realtime, immediately reporting common mistakes and problematic items. Replace words through every document in a project to easily update terminology and fix mistakes. The process allows full control, review and undo to avoid any unwanted changes.
+Zanata's Editor provides a set of features to support high translation quality:-
+
+ - Validatiors run as translations are typed in the Editor, immediately reporting common mistakes and problematic items.
+ - The Editor's review workflow provides a way to ensure all translations meet the required standard.
+ - The Editor allows replacement of words through every document in a project, with full control, review and undo to avoid any unwanted changes; easily and confidently update terminology and fix mistakes.
 
 
 ## Writers and Developers
