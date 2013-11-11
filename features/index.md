@@ -58,7 +58,12 @@ Translators can avoid writing the same translation twice by using Zanata's Trans
  - glossary
 -->
 
-Zanata shows live translation statistics and remaining work estimation for each document and the whole project, updated in realtime. Syntax highlighting is available to support technical translations. Trace the history of each individual translation to see when they were changed and reviewed. Look up terms in the glossary, conveniently integrated into the editor.
+Zanata's Editor provides easy access to a range of useful information so that translators can work without disruptive context changes:-
+
+ - Zanata shows live translation statistics and remaining work estimation for each document and the whole project, updated in realtime.
+ - Syntax highlighting is available to support technical translations.
+ - History for each translation can be accessed with a single click, to quickly see when it was changed and reviewed.
+ - A glossary is integrated into the editor for convenient look-up of terms.
 
 
 
