@@ -1,87 +1,125 @@
 ---
-title: Features
-layout: page
+title: Feature
+layout: features
 ---
+<div class="txt--hero l--push-bottom-1">
+    <h1 class="txt--align-center gamma"><span class="heading--secondary">We have features…</span> for everyone</h1>
+</div>
 
-## Translators
+<hr>
 
+<h2 class="txt--align-center alpha heading--secondary">For Translators</h2>
 
-### Focus on Translation
-<!--
- - plural support
- - dashboard (recent addition)
--->
+<div class="g l--push-top-2">
+    <div class="g__item w--1-3">
+        <img src="http://placehold.it/400x300" alt="Screenshot">
+    </div>
+    <div class="g__item w--2-3">
+        <h3 class="l--push-top-0">Focus on Translation</h3>
+        <!--
+         - plural support
+         - dashboard (recent addition)
+        -->
+        <p>Zanata handles the overall workflow so that translators can be completely focused on translating, not on tools or formats:</p>
+        <ul>
+           <li>Zanata's Editor works on any computer with a web browser; no installation is needed.</li>
+           <li>Translations can be written in Zanata without the need to work with version control systems, esoteric document formats or confusing email workflows.</li>
+           <li>Zanata's User Dashboard provides a shortcut to jump straight to any current job.</li>
+           <li>Plurals are handled natively in Zantat's Editor.</li>
+        </ul>
+    </div>
+</div>
 
-Zanata handles the overall workflow so that translators can be completely focused on translating, not on tools or formats:-
+<div class="g--rev l--push-top-2">
+    <div class="g__item w--1-3">
+        <img src="http://placehold.it/400x300" alt="Screenshot">
+    </div>
+    <div class="g__item w--2-3">
+        <h3 class="l--push-top-0">Work Together</h3>
+        <!--
+          - concurrent editing of the same document, immediately shared
+          - position indicators
+          - conflict resolution
+          - chatroom
+        -->
 
- - Zanata's Editor works on any computer with a web browser; no installation is needed.
- - Translations can be written in Zanata without the need to work with version control systems, esoteric document formats or confusing email workflows.
- - Zanata's User Dashboard provides a shortcut to jump straight to any current job.
- - Plurals are handled natively in Zantat's Editor.
+        <p>Multiple translators can work on the same document using Zanata's Editor. Zanata's Editor provides a range of features to help translators work together effectively:</p>
 
+        <ul>
+            <li>Translations are visible to all translators as soon as they are saved.</li>
+            <li>Markers indicate when a passage is being edited by other translators.</li>
+            <li>A simple dialog prevents work being lost if a conflict occurs.</li>
+            <li>Each language in the project has a chatroom for realtime communication.</li>
+        </ul>
+    </div>
+</div>
 
-### Work Together
-<!--
- - concurrent editing of the same document, immediately shared
-    - position indicators
-    - conflict resolution
-    - chatroom
-  -->
+<div class="g l--push-top-2">
+    <div class="g__item w--1-3">
+        <img src="http://placehold.it/400x300" alt="Screenshot">
+    </div>
+    <div class="g__item w--2-3">
+        <h3 class="l--push-top-0">High Quality Suggestions</h3>
+        <!--
+         - shared translation memory, updated in realtime
+         - TM merge - re-use translations from similar documents
+        -->
+        <p>Translators can avoid writing the same translation twice by using Zanata's Translation Memory (TM). Zanata's TM is a powerful tool for translation reuse:</p>
+        <ul>
+           <li>The TM finds the best translation matches out of all the translations in the whole system.</li>
+           <li>The TM is built into Zanata's Editor, allowing a streamlined workflow.</li>
+           <li>The TM is updated in realtime to allow instant reuse.</li>
+           <li>Each page of translations can be easily pre-filled with the best translation matches.</li>
+        </ul>
+    </div>
+</div>
 
-Multiple translators can work on the same document using Zanata's Editor. Zanata's Editor provides a range of features to help translators work together effectively:-
+<div class="g--rev l--push-top-2">
+    <div class="g__item w--1-3">
+        <img src="http://placehold.it/400x300" alt="Screenshot">
+    </div>
+    <div class="g__item w--2-3">
+        <h3 class="l--push-top-0">Information at Your Fingertips</h3>
+        <!--
+         - syntax highlighting
+         - live statistics
+         - translation history
+         - glossary
+        -->
 
- - Translations are visible to all translators as soon as they are saved.
- - Markers indicate when a passage is being edited by other translators.
- - A simple dialog prevents work being lost if a conflict occurs.
- - Each language in the project has a chatroom for realtime communication.
+        <p>Zanata's Editor provides easy access to a range of useful information so that translators can work without disruptive context changes:</p>
 
+        <ul>
+            <li>Zanata shows live translation statistics and remaining work estimation for each document and the whole project, updated in realtime.</li>
+            <li>Syntax highlighting is available to support technical translations.</li>
+            <li>History for each translation can be accessed with a single click, to quickly see when it was changed and reviewed.</li>
+            <li>A glossary is integrated into the editor for convenient look-up of terms.</li>
+        </ul>
+    </div>
+</div>
 
-### High Quality Suggestions
-<!--
- - shared translation memory, updated in realtime
- - TM merge - re-use translations from similar documents
--->
+<div class="g l--push-v-2">
+    <div class="g__item w--1-3">
+        <img src="http://placehold.it/400x300" alt="Screenshot">
+    </div>
+    <div class="g__item w--2-3">
+        <h3 class="l--push-top-0">Support for High Quality Translations</h3>
+        <!--
+         - project-wide search & replace
+         - review workflow
+        -->
+        <p>Zanata's Editor provides a set of features to support high translation quality:</p>
+        <ul>
+           <li>Validatiors run as translations are typed in the Editor, immediately reporting common mistakes and problematic items.</li>
+           <li>The Editor's review workflow provides a way to ensure all translations meet the required standard.</li>
+           <li>The Editor allows replacement of words through every document in a project, with full control, review and undo to avoid any unwanted changes; easily and confidently update terminology and fix mistakes.</li>
+        </ul>
+    </div>
+</div>
 
-Translators can avoid writing the same translation twice by using Zanata's Translation Memory (TM). Zanata's TM is a powerful tool for translation reuse:-
+<hr>
 
- - The TM finds the best translation matches out of all the translations in the whole system.
- - The TM is built into Zanata's Editor, allowing a streamlined workflow.
- - The TM is updated in realtime to allow instant reuse.
- - Each page of translations can be easily pre-filled with the best translation matches.
-
-
-### Information at Your Fingertips
-<!--
- - syntax highlighting
- - live statistics
- - translation history
- - glossary
--->
-
-Zanata's Editor provides easy access to a range of useful information so that translators can work without disruptive context changes:-
-
- - Zanata shows live translation statistics and remaining work estimation for each document and the whole project, updated in realtime.
- - Syntax highlighting is available to support technical translations.
- - History for each translation can be accessed with a single click, to quickly see when it was changed and reviewed.
- - A glossary is integrated into the editor for convenient look-up of terms.
-
-
-
-### Support for High Quality Translations
-<!--
- - project-wide search & replace
- - review workflow
--->
-
-Zanata's Editor provides a set of features to support high translation quality:-
-
- - Validatiors run as translations are typed in the Editor, immediately reporting common mistakes and problematic items.
- - The Editor's review workflow provides a way to ensure all translations meet the required standard.
- - The Editor allows replacement of words through every document in a project, with full control, review and undo to avoid any unwanted changes; easily and confidently update terminology and fix mistakes.
-
-
-## Writers and Developers
-
+<h2 class="txt--align-center alpha heading--secondary">Writers and Developers</h2>
 
 ### Automated Workflows
 
