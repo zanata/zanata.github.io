@@ -10,9 +10,9 @@ copytrans: "Copy Trans"
 
 {{page.copytrans}} is a service that finds valid translations for documents by finding matching strings in other documents that are already translated.
 
-{{page.copytrans}} can save a lot of translation effort when adding a new version of a project that has been translated in Zanata. Since many of the strings will usually be the same between versions version, many translations can be safely copied from the previous version.
+{{page.copytrans}} can save a lot of translation effort when adding a new version of a project that has been translated in Zanata. Because many of the strings will usually be the same between versions, many translations can be safely copied from the previous version.
 
-{{page.copytrans}} will usually run automatically when a document is uploaded from the cli-client. When this happens the {{page.copytrans}} Options for the project are used. {{page.copytrans}} can also be run manually against a project-version.
+{{page.copytrans}} usually runs automatically when a document is uploaded using the cli-client. The {{page.copytrans}} Options for the project are used in this case. You can also run {{page.copytrans}} manually against a project version.
 
 
 Before setting {{page.copytrans}} Options, it is useful to have an understanding of the {{page.copytrans}} process. For a detailed explanation, see [Copy Trans Explained]({{ site.url }}/help/reuse/copytrans-explained).
@@ -21,11 +21,11 @@ Before setting {{page.copytrans}} Options, it is useful to have an understanding
 ## {{page.copytrans}} Options
 
 
-To see {{page.copytrans}} Options for a project, navigate to the project page and click `Copy Trans Options`.
+To see the {{page.copytrans}} Options for a project, navigate to the project page and click `Copy Trans Options`.
 
 ![Copy Trans Options button on Project page]({{ site.url }}/images/302-project-copy-trans-options.png)
 
-The conditions to check on each potentially matching string are shown on the left. Actions to take can be selected to the right of each condition.
+The *Condition* column lists the conditions to check on each potentially matching string.  The *Action* column lists the options available whenever a condition is met.
 
 ![Example of Copy Trans Options]({{ site.url }}/images/302-copytrans-options-newversion.png)
 
