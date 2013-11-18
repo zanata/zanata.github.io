@@ -29,38 +29,43 @@ The *Condition* column lists the conditions to check on each potentially matchin
 
 ![Example of Copy Trans Options]({{ site.url }}/images/302-copytrans-options-newversion.png)
 
- - If a string matches any `Don't Copy` condition, it is not a valid match and will not be used.
- - If a string does not match any `Don't Copy` conditions, but matches one or more `Copy as Fuzzy` conditions, it may be reused but will have 'Fuzzy' state. Strings matching a `Copy as Fuzzy` condition will still be checked against all the remaining conditions.
- - The `Next Condition` option just turns off the condition, so it makes no difference whether a string matches the condition.
+ - If a string matches any `Do not Copy` conditions, it is not a valid match and is not used.
+ - If a string does not match any `Do not Copy` conditions, but matches one or more `Copy as Fuzzy` conditions, it may be reused but will have a state of "Fuzzy". Strings matching a `Copy as Fuzzy` condition are still checked against all remaining conditions.
+ - The `Next Condition` option disables the condition, consequently it makes no difference whether a string matches the condition or not.
 
 
 ### {{page.copytrans}} Options Examples
 
 #### Permissive Options
 
-If `Next Condition` is selected for all conditions, only the required "On content mismatch" rule will be checked, so if a string has matching content it will bypass all the other conditions and be reused in 'Translated' state (or 'Approved' if your project requires review and the translation being copied is already in 'Approved' state). When there are multiple matches, the newest one will be used.
+If `Next Condition` is selected for all conditions, only the required "On content mismatch" rule is checked. This means that if a string has matching content it bypasses all other conditions and is reused in a "Translated" state (or "Approved" if your project requires review and the translation being copied is already in "Approved" state). When there are multiple matches, the latest translation is used.
 
 ![Permissive Copy Trans Options]({{ site.url }}/images/302-copytrans-options-permissive.png)
 
 #### Strict Options
 
-If `Don't Copy` is selected for all conditions, a string must have matching content, have matching id, be from the same project and be from a document with the same and path, otherwise it will not be reused. If it is reused it will be in 'Translated' state. OR APPROVED
+If `Do not Copy` is selected for all conditions, a string must have matching content, a matching ID, be from the same project, and be from a document with the same name and path, otherwise it will not be reused. If all of the conditions are passed, the content is reused in a "Translated" state (or "Approved" if your project requires review and the translation being copied is already in "Approved" state).
 
 ![Strict Copy Trans Options]({{ site.url }}/images/302-copytrans-options-strict.png)
 
 #### Options for a New Version
 
-For this example, consider that you have a new version of your project that has just been put in Zanata. The previous version is completely translated so you want to reuse the translations, but the new version uses a different directory structure so the document paths have all changed. The id for most strings is the same, but some strings have been added. To make sure it uses strings from the other version in your project only, set "On Project mismatch" to `Don't Copy`; To make sure the changed document paths don't matter, set "On Document Id mismatch" to `Next Condition`. Finally, since most string ids have not been changed, "On Context mismatch" is set to `Copy as Fuzzy`.
+For this example, consider that you have a new version of your project in Zanata. The previous version is completely translated and you want to reuse the translations, but the new version uses a different directory structure. This means that the document paths have all changed. The ID for most strings is the same, but some new strings have been added. You should set up the options as follows:
+
+1. To ensure that {{page.copytrans}} uses strings from the other version in your project only, set "On Project mismatch" to `Do not Copy`.
+1. To ensure that the changed document paths do not affect the reuse process, set "On Document ID mismatch" to `Next Condition`.
+1. Because most string IDs have not changed, set "On Context mismatch" to `Copy as Fuzzy`.
 
 ![Possible Copy Trans Options for a New Version]({{ site.url }}/images/302-copytrans-options-newversion.png)
 
 
 ## Running {{page.copytrans}}
 
-{{page.copytrans}} can be run manually against a project-version.
+You can run {{page.copytrans}} manually against a project version.
 
-On the project-version page, click `Copy Translations` to see and adjust the project {{page.copytrans}} options and a button to run {{page.copytrans}} against the version.
+1. On the project version page, click `Copy Translations` in the `Actions` menu to open the `Copy Translations` page.
+1. Select the appropriate action for each condition, and then click `Start`.
 
 ![Copy Translations button on version page]({{ site.url }}/images/302-version-copy-translations.png)
 
-{{page.copytrans}} can take a long time to run, so a progress bar is shown on the version page while it is running.
+A progress bar on the version page displays the progress of the operation. Depending on the size of the project and the number of available translations, this process can take some time to complete.
