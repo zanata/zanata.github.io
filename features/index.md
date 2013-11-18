@@ -12,7 +12,7 @@ layout: features
 
 <div class="g l--push-top-2">
     <div class="g__item w--1-3">
-        <img src="http://placehold.it/400x300" alt="Screenshot">
+        <img src="{{ site.url }}/images/features/focus-on-translation.png" alt="Screenshot">
     </div>
     <div class="g__item w--2-3">
         <h3 class="l--push-top-0">Focus on Translation</h3>
@@ -32,7 +32,7 @@ layout: features
 
 <div class="g--rev l--push-top-2">
     <div class="g__item w--1-3">
-        <img src="http://placehold.it/400x300" alt="Screenshot">
+        <img src="{{ site.url }}/images/features/work-together.png" alt="Screenshot">
     </div>
     <div class="g__item w--2-3">
         <h3 class="l--push-top-0">Work Together</h3>
@@ -56,7 +56,7 @@ layout: features
 
 <div class="g l--push-top-2">
     <div class="g__item w--1-3">
-        <img src="http://placehold.it/400x300" alt="Screenshot">
+        <img src="{{ site.url }}/images/features/high-quality-suggestions.png" alt="Screenshot">
     </div>
     <div class="g__item w--2-3">
         <h3 class="l--push-top-0">High Quality Suggestions</h3>
