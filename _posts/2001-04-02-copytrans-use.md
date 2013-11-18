@@ -34,7 +34,7 @@ The *Condition* column lists the conditions to check on each potentially matchin
  - The `Next Condition` option disables the condition, consequently it makes no difference whether a string matches the condition or not.
 
 
-### {{page.copytrans}} Options Examples
+### Examples of {{page.copytrans}} Options
 
 #### Permissive Options
 
