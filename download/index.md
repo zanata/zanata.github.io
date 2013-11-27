@@ -5,7 +5,7 @@ layout: download
 
 ## Prerequisites
 
-- JBoss Enterprise Application Platform (EAP). The Zanata archive contains a JBoss server with most of the configuration already complete.
+- JBoss Enterprise Application Platform (EAP). This is the recommended container for Zanata. The Zanata server package contains a pre-configured JBoss AS container and an installer to make the initial setup easier. However, you won't get the most recent JBoss AS updates.
 - A suitable database, for example, MySQL. This is NOT included in the Zanata archive.
 - A database java connector (mysql-java-connector). This is included in the Zanata archive.
 - An email (SMTP) server to perform certain notifications.
@@ -27,14 +27,9 @@ Use the following steps to download and configure a Zanata server:
 
 ## Downloading and Extracting the Server Archive
 
-Download and extract the archive that best suits your needs:
+Download and extract the [Zanata server archive](http://sourceforge.net/projects/zanata/files/server/zanata-server.zip/download):
 
-- **Latest Release:** Click "Latest Release" to download the latest stable release. This is the easiest way to get Zanata up and running.
-
-- **Earlier Releases:** For earlier releases, click "Earlier Releases," navigate to the required release, and download the archive.
-
-In the following procedures, `<ZANATA DIR>` refers to the location where you extracted the Zanata archive.
-
+In the following procedures, `<ZANATA DIR>` refers to the location where you extracted the Zanata server archive.
 
 ## Setting up the Zanata Database
 
@@ -43,16 +38,14 @@ In the following procedures, `<ZANATA DIR>` refers to the location where you ext
 
  1. Create a database schema for Zanata. **NOTE:** Ensure that the default collation is UTF-8.
 
- 1. Configure Zanata to find this database.
- 
- Open the `<ZANATA DIR>/standalone/deployments/zanata-ds.xml` file, which contains the database settings for Zanata.
+## Running the Zanata installer
 
- 1. Modify the values for the following properties according to the database instance you have created for Zanata. If you are using MySQL as recommended, these are the only changes required.
+Run the following commands on the terminal:
 
-- `connection-url`: This is the database location. By default it is configured to localhost, port 3306, and a schema named `'zanata'`.
-- `user-name`: Database user name. This user name should have full table creation permissions on the database instance.
-- `password`: Database password.
+ 1. `cd <ZANATA_DIR>/bin/zanata-installer`
+ 1. `./install.sh`  (for Windows there's `install.bat`)
 
+The installer will ask some questions about the Zanata version you wish to install and the configuration of the Zanata database. After these have been answered, it will proceed to download the Zanata web application.
 
 ## Configuring Zanata
 
@@ -87,7 +80,7 @@ Use the following commands to start the Zanata server:
 
  `cd <ZANATA DIR>/bin; ./start-zanata.sh`
 
-If you are running Microsoft Windows, run the following batch file:
+If you are running Windows, run the following batch file:
 
  `<ZANATA DIR>/bin/start-zanata.bat`
 
