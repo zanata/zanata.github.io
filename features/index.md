@@ -1,5 +1,5 @@
 ---
-title: Feature
+title: Features
 layout: features
 ---
 <div class="txt--hero l--push-bottom-1">
