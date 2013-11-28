@@ -100,7 +100,7 @@ layout: features
 
 <div class="g l--push-v-2">
     <div class="g__item w--1-3">
-        <img src="http://placehold.it/400x300" alt="Screenshot">
+        <img src="{{ site.url }}/images/features/support-for-high-quality-translations.png" alt="Support for High Quality Translations">
     </div>
     <div class="g__item w--2-3">
         <h3 class="l--push-top-0">Support for High Quality Translations</h3>
