@@ -5,9 +5,9 @@ layout: download
 
 ## Prerequisites
 
-- JBoss Enterprise Application Platform (EAP). This is the recommended container for Zanata. The Zanata server package contains a pre-configured JBoss AS container and an installer to make the initial setup easier. However, you won't get the most recent JBoss AS updates.
-- A suitable database, for example, MySQL. This is NOT included in the Zanata archive.
-- A database java connector (mysql-java-connector). This is included in the Zanata archive.
+- JBoss Enterprise Application Platform 6 (EAP). This is the recommended container for Zanata, and it can be downloaded [here](http://www.jboss.org/jbossas/downloads/). You can also download a [pre-configured JBoss AS 7 here](http://sourceforge.net/projects/zanata/files/server/zanata-server.zip/download), but please note that this is not the supported configuration.
+- A suitable MySQL database. This is NOT included in the Zanata archive. You can [download MySQL here](http://dev.mysql.com/downloads/mysql/).
+- A database java connector (mysql-java-connector). This is included in the pre-configured JBoss AS from above, or it can be [downloaded here](http://dev.mysql.com/downloads/connector/j/).
 - An email (SMTP) server to perform certain notifications.
 - JDK version 6 or later.
 
@@ -31,6 +31,8 @@ Download and extract the [Zanata server archive](http://sourceforge.net/projects
 
 In the following procedures, `<ZANATA DIR>` refers to the location where you extracted the Zanata server archive.
 
+Alternatively, if you have downloaded EAP 6 for use with Zanata, please refer to the [following configuration guide](https://github.com/zanata/zanata-server/wiki/JBoss-AS-7) to fully configure your Zanata instance.
+
 ## Setting up the Zanata Database
 
  1. Download and install MySQL 5 from the [MySQL download page](http://dev.mysql.com/downloads/mysql/).
@@ -38,14 +40,7 @@ In the following procedures, `<ZANATA DIR>` refers to the location where you ext
 
  1. Create a database schema for Zanata. **NOTE:** Ensure that the default collation is UTF-8.
 
-## Running the Zanata installer
-
-Run the following commands on the terminal:
-
- 1. `cd <ZANATA_DIR>/bin/zanata-installer`
- 1. `./install.sh`  (for Windows there's `install.bat`)
-
-The installer will ask some questions about the Zanata version you wish to install and the configuration of the Zanata database. After these have been answered, it will proceed to download the Zanata web application.
+ 1. Zanata is configured to run on a locally installed database server. To change this, along with other properties (like database username and password), refer to the file at `<ZANATA_SERVER>/standalone/deployments/zanata-ds.xml`.
 
 ## Configuring Zanata
 
@@ -73,6 +68,10 @@ Beginning with version 2.0, Zanata no longer creates an admin user by default. Y
   <simple name="java:global/zanata/smtp/tls" value="" />
   <simple name="java:global/zanata/smtp/ssl" value="" />
   ```
+
+## Download the Zanata Web Application file
+
+You can [download the Zanata Web Application here](https://sourceforge.net/projects/zanata/files/webapp/). Place the war file under `<ZANATA_SERVER/standalone/deployments>`
 
 ## Starting the Zanata Server
 
