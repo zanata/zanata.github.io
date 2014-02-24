@@ -40,7 +40,14 @@ Alternatively, if you have downloaded EAP 6 for use with Zanata, please refer to
 
  1. Create a database schema for Zanata. **NOTE:** Ensure that the default collation is UTF-8.
 
- 1. Zanata is configured to run on a locally installed database server. To change this, along with other properties (like database username and password), refer to the file at `<ZANATA_SERVER>/standalone/deployments/zanata-ds.xml`.
+ ## Running the Zanata installer
+
+Run the following commands on the terminal:
+
+ 1. `cd <ZANATA_DIR>/bin/zanata-installer`
+ 1. `./install.sh`  (for Windows there's `install.bat`)
+
+The installer will ask some questions about the Zanata version you wish to install and the configuration of the Zanata database. After these have been answered, it will proceed to download the Zanata web application.
 
 ## Configuring Zanata
 
@@ -68,21 +75,6 @@ Beginning with version 2.0, Zanata no longer creates an admin user by default. Y
   <simple name="java:global/zanata/smtp/tls" value="" />
   <simple name="java:global/zanata/smtp/ssl" value="" />
   ```
-
-## Download the Zanata Web Application file
-
-You can [download the Zanata Web Application here](https://sourceforge.net/projects/zanata/files/webapp/). Place the war file under `<ZANATA_SERVER/standalone/deployments>`
-
-## Starting the Zanata Server
-
-Use the following commands to start the Zanata server:
-
- `cd <ZANATA DIR>/bin; ./start-zanata.sh`
-
-If you are running Windows, run the following batch file:
-
- `<ZANATA DIR>/bin/start-zanata.bat`
-
 
 ## Using Zanata
 
