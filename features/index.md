@@ -1,5 +1,5 @@
 ---
-title: Feature
+title: Features
 layout: features
 ---
 <div class="txt--hero l--push-bottom-1">
@@ -25,7 +25,7 @@ layout: features
            <li>Zanata's Editor works on any computer with a web browser; no installation is needed.</li>
            <li>Translations can be written in Zanata without the need to work with version control systems, esoteric document formats or confusing email workflows.</li>
            <li>Zanata's User Dashboard provides a shortcut to jump straight to any current job.</li>
-           <li>Plurals are handled natively in Zantat's Editor.</li>
+           <li>Plurals are handled natively in Zanata's Editor.</li>
         </ul>
     </div>
 </div>
@@ -76,7 +76,7 @@ layout: features
 
 <div class="g--rev l--push-top-2">
     <div class="g__item w--1-3">
-        <img src="http://placehold.it/400x300" alt="Screenshot">
+        <img src="{{ site.url }}/images/features/information-at-your-fingertips.png" alt="Information at Your Fingertips">
     </div>
     <div class="g__item w--2-3">
         <h3 class="l--push-top-0">Information at Your Fingertips</h3>
@@ -100,7 +100,7 @@ layout: features
 
 <div class="g l--push-v-2">
     <div class="g__item w--1-3">
-        <img src="http://placehold.it/400x300" alt="Screenshot">
+        <img src="{{ site.url }}/images/features/support-for-high-quality-translations.png" alt="Support for High Quality Translations">
     </div>
     <div class="g__item w--2-3">
         <h3 class="l--push-top-0">Support for High Quality Translations</h3>
@@ -110,7 +110,7 @@ layout: features
         -->
         <p>Zanata's Editor provides a set of features to support high translation quality:</p>
         <ul>
-           <li>Validatiors run as translations are typed in the Editor, immediately reporting common mistakes and problematic items.</li>
+           <li>Validators run as translations are typed in the Editor, immediately reporting common mistakes and problematic items.</li>
            <li>The Editor's review workflow provides a way to ensure all translations meet the required standard.</li>
            <li>The Editor allows replacement of words through every document in a project, with full control, review and undo to avoid any unwanted changes; easily and confidently update terminology and fix mistakes.</li>
         </ul>
@@ -150,7 +150,7 @@ Leverage the wealth of translations already on Zanata: Zanata can automatically 
  - Access control: Fedora projects limited to Fedora logins
 -->
 
-Ensure that translations can never break your build by enforcing relevant validations. Easily add a review phase to your project to ensure translations are to a high standard. Upload your existing translations and translation memory to Zanata to keep translations consistent. Use project groups to source translations form your trusted community.
+Ensure that translations can never break your build by enforcing relevant validations. Easily add a review phase to your project to ensure translations are to a high standard. Upload your existing translations and translation memory to Zanata to keep translations consistent. Use project groups to source translations from your trusted community.
 
 
 ### Major Formats Supported
@@ -162,7 +162,7 @@ Ensure that translations can never break your build by enforcing relevant valida
  - ignore outdated translations in uploaded Properties files
 -->
 
-Zanata supports common translation formats for documentation and software. Supported formats include Gettext Portable Object (.po), Java Properties (.properties), XLIFF, Mozilla DTD, LibreOffice (.odt .fodt .odp .fodp .ods .fods .odg .fodg .odb .odf) and plain text (.txt). Zanata allows translation of .po files offline, perserving translator credits and using a smart merge algorithm for uploaded translations.
+Zanata supports common translation formats for documentation and software. Supported formats include Gettext Portable Object (.po), Java Properties (.properties), XLIFF, Mozilla DTD, LibreOffice (.odt .fodt .odp .fodp .ods .fods .odg .fodg .odb .odf) and plain text (.txt). Zanata allows translation of .po files offline, preserving translator credits and using a smart merge algorithm for uploaded translations.
 
 <!--
 ## General
