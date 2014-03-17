@@ -1,11 +1,12 @@
 ---
-title: Zanata Version 3
+title: "Zanata Version 3: Release Notes"
 layout: post
 categories:
 - blog
 tags:
 - announcement
 - release
+- v3
 ---
 
 Very soon, [translate.zanata.org](http://translate.zanata.org) will be upgraded to version 3. Zanata version 3 adds some major features and improvements over the currently deployed version 2.2.2.

@@ -16,6 +16,10 @@
   margin: 1.5em 0;
 }
 
+.prose h2:first-of-type {
+  margin-top: 0;
+}
+
 .bg--primary {
   background-image: url('../images/languages.png');
 }
