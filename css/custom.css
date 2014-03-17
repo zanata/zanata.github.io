@@ -32,9 +32,19 @@
   color: #999;
 }
 
-/*#zanata-help .off-canvas__inner {
-  background-color: rgb(122, 140, 158);
-}*/
+@media (min-width: 58.125em) {
+  .new-zanata .header__main-nav__menu {
+    position: static;
+    left: auto;
+    margin-left: 0;
+  }
+
+  .new-zanata .header__login {
+    position: relative;
+    left: auto;
+    right: auto;
+  }
+}
 
 /*
 Move to zanata css
