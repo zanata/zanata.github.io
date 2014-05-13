@@ -9,7 +9,7 @@ Zanata is written in Java and uses modern web technologies such as JBoss, Seam, 
 
 A public instance of Zanata is hosted on translate.zanata.org and is available to accept content from open source projects for translation.
 
-For projects hosted on jboss.org, use the JBoss instance of Zanata at [translate.jboss.org](translate.jboss.org).
+For projects hosted on jboss.org, use the JBoss instance of Zanata at [translate.jboss.org](http://translate.jboss.org).
 
 Zanata is free software, licensed under the LGPL.
 
