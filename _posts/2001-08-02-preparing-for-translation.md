@@ -12,6 +12,15 @@ Before translating, you must join a language team for any language you want to t
 
 Once you are a member of a language team, you can find a project to translate.
 
+There are a few different options for finding a project, which are shown in the
+following sections. You can also watch this video to see an overview of all the
+options.
+
+<div class="responsive-video-container">
+  <iframe src="//www.youtube.com/embed/QchME8dIcqk" frameborder="0"
+          allowfullscreen></iframe>
+</div>
+
 ### Project Search
 
 If you know the name of a project you want to translate, you can use the project search box, which is available on most pages.
