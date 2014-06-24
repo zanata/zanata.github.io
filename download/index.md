@@ -76,6 +76,10 @@ Beginning with version 2.0, Zanata no longer creates an admin user by default. Y
   <simple name="java:global/zanata/smtp/ssl" value="" />
   ```
 
+## Running Zanata
+
+Go to the `<ZANATA_SERVER>/bin` directory and run the `start-zanata.sh` (Linux, Mac) or `start-zanata.bat` (Windows) file. 
+
 ## Using Zanata
 
 To start using your Zanata server, open a browser and navigate to `http://localhost:8080/zanata`
