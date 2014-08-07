@@ -13,7 +13,8 @@
 
 .prose img {
 	border: .25em solid #fff;
-  margin: 1.5em 0;
+  margin: 1.5em auto;
+  display: block;
 }
 
 .prose h2:first-of-type {
@@ -103,4 +104,18 @@ Move to zanata css
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.new-zanata figure {
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+.new-zanata figure img {
+  margin-bottom: .1875em;
+}
+
+.new-zanata figcaption {
+  color: #7c96ac;
+  font-size: .875em;
 }
