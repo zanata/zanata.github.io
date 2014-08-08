@@ -6,22 +6,21 @@ categories:
 - projects
 ---
 
-## Settings
-
-Once a [project has been created]({{ site.url }}/help/projects/create-project), the maintainer can add further details and project behaviour via the Settings tab.
+Once a project has been created, the maintainer can add further details and project behaviour via the Settings tab.
+See the [Project Creation Help]({{ site.url }}/help/projects/create-project) for details on creating projects.
 <figure>
-<img alt="Project General Settings tab" src="{{ site.url }}/images/302-project-settings-button.png" />
+<img alt="Project General Settings tab" src="{{ site.url }}/images/341-project-settings-button.png" />
 <figcaption>Project Settings tab link.</figcaption>
 </figure>
 
-The Settings tab contains fields that manage appearance and workflow of your project.  Some of these are already covered in the [Project Creation]({{ site.url }}/help/projects/create-project) help.
+The Settings tab contains fields that manage appearance and workflow of your project.  Some of these are already covered in the [Project Creation Help]({{ site.url }}/help/projects/create-project).
 
 ------------
 
 ## General Settings
 
 <figure>
-<img alt="Project General Settings tab" src="{{ site.url }}/images/302-project-general-settings.png" />
+<img alt="Project General Settings tab" src="{{ site.url }}/images/341-project-general-settings.png" />
 <figcaption>Project General Settings tab</figcaption>
 </figure>
 
@@ -29,7 +28,7 @@ The Settings tab contains fields that manage appearance and workflow of your pro
 
 Project Type defines the type of files that your project uses to store source and translation strings. This setting ensures that files for your project will be downloaded in the correct format.
 
-There is a brief description for each project type. If the description is insufficient, more information on each project type is available at [Project Types wiki page](https://github.com/zanata/zanata/wiki/Project-Types).
+There is a brief description for each project type next to each project type option. If the description is insufficient, more information on each project type is available at [Project Types wiki page](https://github.com/zanata/zanata/wiki/Project-Types).
 
 ### Home Page
 
@@ -58,30 +57,31 @@ This can be toggled using the same button, as desired.
 ## Languages Settings
 
 <figure>
-<img alt="Project Languages Settings tab" src="{{ site.url }}/images/302-project-languages-settings.png" />
+<img alt="Project Languages Settings tab" src="{{ site.url }}/images/341-project-languages-settings.png" />
 <figcaption>Project Languages Settings tab</figcaption>
 </figure>
 
 ### Reset languages from global settings
 
-By default, your project will be available for translation to a set of locales defined on the Zanata server. If your project has added or removed any languages, this button will appear, allowing you to reset the project's languages to the default list.
-
-### The Languages list (and removing)
-
-A list of languages supported by your project will appear here. Hovering on a language in this list will display an X which will remove that language from the list.
-
-<figure>
-<img alt="Removing a project language" src="{{ site.url }}/images/302-project-languages-remove.png" />
-<figcaption>Removing a project language</figcaption>
-</figure>
+By default, your project will be available for translation to all of the enabled locales defined on the Zanata server. If your project has added or removed any languages, this button will appear, allowing you to reset the project's languages to the default list.
 
 ### Add a Language
 
-Entering text into this field will search and filter Zanata's available languages and display them. Selecting a language from the drop-down will add it to the languages supported by your project.
+To search for available languages, enter text into the field under "Add a language". Available languages matching the entered text will display in a dropdown.
+To add add a language to your project, select the desired language from the dropdown.
 
 <figure>
-<img alt="Adding a project language" src="{{ site.url }}/images/302-project-languages-add.png" />
+<img alt="Adding a project language" src="{{ site.url }}/images/341-project-languages-add.png" />
 <figcaption>Adding a project language</figcaption>
+</figure>
+
+### Remove a Language
+
+Hovering on a language in the list of available locales for the project display an (X), which can be clicked to remove that language from the list.
+
+<figure>
+<img alt="Removing a project language" src="{{ site.url }}/images/341-project-languages-remove.png" />
+<figcaption>Removing a project language</figcaption>
 </figure>
 
 ------------
@@ -89,32 +89,20 @@ Entering text into this field will search and filter Zanata's available language
 ## Translation Settings
 
 <figure>
-<img alt="Project Translation Settings tab" src="{{ site.url }}/images/302-project-translation-settings.png" />
+<img alt="Project Translation Settings tab" src="{{ site.url }}/images/341-project-translation-settings.png" />
 <figcaption>Project Translation Settings tab</figcaption>
 </figure>
 
 ### Validations
 
-Validations run in the translation editor and help translators to provide translations that are valid for your project. Any validations checked in this list will always be active in the translation editor. Other validations can be toggled by translators to suit their individual workflow.
+Validations run in the translation editor and help translators to provide translations that are valid for your project. Validations set to `Warning` or `Error` in this list will be displayed in the translation editor when an invalid translation has been entered.
+Validations not enabled here can be toggled by translators to suit their individual workflow.
 
-At the time of writing, the following validations are recommended:
 
- - all project types:
-   - leading/trailing newline
-   - tab characters
- - gettext/podir projects:
-   - printf variables
-   - positional printf
- - podir projects:
-   - HTML/XML tags
- - java properties projects:
-   - java variables
- - file projects with libreoffice documents:
-   - HTML/XML tags
 
 ### Copy Translations settings
 
-Copy Translations attempts to reuse translations that have been entered in Zanata by matching them with untranslated strings in your project/version.  These settings change the way Copy Translations behaves when a new version is created.
+Copy Translations attempts to reuse translations that have been entered in Zanata by matching them with untranslated strings in your project-version.  These settings change the way Copy Translations behaves when a new version is created.
 
 Refer to [the Copy Translations reference]({{ site.url }}/help/reuse/copytrans-explained) for more information.
 
@@ -123,17 +111,18 @@ Refer to [the Copy Translations reference]({{ site.url }}/help/reuse/copytrans-e
 ## Permissions Settings
 
 <figure>
-<img alt="Project Permissions Settings tab" src="{{ site.url }}/images/302-project-permissions-settings.png" />
+<img alt="Project Permissions Settings tab" src="{{ site.url }}/images/341-project-permissions-settings.png" />
 <figcaption>Project Permissions Settings tab</figcaption>
 </figure>
 
-### Maintainers list
-
-A list of maintainers for the project.  Hovering on a maintainer in this list will display an X which will remove that maintainer from the list.
-
 ### Add a Maintainer
 
-Entering at least three characters of a username will search for and filter users by that entry.  Selecting an username will add that user to the list of maintainers for the project.
+To search for users, enter at least three characters of a username into the field under "Add a Maintainer". Available users matching the entered text will display in a dropdown.
+To add a user as a maintainer for the project, select their username from the dropdown.
+
+### Remove a Maintainer
+
+Hovering on a maintainer in the maintainers list will display an (X) which can be clicked to remove that maintainer from the project.
 
 ### Restrict access to certain user roles
 
@@ -144,7 +133,7 @@ The access restriction feature is intended for use with special roles that can b
 ## About
 
 <figure>
-<img alt="Project About Settings tab" src="{{ site.url }}/images/302-project-about-settings.png" />
+<img alt="Project About Settings tab" src="{{ site.url }}/images/341-project-about-settings.png" />
 <figcaption>Project About Settings tab</figcaption>
 </figure>
 

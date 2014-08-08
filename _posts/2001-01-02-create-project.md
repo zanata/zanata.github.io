@@ -16,22 +16,17 @@ Anyone with an account can upload source strings to Zanata. The first step is to
 
 ## Project creation through the website
 
-To start creating a project on the Zanata website, click the `New Project` button on the `Projects` page, or use the `create your own` link on the user dashboard, at the bottom of the projects summary.
+To start creating a project on the Zanata website, click the `New Project` button on the `Projects` page.
 
 <figure>
-<img alt="Project creation button on Projects page" src="{{ site.url }}/images/302-projects-create-project.png" />
+<img alt="Project creation button on Projects page" src="{{ site.url }}/images/341-project-create-project.png" />
 <figcaption>Project creation button on `Projects` page.</figcaption>
-</figure>
-
-<figure>
-<img alt="Shortcut project creation link on user dashboard" src="{{ site.url }}/images/302-user-dashboard-create-project.png" />
-<figcaption>Shortcut project creation link on user dashboard</figcaption>
 </figure>
 
 The following screenshot shows the project creation page. In the screenshot, all fields have been filled in to illustrate the process. This example would create a project with a URL ending in '/zanata-server', that will be displayed in the project list as 'Zanata Server'. Details for each of the fields are shown below.
 
 <figure>
-<img alt="Example project creation form with all fields filled in" src="{{ site.url }}/images/302-create-project-completed.png" />
+<img alt="Example project creation form with all fields filled in" src="{{ site.url }}/images/341-create-project-completed.png" />
 <figcaption>Example filled in project creation form</figcaption>
 </figure>
 
@@ -54,12 +49,12 @@ A short description to provide a little more information for translators to iden
 
 Project Type defines the type of files that your project uses to store source and translation strings. This setting ensures that files for your project will be downloaded in the correct format.
 
-There is a brief description for each project type. If the description is insufficient, more information on each project type is available at [Project Types wiki page](https://github.com/zanata/zanata/wiki/Project-Types).
+There is a brief description for each project type next to each project type option. If the description is insufficient, more information on each project type is available at [Project Types wiki page](https://github.com/zanata/zanata/wiki/Project-Types).
 
 ## Project Settings
 
 Once the project has been created, the maintainer can customize the project appearance and behaviour as required.
-See the [Project Settings]({{ site.url }}/help/projects/customize-project) help for details on project settings.
+See the [Project Settings Help]({{ site.url }}/help/projects/customize-project) for details on project settings.
 
 ## Project creation from command line
 
