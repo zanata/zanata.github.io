@@ -77,7 +77,7 @@ To add add a language to your project, select the desired language from the drop
 
 ### Remove a Language
 
-Hovering on a language in the list of available locales for the project display an (X), which can be clicked to remove that language from the list.
+To remove a language from the list of available locales, first move the cursor over the language, then click the "X" that appears.
 
 <figure>
 <img alt="Removing a project language" src="{{ site.url }}/images/341-project-languages-remove.png" />
@@ -122,7 +122,7 @@ To add a user as a maintainer for the project, select their username from the dr
 
 ### Remove a Maintainer
 
-Hovering on a maintainer in the maintainers list will display an (X) which can be clicked to remove that maintainer from the project.
+To remove a maintainer from the maintainers list, first move the cursor over the maintainer, then click the "X" that appears.
 
 ### Restrict access to certain user roles
 
@@ -138,3 +138,4 @@ The access restriction feature is intended for use with special roles that can b
 </figure>
 
 About is optional rich text that will be shown on your project's about tab. This can be used to provide more detailed information to translators to help them understand and translate your project.
+The rich text format is Seam Text. For help with rich text formatting, click "Seam Text" under the editor.
