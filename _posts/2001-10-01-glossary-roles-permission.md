@@ -12,8 +12,9 @@ categories:
 </p>
 
 
-There are 2 roles that manages glossary in Zanata,  **Glossarist** and **Glossary-admin**.
-<br/>User can request those roles via [Contact Admin](https://translate.zanata.org/zanata/help/contact) link in the 'Help' section.
+There are 2 roles that manages glossary in Zanata,  **glossarist** and **glossary-admin**.
+
+User can request those roles by contacting Zanata admin in `Help` section -> `Contact Admin` button .
 
 Below are the summary of these 2 roles with their permission.
 <table>
@@ -26,13 +27,13 @@ Below are the summary of these 2 roles with their permission.
         </tr>
     </thead>
     <tr>
-        <td>Glossarist</td>
+        <td>glossarist</td>
         <td class='txt--align-center'><i class='i i--checkmark'/></td>
         <td class='txt--align-center'><i class='i i--checkmark'/></td>
         <td class='txt--align-center'><i class='i i--cancel txt--danger'/></td>
     </tr>
     <tr>
-        <td>Glossary-admin</td>
+        <td>glossary-admin</td>
         <td class='txt--align-center'><i class='i i--checkmark'/></td>
         <td class='txt--align-center'><i class='i i--checkmark'/></td>
         <td class='txt--align-center'><i class='i i--checkmark'/></td>
