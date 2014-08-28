@@ -7,7 +7,7 @@ categories:
 ---
 
 ### Prerequisite
-See [glossary roles and permission]({{ site.url }}/help/glossary/glossary-roles-permission) for permission setup.
+See [glossary roles and permission]({{ site.url }}/help/glossary/glossary-roles-permissions) for permission setup.
 
 1. Go to editor in Zanata and select a string. Instructions for opening the
     translation editor can be found at [Preparing for Translation]({{ site.url }}/help/translation/preparing-for-translation).
@@ -18,11 +18,11 @@ See [glossary roles and permission]({{ site.url }}/help/glossary/glossary-roles-
 </figure>
 
 <figure>
-    <img alt="glossary entry windows" src="{{ site.url }}/images/351-glossary-edit-windows.png" />
+    <img alt="glossary entry window" src="{{ site.url }}/images/351-glossary-edit-windows.png" />
     <figcaption>Glossary entry windows</figcaption>
 </figure>
 
-1. In the popup windows, user can:
+1. In the popup window, user can:
    1. edit glossary target term
    1. add/remove comments to target term - use `+` sign to add new comment, use `-` sign to remove comment from list
 

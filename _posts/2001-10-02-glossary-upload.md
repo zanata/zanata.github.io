@@ -6,7 +6,7 @@ categories:
 - glossary
 ---
 ### Prerequisite
-See [glossary roles and permission]({{ site.url }}/help/glossary/glossary-roles-permission) for permission setup.
+See [glossary roles and permission]({{ site.url }}/help/glossary/glossary-roles-permissions) for permission setup.
 
 ### Supported file format
 #### PO
@@ -37,14 +37,14 @@ See [glossary roles and permission]({{ site.url }}/help/glossary/glossary-roles-
     <figcaption>More actions in glossary table</figcaption>
 </figure>
 
-1. A windows will popup, click on `choose file` to select your glossary file.
+1. A window will popup, click on `choose file` to select your glossary file.
 <figure>
- <img alt="Glossary upload windows" src="{{ site.url }}/images/351-glossary-upload-windows.png" />
+ <img alt="Glossary upload window" src="{{ site.url }}/images/351-glossary-upload-windows.png" />
 </figure>
 
 1. For PO file format, you will need to select **Source and Target languages** of the selected po file.
 <figure>
- <img alt="Glossary upload windows, PO file" src="{{ site.url }}/images/351-glossary-upload-windows-po.png" />
+ <img alt="Glossary upload window, PO file" src="{{ site.url }}/images/351-glossary-upload-windows-po.png" />
 </figure>
 
 1. Click `Upload` button to start uploading selected glossary file.

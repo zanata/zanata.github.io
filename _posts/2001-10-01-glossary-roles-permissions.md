@@ -1,6 +1,6 @@
 ---
 layout: help
-title:  "Roles and Permission"
+title:  "Roles and Permissions"
 categories:
 - help
 - glossary
@@ -12,7 +12,7 @@ categories:
 </p>
 
 
-There are 2 roles that manages glossary in Zanata,  **glossarist** and **glossary-admin**.
+There are 2 roles that manage glossaries in Zanata,  **glossarist** and **glossary-admin**.
 
 User can request those roles by contacting Zanata admin in `Help` section -> `Contact Admin` button .
 

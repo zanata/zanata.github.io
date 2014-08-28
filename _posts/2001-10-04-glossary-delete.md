@@ -7,7 +7,7 @@ categories:
 ---
 
 ### Prerequisite
-Requires **Glossary-admin** role. See [glossary roles and permission]({{ site.url }}/help/glossary/glossary-roles-permission) for permission setup.
+Requires **Glossary-admin** role. See [glossary roles and permission]({{ site.url }}/help/glossary/glossary-roles-permissions) for permission setup.
 
 ### Delete via Web UI
 1. Login into Zanata
