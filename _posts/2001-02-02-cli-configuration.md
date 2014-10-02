@@ -44,6 +44,30 @@ These steps should be repeated for each project-version before using any {{ site
 
 You can customize `zanata.xml` with command hooks so that other tools will automatically run before or after Zanata commands. Read about command hooks at the [command hook page on the wiki](https://github.com/zanata/zanata-server/wiki/Client-Command-Hooks).
 
+
+## Locale Configuration
+
+The `zanata.xml` will contain a list of locales so that the client knows which locales to push and pull to/from the Zanata server. When downloaded from the Zanata server, the list will have the locales as specified by the server itself. It will look something like this:
+
+```xml
+<locales>
+  <locale>es</locale>
+  <locale>ja</locale>
+  <locale>fr</locale>
+  <locale>zh-Hant-TW</locale>
+  ...
+</locales>
+```
+
+Sometimes the way locales are named in your project files doesn't match Zanata's locale nomenclature, so it's necessary to create a mapping between the two. You can achieve this in the client by modifying the locale entries in `zanata.xml`.
+
+For instance, if one of your files is called `myfile/es_ES.po` and your project in Zanata has the `es-ES` locale, then your client mappng would look like this:
+
+```xml
+  <locale map-from='es_ES'>es-ES</locale>
+```
+
+
 ---
 
 [Old instructions](https://github.com/zanata/zanata-server/wiki/Client-Configuration)
