@@ -8,7 +8,7 @@ categories:
 
 This document presents an example of a Zanata project with type `podir`. It assumes that you have already created a project and a version (See [Project Creation]({{ site.url }}/help/projects/create-version) ).
 
-Podir projects consist of multiple source files (.pot) in a common source directory, and several translation files (.po) located in their corresponding locale's directory. Below is a tipical directory structure for a Podir project:
+Podir projects consist of multiple source files (.pot) in a common source directory, and several translation files (.po) located in their corresponding locale's directory. Below is a typical directory structure for a Podir project:
 
 ```bash
 project-name

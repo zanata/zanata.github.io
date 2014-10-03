@@ -8,7 +8,7 @@ categories:
 
 This document presents an example of a Zanata project with type `gettext`. It assumes that you have already created a project and a version (See [Project Creation]({{ site.url }}/help/projects/create-project) ).
 
-Gettext projects consist of a single source file (.pot), and several translation files (.po) named after their corresponding locale. Below is a tipical directory structure for a Gettext project:
+Gettext projects consist of a single source file (.pot), and several translation files (.po) named after their corresponding locale. Below is a typical directory structure for a Gettext project:
 
 ```bash
 project-name

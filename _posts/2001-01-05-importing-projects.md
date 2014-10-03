@@ -6,7 +6,7 @@ categories:
 - migrating to Zanata
 ---
 
-This document will provide help when importing or migrating projects into Zanata from other translation platforms. You should already have an account created on the Zanata instance you will migrate to. 
+This document will provide help when importing or migrating projects into Zanata from other translation platforms. You need a user account on the Zanata instance you will migrate to. 
 
 ## Create a project in Zanata
 
@@ -41,7 +41,7 @@ Podir projects consist of multiple source files (.pot) in a common source direct
 Move your content over to the Zanata project's directory created previously, and run the following client command from the same directory:
 
 ```bash
-{{site.cli_client_name}} push -s . -t. --push-type both
+{{site.cli_client_name}} push -s . -t . --push-type both
 ```
 
 This will push your content into the Zanata project that you previously created. For more information on pushing your content using the zanata client see [Document Upload with Client]({{site.url}}/help/cli/cli-push).
