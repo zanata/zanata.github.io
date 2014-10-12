@@ -1,6 +1,6 @@
 This repository contains source files for the [Zanata home page] (http://zanata.org/).
 
-Run locally (http://localhost:4000):
+Run locally (at [http://localhost:4000](http://localhost:4000)):
 ```bash
 $ jekyll serve --watch --config _dev_config.yml
 ```
