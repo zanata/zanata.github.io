@@ -1,41 +1,46 @@
 ---
 layout: help
-title:  "Roles and Permissions"
+title:  "Glossary Roles and Permissions"
 categories:
 - help
 - glossary
 ---
 
-<p class='message--warning'>
-    Glossary is used globally in all projects within Zanata. User assigned with these roles should understand the
-    responsibility and effect when performing any of these actions.
-</p>
+
+There are 2 roles that can manage glossaries in Zanata,  **glossarist** and
+**glossary-admin**. To request either of these roles, users should contact a
+Zanata administrator. Administrators can be contacted using the `Contact Admin`
+button in the `Help` section.
 
 
-There are 2 roles that manage glossaries in Zanata,  **glossarist** and **glossary-admin**.
+The following table shows which permissions are available to each role.
 
-User can request those roles by contacting Zanata admin in `Help` section -> `Contact Admin` button .
-
-Below are the summary of these 2 roles with their permission.
 <table>
-    <thead>
-        <tr>
-            <td>**Roles**</td>
-            <td>[Upload glossary]({{ site.url }}/help/glossary/glossary-upload)</td>
-            <td>[Edit glossary]({{ site.url }}/help/glossary/glossary-edit)</td>
-            <td>[Delete glossary]({{ site.url }}/help/glossary/glossary-delete)</td>
-        </tr>
-    </thead>
+  <thead>
     <tr>
-        <td>glossarist</td>
-        <td class='txt--align-center'><i class='i i--checkmark'/></td>
-        <td class='txt--align-center'><i class='i i--checkmark'/></td>
-        <td class='txt--align-center'><i class='i i--cancel txt--danger'/></td>
+      <td>Role</td>
+      <td><a href="{{ site.url }}/help/glossary/glossary-upload">Upload glossary</a></td>
+      <td><a href="{{ site.url }}/help/glossary/glossary-edit">Edit glossary</a></td>
+      <td><a href="{{ site.url }}/help/glossary/glossary-delete">Delete glossary</a></td>
     </tr>
-    <tr>
-        <td>glossary-admin</td>
-        <td class='txt--align-center'><i class='i i--checkmark'/></td>
-        <td class='txt--align-center'><i class='i i--checkmark'/></td>
-        <td class='txt--align-center'><i class='i i--checkmark'/></td>
-    </tr>
+  </thead>
+  <tr>
+    <td>glossarist</td>
+    <td class='txt--align-center'><i class='i i--checkmark'/></td>
+    <td class='txt--align-center'><i class='i i--checkmark'/></td>
+    <td class='txt--align-center'><i class='i i--cancel txt--danger'/></td>
+  </tr>
+  <tr>
+    <td>glossary-admin</td>
+    <td class='txt--align-center'><i class='i i--checkmark'/></td>
+    <td class='txt--align-center'><i class='i i--checkmark'/></td>
+    <td class='txt--align-center'><i class='i i--checkmark'/></td>
+  </tr>
 </table>
+
+
+<p class='message--warning'>
+  The terms for a glossary are available to all projects within Zanata. Users
+  should understand that glossary upload, edit and delete can affect all users
+  and perform such actions responsibly.
+</p>
