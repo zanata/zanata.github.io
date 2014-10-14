@@ -69,7 +69,7 @@ For instance, if one of your files is called `myfile/es_ES.po` and your project 
 
 ### Translation files mapping rules
 
-You can also customize the way translation files are found during push, as well as the location they will be saved after pull.
+You can also customize the way translation files are found when pushing, as well as the location they will be saved to when pulling.
 {% highlight xml %}
 <!-- example rules definition in zanata.xml -->
 <rules>
@@ -78,9 +78,11 @@ You can also customize the way translation files are found during push, as well 
 </rules>
 {% endhighlight %}
 
-"pattern" attribute is a [glob](http://en.wikipedia.org/wiki/Glob_(programming)) matching pattern to your source document file(s). You can define more than one rules and apply each rule to specific set of source documents using different patterns. The **first** matched rule will be applied to the file. 
+In the example above, `pattern` identifies a source file, and the contents of the `rule` element specify how translation files will be stored.
 
-"pattern" is optional. If not specified, the rule will be applied to all source documents in your project.
+The `pattern` attribute is a [glob](http://en.wikipedia.org/wiki/Glob_(programming)) matching pattern to your source document file(s). You can define more than one rule and apply each rule to a specific set of source documents using different patterns. The **first** matched rule will be applied to the file. 
+
+`pattern` is optional. If not specified, the rule will be applied to all source documents in your project.
 The actual rule consists of literal path and placeholders/variables.
 
 Supported placeholders/variables are:
@@ -88,20 +90,38 @@ Supported placeholders/variables are:
  1. **{path}** is the path between source document root (what you define as src-dir option) and the final file.
  1. **{filename}** the source document name without leading path and extension.
  1. **{locale}** the locale for the translation file. If you use "map-from" argument in your locale mapping, this will be the map-from value.
- 1. **{locale\_with\_underscore}** same as above except all hyphen '-' will be replaced to underscore '_'. This is typically used in properties and gettext projects.
+ 1. **{locale\_with\_underscore}** same as above except all hyphens '-' will be replaced with underscores '_'. This is typically used in properties and gettext projects.
  1. **{extension}** the source document file extension
 
-> For example, given a source document is found at `/home/user/myproject/src/main/resource/message.properties` and your source document root (src-dir option) is set to ".". Your zanata.xml is located at `/home/user/myproject`. For a locale mapping defined as `<locale map-from="zh-CN">zh</locale>`: The {path} variable will become `src/main/resource`. {filename} is `message`. {locale} is `zh-CN` . {locale\_with\_underscore} is `zh_CN`. {extension} is `properties`.
+For example, given a source document is found at `/home/user/myproject/src/main/resource/message.properties` 
 
-The mapping rules configuration is optional in zanata.xml. If not specified, standard rules are applied to your [project type](https://github.com/zanata/zanata-server/wiki/Project-Types).
+... and your source document root (src-dir option) is set to "." 
 
- 1. gettext: {path}/{locale\_with\_underscore}.po
- 1. podir: {locale}/{path}/{filename}.po
- 1. properties: {path}/{filename}\_{locale\_with\_underscore}.{extension}
- 1. utf8properties: {path}/{filename}\_{locale\_with\_underscore}.{extension}
- 1. xliff: {path}/{filename}\_{locale\_with\_underscore}.{extension}
- 1. xml: {path}/{filename}\_{locale\_with\_underscore}.{extension}
- 1. file: {locale}/{path}/{filename}.{extension}   
+... Your zanata.xml is located at `/home/user/myproject` 
+
+... For a locale mapping defined as `<locale map-from="zh-CN">zh</locale>`: 
+
+
+The following placeholders will be detected:
+
+```
+{path}                     = 'src/main/resource'
+{filename}                 = 'message'
+{locale}                   = 'zh-CN'
+{locale\_with\_underscore} = 'zh_CN'
+{extension}                = 'properties' 
+```
+
+
+The mapping rules configuration is optional in zanata.xml. If not specified, standard rules are applied according to your [project type](https://github.com/zanata/zanata-server/wiki/Project-Types).
+
+ 1. gettext: `{path}/{locale_with_underscore}.po`
+ 1. podir: `{locale}/{path}/{filename}.po`
+ 1. properties: `{path}/{filename}_{locale_with_underscore}.{extension}`
+ 1. utf8properties: `{path}/{filename}_{locale_with_underscore}.{extension}`
+ 1. xliff: `{path}/{filename}_{locale_with_underscore}.{extension}`
+ 1. xml: `{path}/{filename}_{locale_with_underscore}.{extension}`
+ 1. file: `{locale}/{path}/{filename}.{extension}`  
 
 ---
 
