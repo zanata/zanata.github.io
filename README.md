@@ -19,7 +19,7 @@ $ gem install jekyll execjs
 
 There is also a [script to handle the setup process on Fedora](https://raw.githubusercontent.com/davidmason/fedora-setup-scripts/master/scripts/zanata/fedora-setup-zanata-website-prepare-jekyll), including increasing the watch file limit.
 
-### Install jekyll on RHEL6
+### Install Jekyll on RHEL6
 - [Install rvm](http://tecadmin.net/install-ruby-2-1-on-centos-rhel/) to use the most recent version of Ruby
 - Add yourself to rvm group `sudo usermod -a -G rvm yourusername`
 - [Install Jekyll](https://help.github.com/articles/using-jekyll-with-pages#installing-jekyll)
