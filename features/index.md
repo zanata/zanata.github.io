@@ -20,11 +20,11 @@ layout: features
          - plural support
          - dashboard (recent addition)
         -->
-        <p>Zanata handles the overall workflow so that translators can be completely focused on translating, not on tools or formats:</p>
+        <p>Zanata handles the entire workflow so translators can focus on translating, not on tools or formats:</p>
         <ul>
            <li>Zanata's Editor works on any computer with a web browser; no installation is needed.</li>
            <li>Translations can be written in Zanata without the need to work with version control systems, esoteric document formats or confusing email workflows.</li>
-           <li>Zanata's User Dashboard provides a shortcut to jump straight to any current job.</li>
+           <li>Zanata's User Dashboard provides a shortcut to jump between jobs.</li>
            <li>Plurals are handled natively in Zanata's Editor.</li>
         </ul>
     </div>
@@ -43,13 +43,13 @@ layout: features
           - chatroom
         -->
 
-        <p>Multiple translators can work on the same document using Zanata's Editor. Zanata's Editor provides a range of features to help translators work together effectively:</p>
+        <p>Multiple translators can work on the same document using Zanata's Editor. This provides a range of features to help translators work together effectively:</p>
 
         <ul>
             <li>Translations are visible to all translators as soon as they are saved.</li>
             <li>Markers indicate when a passage is being edited by other translators.</li>
-            <li>A simple dialog prevents work being lost if a conflict occurs.</li>
-            <li>Each language in the project has a chatroom for realtime communication.</li>
+            <li>Users are alerted if a conflict occurs to prevent work being lost.</li>
+            <li>Each language in the project has a chat room for real time communication.</li>
         </ul>
     </div>
 </div>
@@ -67,8 +67,8 @@ layout: features
         <p>Translators can avoid writing the same translation twice by using Zanata's Translation Memory (TM). Zanata's TM is a powerful tool for translation reuse:</p>
         <ul>
            <li>The TM finds the best translation matches out of all the translations in the whole system.</li>
-           <li>The TM is built into Zanata's Editor, allowing a streamlined workflow.</li>
-           <li>The TM is updated in realtime to allow instant reuse.</li>
+           <li>It is built into Zanata's Editor, allowing a streamlined workflow.</li>
+           <li>It is updated in real time to allow instant reuse.</li>
            <li>Each page of translations can be easily pre-filled with the best translation matches.</li>
         </ul>
     </div>
@@ -90,10 +90,10 @@ layout: features
         <p>Zanata's Editor provides easy access to a range of useful information so that translators can work without disruptive context changes:</p>
 
         <ul>
-            <li>Zanata shows live translation statistics and remaining work estimation for each document and the whole project, updated in realtime.</li>
+            <li>Zanata shows live translation statistics and remaining work estimation for each document and the whole project, updated in real time.</li>
             <li>Syntax highlighting is available to support technical translations.</li>
             <li>History for each translation can be accessed with a single click, to quickly see when it was changed and reviewed.</li>
-            <li>A glossary is integrated into the editor for convenient look-up of terms.</li>
+            <li>A glossary is integrated into the editor for a convenient explanation of terms.</li>
         </ul>
     </div>
 </div>
@@ -111,8 +111,8 @@ layout: features
         <p>Zanata's Editor provides a set of features to support high translation quality:</p>
         <ul>
            <li>Validators run as translations are typed in the Editor, immediately reporting common mistakes and problematic items.</li>
-           <li>The Editor's review workflow provides a way to ensure all translations meet the required standard.</li>
-           <li>The Editor allows replacement of words through every document in a project, with full control, review and undo to avoid any unwanted changes; easily and confidently update terminology and fix mistakes.</li>
+           <li>The Editor's review workflow provides a way to view all translations and ensure they are consistent.</li>
+           <li>You can replace words through every document in a project with full control. The review and undo tools allow you to easily and confidently update terminology and fix mistakes.</li>
         </ul>
     </div>
 </div>
@@ -130,7 +130,7 @@ layout: features
  - skynet integration
 -->
 
-Zanata's command-line client can be easily integrated into scripts and used in continuous integration. For Maven projects, Zanata provides a Maven Plugin that can support both simple and multi-module Maven projects. Zanata also has a REST API for scripting and integration with other tools.
+Zanata's command-line client is easily integrated into scripts and used in continuous integration. A Maven plugin is supplied that can support both simple and multi-module Maven projects. Zanata also has a REST API for scripting and integration with other tools.
 
 
 ### Translation Reuse
@@ -138,7 +138,7 @@ Zanata's command-line client can be easily integrated into scripts and used in c
  - automatic reuse (copytrans), configurable
 -->
 
-Leverage the wealth of translations already on Zanata: Zanata can automatically copy matching translations from its translation memory to any text you upload, using your configured rules for match quality.
+Zanata can automatically copy matching translations from its translation memory to any text you upload, using your configured rules to ensure quality matches. 
 
 
 ### Quality Control
@@ -150,7 +150,7 @@ Leverage the wealth of translations already on Zanata: Zanata can automatically 
  - Access control: Fedora projects limited to Fedora logins
 -->
 
-Ensure that translations can never break your build by enforcing relevant validations. Easily add a review phase to your project to ensure translations are to a high standard. Upload your existing translations and translation memory to Zanata to keep translations consistent. Use project groups to source translations from your trusted community.
+Ensure that translations can never break your build by enforcing relevant validations. Easily add a review phase to your project to ensure translations are to a high standard. Upload your existing translations and translation memory to Zanata to keep translations consistent. Use project groups to source translations from other users.
 
 
 ### Major Formats Supported
