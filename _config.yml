@@ -1,6 +1,6 @@
 name: Zanata
 markdown: redcarpet
-pygments: true
+highlighter: true
 url: http://zanata.org
 # url: http://localhost:4000
 permalink: /:categories/:title
