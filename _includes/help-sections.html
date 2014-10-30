@@ -1,18 +1,10 @@
-<nav class="l--pad-top-1">
+<nav>
   <ul class="js-help-search-list">
-    {% for category in site.categories %}
-      {% if category[0] != 'help' and category[0] != 'blog' %}
-        <li class="l--push-bottom-1">
-          <h2 class="heading--secondary delta">{{ category[0] | capitalize}}</h2>
-          <ul class="list--slat js-help-search-list">
-            {% for post in category[1] reversed %}
-              <li><a href="{{ site.url }}{{ post.url }}" {% if post.url == page.url %}class="is-active"{% endif %}>
-                {{ post.title }}
-              </a></li>
-            {% endfor %}
-          </ul>
-        </li>
-      {% endif %}
+    {% for section in site.data.help %}
+      <li class="l--push-bottom-1">
+        <h2 class="heading--secondary delta">{{ section.title }}</h2>
+        {% include help-ul.html items=section.docs %}
+      </li>
     {% endfor %}
   </ul>
 </nav>

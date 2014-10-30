@@ -3,7 +3,27 @@ markdown: redcarpet
 highlighter: true
 url: http://zanata.org
 # url: http://localhost:4000
-permalink: /:categories/:title
+permalink: /:title
 show_drafts: false
 
 cli_client_name: zanata-cli
+
+gems:
+  - jekyll-redirect-from
+
+collections:
+  help:
+    output: true
+    permalink: /help/:path/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+  -
+    scope:
+      type: help
+    values:
+      layout: help
