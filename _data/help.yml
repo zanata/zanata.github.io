@@ -7,7 +7,7 @@
   - create-project
   - create-version
   - upload-strings
-  - customize-project
+  - project-settings
   - importing-projects
   - gettext-example
   - podir-example
