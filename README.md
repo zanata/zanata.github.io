@@ -13,7 +13,7 @@ For more information, see https://help.github.com/articles/using-jekyll-with-pag
 
 ```bash
 $ yum install ruby ruby-devel gcc
-$ gem install bundler
+$ gem install bundler execjs
 $ bundle install
 $ bundle exec jekyll serve --watch --config _dev_config.yml
 ```
@@ -24,3 +24,6 @@ There is also a [script to handle the setup process on Fedora](https://raw.githu
 - [Install rvm](http://tecadmin.net/install-ruby-2-1-on-centos-rhel/) to use the most recent version of Ruby
 - Add yourself to rvm group `sudo usermod -a -G rvm yourusername`
 - [Install Jekyll](https://help.github.com/articles/using-jekyll-with-pages#installing-jekyll)
+- Optional: If you do not have a JavaScript runtime specified, you may be prompted to install one. i.e. `gem install execjs` and then `gem install therubyracer`
+
+See [these docs](http://jekyllrb.com/docs/troubleshooting/) for troubleshooting.
