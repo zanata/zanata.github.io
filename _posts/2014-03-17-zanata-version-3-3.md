@@ -7,6 +7,8 @@ tags:
 - announcement
 - release
 - v3
+author: Luke Brooker
+author_username: lukebrooker
 ---
 
 ## What's New
