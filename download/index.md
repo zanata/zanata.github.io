@@ -3,35 +3,17 @@ title: Downloading and Installing Zanata
 layout: download
 ---
 
-## Prerequisites
+## What you need
 
-- JBoss Enterprise Application Platform 6 (EAP). This is the recommended container for Zanata, and it can be downloaded [here](http://www.jboss.org/jbossas/downloads/). You can also download a [pre-configured JBoss AS 7 here](http://sourceforge.net/projects/zanata/files/server/zanata-server.zip/download), but please note that this is not the supported configuration.
+- JBoss Enterprise Application Platform 6 (EAP). This is the recommended container for Zanata, and it can be [downloaded here](http://www.jboss.org/jbossas/downloads/).
+- ... OR Wildfly (recommended version is 8.1.x) which can be [downloaded here](http://wildfly.org/downloads/)
 - A suitable MySQL database. This is NOT included in the Zanata archive. You can [download MySQL here](http://dev.mysql.com/downloads/mysql/).
-- A database java connector (mysql-java-connector). This is included in the pre-configured JBoss AS from above, or it can be [downloaded here](http://dev.mysql.com/downloads/connector/j/).
 - An email (SMTP) server to perform certain notifications.
-- JDK version 6 or later.
+- JDK version 7 or later (7 is recommended as JBoss might not run on newer versions). It can be [downloaded here](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
 The following packages are optional, but recommended:
 
 - clamav for virus protection.
-- Suitable fonts for CAPTCHA and server monitoring diagrams.
-
-## Overview
-
-Use the following steps to download and configure a Zanata server:
-
- 1. Download and extract the server archive.
- 1. Create a database for your Zanata data.
- 1. Configure the admin users and email details.
- 1. Start the server.
-
-## Downloading and Extracting the Server Archive
-
-Download and extract the [Zanata server archive](http://sourceforge.net/projects/zanata/files/server/zanata-server.zip/download):
-
-In the following procedures, `<ZANATA DIR>` refers to the location where you extracted the Zanata server archive.
-
-Alternatively, if you have downloaded EAP 6 for use with Zanata, please refer to the [following configuration guide](https://github.com/zanata/zanata-server/wiki/JBoss-AS-7) to fully configure your Zanata instance.
 
 ## Setting up the Zanata Database
 
@@ -40,16 +22,20 @@ Alternatively, if you have downloaded EAP 6 for use with Zanata, please refer to
 
  1. Create a database schema for Zanata. **NOTE:** Ensure that the default collation is UTF-8.
 
- ## Running the Zanata installer
+## Installing Zanata
 
-Run the following commands on the terminal:
+You can run Zanata on JBoss EAP 6 or Wildfly. Just download one of the archives below for your platform, and then extract it on top of your JBoss or Wildfly installation.
 
- 1. `cd <ZANATA_DIR>/bin/zanata-installer`
- 1. `./install.sh`  (for Windows there's `install.bat`)
+- [Zanata for JBoss EAP](http://sourceforge.net/projects/zanata/files/server/zanata-server.zip/download)
+- [Zanata for Wildfly](http://sourceforge.net/projects/zanata/files/server/zanata-server.zip/download)
 
-The installer will ask some questions about the Zanata version you wish to install and the configuration of the Zanata database. After these have been answered, it will proceed to download the Zanata web application.
+## Run the installer
 
-## Configuring Zanata
+Zanata comes bundled with an installer that helps with some of the initial setup. Simply run `<ZANATA_SERVER>/bin/zanata-installer/install.sh` (there's also a .bat file if you are on Windows) and the installation sciprt will start asking some configuration questions.
+
+The installer will also download the Zanata web application and place it in the JBoss installation.
+
+## Some advanced configuration
 
 Beginning with version 2.0, Zanata no longer creates an admin user by default. You need to register specific users to have administrative privileges.
 
@@ -85,13 +71,3 @@ Go to the `<ZANATA_SERVER>/bin` directory and run the `start-zanata.sh` (Linux, 
 To start using your Zanata server, open a browser and navigate to `http://localhost:8080/zanata`
 
 You can now upload some source strings and start translating. To get started, see [Adding Source Strings]({{ site.url }}/help/projects/add-source-strings).
-
-<!---
-<div class="txt--meta l--push-top-2">
-<h3 class="epsilon">A few things to note:</h3>
-<ul>
-  <li>Zanata requires an email (SMTP) server to perform certain notifications.</li>
-  <li>Make sure you are using JDK version 6 or higher.</li>
-</ul>
-</div>
---->
