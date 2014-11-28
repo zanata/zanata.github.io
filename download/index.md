@@ -9,7 +9,7 @@ layout: download
 - ... OR Wildfly (recommended version is 8.1.x) which can be [downloaded here](http://wildfly.org/downloads/)
 - A suitable MySQL database. This is NOT included in the Zanata archive. You can [download MySQL here](http://dev.mysql.com/downloads/mysql/).
 - An email (SMTP) server to perform certain notifications.
-- JDK version 7 or later (7 is recommended as JBoss might not run on newer versions). It can be [downloaded here](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+- JDK version 7 or later (7 is recommended for EAP as it is not yet certified to run against Java 8). [OpenJDK](http://openjdk.java.net/install/) is recommended, but you can also download [Oracle's JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
 The following packages are optional, but recommended:
 
