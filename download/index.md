@@ -5,7 +5,7 @@ layout: download
 
 ## What you need
 
-- JBoss Enterprise Application Platform 6 (EAP). This is the recommended container for Zanata, and it can be [downloaded here](http://www.jboss.org/jbossas/downloads/).
+- JBoss Enterprise Application Platform 6.3 (EAP). This is the recommended container for Zanata, and it can be [downloaded here](http://www.jboss.org/jbossas/downloads/).
 - ... OR Wildfly (recommended version is 8.1.x) which can be [downloaded here](http://wildfly.org/downloads/)
 - A suitable MySQL database. This is NOT included in the Zanata archive. You can [download MySQL here](http://dev.mysql.com/downloads/mysql/).
 - An email (SMTP) server to perform certain notifications.
@@ -64,7 +64,7 @@ Beginning with version 2.0, Zanata no longer creates an admin user by default. Y
 
 ## Running Zanata
 
-Go to the `<ZANATA_SERVER>/bin` directory and run the `start-zanata.sh` (Linux, Mac) or `start-zanata.bat` (Windows) file. 
+Go to the `<ZANATA_SERVER>/bin` directory and run the `standalone.sh` (Linux, Mac) or `standalone.bat` (Windows) file. 
 
 ## Using Zanata
 
