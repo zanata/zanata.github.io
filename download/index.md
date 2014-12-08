@@ -31,7 +31,7 @@ You can run Zanata on JBoss EAP 6 or Wildfly. Just download one of the archives 
 
 ## Run the installer
 
-Zanata comes bundled with an installer that helps with some of the initial setup. Simply run `<ZANATA_SERVER>/bin/zanata-installer/install.sh` (there's also a .bat file if you are on Windows) and the installation sciprt will start asking some configuration questions.
+Zanata comes bundled with an installer that helps with some of the initial setup. Simply run `<JBOSS>/bin/zanata-installer/install.sh` (there's also a .bat file if you are on Windows) and the installation script will start asking some configuration questions.
 
 The installer will also download the Zanata web application and place it in the JBoss installation.
 
@@ -39,7 +39,7 @@ The installer will also download the Zanata web application and place it in the 
 
 Beginning with version 2.0, Zanata no longer creates an admin user by default. You need to register specific users to have administrative privileges.
 
- 1. Open the `<ZANATA_SERVER>/standalone/configuration/standalone.xml` file.
+ 1. Open the `<JBOSS>/standalone/configuration/standalone.xml` file.
 
  1. Locate the following line, and replace `admin` with a comma-separated list of users that require administrator privileges on the system.
  `<simple name="java:global/zanata/security/admin-users" value="admin"/>`
@@ -51,7 +51,7 @@ Beginning with version 2.0, Zanata no longer creates an admin user by default. Y
 
  This is the default email address that will appear as the sender on Zanata emails.
 
- 1. The following properties relate to the SMTP email server that Zanata uses to send emails. It defaults to a locally installed server using port 25. Add suitable values to suit your configuration. If a particular property does not apply to the email server being used, you can comment it out or remove it completely.
+ 1. The following properties relate to the SMTP email server that Zanata uses to send emails. It defaults to a locally installed server using port 25. Add values to suit your configuration. If a particular property does not apply to the email server being used, you can comment it out or remove it completely.
 
   ```
   <simple name="java:global/zanata/smtp/host" value="" />
@@ -64,7 +64,7 @@ Beginning with version 2.0, Zanata no longer creates an admin user by default. Y
 
 ## Running Zanata
 
-Go to the `<ZANATA_SERVER>/bin` directory and run the `standalone.sh` (Linux, Mac) or `standalone.bat` (Windows) file. 
+Go to the `<JBOSS>/bin` directory and run the `standalone.sh` (Linux, Mac) or `standalone.bat` (Windows) file. 
 
 ## Using Zanata
 
