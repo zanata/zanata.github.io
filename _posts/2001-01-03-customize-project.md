@@ -130,6 +130,27 @@ The access restriction feature is intended for use with special roles that can b
 
 ------------
 
+## Webhooks
+
+<figure>
+<img alt="Project Webhooks Settings tab" src="{{ site.url }}/images/341-project-webhooks-settings.png" />
+<figcaption>Project Webhooks Settings tab</figcaption>
+</figure>
+
+The Webhooks feature is HTTP callbacks which are triggered when a document in a language has reached a certain milestone. Currently, webhooks events will be triggered when
+
+- A document has reached 100% Translated
+- A document has reached 100% Approved (by reviewer)
+
+When an event occurs, Zanata will make a HTTP POST to the URI configured in the project.
+
+### Adding a Webhook URI
+
+<img alt="Project Webhooks Settings tab" src="{{ site.url }}/images/341-project-webhooks-settings-2.png" />
+Enter a valid URI into the provided text input. Hit the 'enter' key or click on 'Add webhook' button to add the URI.
+
+------------
+
 ## About
 
 <figure>
