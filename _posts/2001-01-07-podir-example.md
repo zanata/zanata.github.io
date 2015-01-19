@@ -81,17 +81,17 @@ Similarly, the `{{ site.cli_client_name }} push` command is used to upload your 
 + To push translations only:
 
 ```bash
-{{ site.cli_client_name }} pull -s pot -t . --push-type trans
+{{ site.cli_client_name }} push -s pot -t . --push-type trans
 ```
 
 + To push sources only
 
 ```bash
-{{ site.cli_client_name }} pull -s pot -t .
+{{ site.cli_client_name }} push -s pot -t .
 ```
 
 + To push both sources and translations
 
 ```bash
-{{ site.cli_client_name }} pull -s pot -t . --push-type both
+{{ site.cli_client_name }} push -s pot -t . --push-type both
 ```
