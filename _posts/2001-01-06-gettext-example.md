@@ -70,17 +70,17 @@ Similarly, the `{{ site.cli_client_name }} push` command is used to upload your 
 + To push translations only:
 
 ```bash
-{{ site.cli_client_name }} pull -s . -t . --push-type trans
+{{ site.cli_client_name }} push -s . -t . --push-type trans
 ```
 
 + To push sources only
 
 ```bash
-{{ site.cli_client_name }} pull -s . -t .
+{{ site.cli_client_name }} push -s . -t .
 ```
 
 + To push both sources and translations
 
 ```bash
-{{ site.cli_client_name }} pull -s . -t . --push-type both
+{{ site.cli_client_name }} push -s . -t . --push-type both
 ```
