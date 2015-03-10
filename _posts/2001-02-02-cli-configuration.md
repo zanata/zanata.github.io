@@ -93,7 +93,7 @@ Supported placeholders/variables are:
  1. **{locale\_with\_underscore}** same as above except all hyphens '-' will be replaced with underscores '_'. This is typically used in properties and gettext projects.
  1. **{extension}** the source document file extension
 
-For example, if your file structure is like following (where `{projectRoot}` is the root of your project and where zanata.xml lives):
+For example, if you have the following file structure (where `{projectRoot}` is the root directory of your project and contains zanata.xml):
 
 ```
 {projectRoot}/
@@ -117,7 +117,7 @@ You can then use below configuration:
 </rules>
 {% endhighlight %}
 
-Explaination: Since you define your `<src-dir>` as `templates`, file `templates/messages/kdeedu/kalzium.pot` will be mapped to a relative path file name which is `messages/kdeedu/kalzium.pot`. It then will be partitioned into several tokens to form the variables:
+Explanation: Since you have defined `<src-dir>` as `templates`, the source document `templates/messages/kdeedu/kalzium.pot` will have its path extracted relative to `{projectRoot}/templates`, which gives the relative path `messages/kdeedu/kalzium.pot`. The relative path then will be partitioned into several tokens to form the following variables:
 
 ```
 {path}						= 'messages/kdeedu/'
@@ -126,6 +126,10 @@ Explaination: Since you define your `<src-dir>` as `templates`, file `templates/
 {locale_with_underscore}	= 'de_DE'
 {extension}					= 'pot' 
 ```
+> **NOTE** the relative path `messages/kdeedu/kalzium.pot` will be the document's unique identifier inside Zanata. 
+> If you change `src-dir` setting later, e.g. to ".", which results in a change of the relative path to `templates/messages/kdeedu/kalzium.pot`, 
+> pushing again will create a new document with the new path as its unique identifier, and the old document will be considered obsolete and will not be visible to anyone. 
+> The old document's translations will not be copied to the new document automatically, but they will appear as Translation Memory matches. This can be confusing and frustrating for translators.
 
 As the rule is defined as `{locale}/{path}/{filename}.po`, for locale `de-DE`, 
 
