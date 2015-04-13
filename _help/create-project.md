@@ -1,7 +1,7 @@
 ---
 title:  "Project Creation"
 last-updated: 2014-10-30
-redirect_from: "/help/projects/create-project"
+redirect_from: "/help/projects/create-project/"
 ---
 
 Anyone with an account can upload source strings to Zanata. The first step is to create a project:
