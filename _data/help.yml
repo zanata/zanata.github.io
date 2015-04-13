@@ -58,3 +58,7 @@
   - uploading-glossaries
   - editing-glossaries
   - deleting-glossaries
+
+- title: Integrations
+  docs:
+  - drupal-plugin

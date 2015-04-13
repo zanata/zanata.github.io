@@ -1,9 +1,7 @@
 ---
-layout: help
 title:  "The Drupal Plugin"
-categories:
-- help
-- drupal-plugin
+last-updated: 2015-02-10
+redirect_from: "/help/drupal-plugin/drupal-plugin"
 ---
 
 If you wish to translate the content of a Drupal website, you can install the Drupal module TMGMT Zanata to help send text and translations between Drupal and Zanata.
