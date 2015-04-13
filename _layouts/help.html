@@ -4,20 +4,23 @@ layout: default
 
 <main role="main" class="l--push-top-1 l--push-bottom-2">
   <div class="l__wrapper">
-    <div class="g">
-      <div class="g__item w--3-4">
+    <div class="g g--rev g--loose">
+      <div class="g__item w--2-3 l--push-bottom-2">
+        <p class="l--push-bottom-0"><a href="{{ site.url }}/help">Help</a></p>
         <h1>{{ page.title }}</h1>
-        <p class="l--push-bottom-1">
-          <a href="{{ site.url }}/help"><i class="i i--arrow-left"></i> Back to help</a>
-        </p>
-
+        <p class="l--push-v-1 txt--meta"><span title="Last Updated"><i class="i i--history"></i> Last updated: {{ page.last-updated | date: "%-d %B %Y"}}</span></p>
         <div class="prose">
         {{ content }}
           <p>{{ page.tags }}</p>
         </div>
       </div>
-      <div class="g__item w--1-4">
-        {% include help-menu.html %}
+      <div class="g__item w--1-3">
+        <div class="l--pad-top-1 l--pad-h-1 l--pad-bottom-quarter bg--high">
+          <div class="l--push-bottom-1">
+            {% include help-search.html %}
+          </div>
+          {% include help-sections.html %}
+        </div>
       </div>
     </div>
   </div>

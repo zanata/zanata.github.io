@@ -1,0 +1,68 @@
+- title: Overview
+  docs:
+  - workflow-overview
+
+- title: Projects
+  docs:
+  - create-project
+  - create-version
+  - upload-strings
+  - project-settings
+  - importing-projects
+  - gettext-example
+  - podir-example
+
+- title: CLI
+  docs:
+  - cli-install
+  - cli-configuration
+  - cli-init
+  - cli-pull
+  - cli-push
+
+- title: Review
+  docs:
+  - enabling-review
+  - adding-reviewer
+  - translation-review
+
+- title: Reuse
+  docs:
+  - copytrans-explained
+  - copytrans-use
+
+- title: Maven Plugin
+  docs:
+  - installing-maven-plugin-install
+  - configuring-maven-plugin
+  - maven-plugin-commands
+
+- title: Dashboard
+  docs:
+  - user-dashboard
+
+- title: Accounts
+  docs:
+  - sign-up
+  - user-settings
+
+- title: Translation
+  docs:
+  - adding-translators
+  - preparing-for-translation
+  - translating
+
+- title: Glossary
+  docs:
+  - glossary-roles-permissions
+  - uploading-glossaries
+  - editing-glossaries
+  - deleting-glossaries
+
+- title: Integrations
+  docs:
+  - drupal-plugin
+
+- title: API
+  docs:
+  - api-documentation
