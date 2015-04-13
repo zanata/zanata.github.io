@@ -10,9 +10,9 @@
     {% assign a = "" %}
   {% endif %}
 
-  {% for p in site.help %}
-    {% if p.url == item_url %}
-      <li class="{{ a }}"><a href="{{ site.url }}{{ p.url }}">{{ p.title }}</a></li>
+  {% for pg in site.help %}
+    {% if pg.url == item_url %}
+      <li class="{{ a }}"><a href="{{ site.url }}{{ pg.url }}">{{ pg.title }}</a></li>
     {% endif %}
   {% endfor %}
 
