@@ -1,7 +1,7 @@
 ---
 title:  "Initialising a Project"
 last-updated: 2014-10-30
-redirect_from: "/help/cli/cli-init"
+redirect_from: "/help/cli/cli-init/"
 ---
 
 To initialise a project from the command line, the `init` command can be used. This command will guide you through the steps necessary to set up a new or existing project, and start using Zanata.

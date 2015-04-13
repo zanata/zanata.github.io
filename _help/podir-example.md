@@ -1,7 +1,7 @@
 ---
 title:  "Podir Project Example"
 last-updated: 2014-10-30
-redirect_from: "/help/projects/podir-example"
+redirect_from: "/help/projects/podir-example/"
 ---
 
 This document presents an example of a Zanata project with type `podir`. It assumes that you have already created a project and a version (See [Project Creation]({{ site.url }}/help/projects/create-version) ).

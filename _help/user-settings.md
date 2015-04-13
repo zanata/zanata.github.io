@@ -1,7 +1,7 @@
 ---
 title:  Changing User Settings
 last-updated: 2014-10-30
-redirect_from: "/help/accounts/user-settings"
+redirect_from: "/help/accounts/user-settings/"
 tags:
   - video
 ---

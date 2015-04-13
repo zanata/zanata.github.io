@@ -1,7 +1,7 @@
 ---
 title:  "Project Settings"
 last-updated: 2014-10-30
-redirect_from: "/help/projects/customize-project"
+redirect_from: "/help/projects/customize-project/"
 ---
 
 Once a project has been created, the maintainer can add further details and project behaviour via the Settings tab.

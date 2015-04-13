@@ -1,7 +1,7 @@
 ---
 title:  "Maven Plugin Commands"
 last-updated: 2014-10-30
-redirect_from: "/help/maven-plugin/maven-plugin-commands"
+redirect_from: "/help/maven-plugin/maven-plugin-commands/"
 
 pluginVersion: "3.1.2"
 ---

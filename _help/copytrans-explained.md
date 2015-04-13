@@ -1,7 +1,7 @@
 ---
 title:  "Copy Trans Explained"
 last-updated: 2014-10-30
-redirect_from: "/help/reuse/copytrans-explained"
+redirect_from: "/help/reuse/copytrans-explained/"
 
 copytrans: "Copy Trans"
 ---

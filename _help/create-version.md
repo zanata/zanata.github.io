@@ -1,7 +1,7 @@
 ---
 title:  "Version Creation"
 last-updated: 2014-10-30
-redirect_from: "/help/projects/create-version"
+redirect_from: "/help/projects/create-version/"
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title:  "Installing the Maven Plugin"
 last-updated: 2014-10-30
-redirect_from: "/help/maven-plugin/maven-plugin-install"
+redirect_from: "/help/maven-plugin/maven-plugin-install/"
 
 pluginVersion: "3.1.2"
 ---

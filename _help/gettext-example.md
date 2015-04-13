@@ -1,7 +1,7 @@
 ---
 title:  "Gettext Project Example"
 last-updated: 2014-10-30
-redirect_from: "/help/projects/gettext-example"
+redirect_from: "/help/projects/gettext-example/"
 ---
 
 This document presents an example of a Zanata project with type `gettext`. It assumes that you have already created a project and a version (See [Project Creation]({{ site.url }}/help/projects/create-project) ).

@@ -1,7 +1,7 @@
 ---
 title:  Signing Up
 last-updated: 2014-10-30
-redirect_from: "/help/accounts/sign-up"
+redirect_from: "/help/accounts/sign-up/"
 ---
 
 You can create an account on Zanata using an OpenID login (such as Google or Fedora), or by creating a password specific to Zanata. You can set or change your password and add OpenID accounts to your Zanata account at any time.

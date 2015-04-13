@@ -1,7 +1,7 @@
 ---
 title:  "Editing Glossaries"
 last-updated: 2014-10-30
-redirect_from: "/help/glossary/glossary-edit"
+redirect_from: "/help/glossary/glossary-edit/"
 ---
 
 ### Prerequisite

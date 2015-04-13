@@ -1,7 +1,7 @@
 ---
 title:  "Uploading Glossaries"
 last-updated: 2014-10-30
-redirect_from: "/help/glossary/glossary-upload"
+redirect_from: "/help/glossary/glossary-upload/"
 ---
 ### Prerequisite
 See [glossary roles and permission]({{ site.url }}/help/glossary/glossary-roles-permissions) for permission setup.

@@ -1,7 +1,7 @@
 ---
 title:  "Configuring the Client"
 last-updated: 2014-10-30
-redirect_from: "/help/cli/cli-configuration"
+redirect_from: "/help/cli/cli-configuration/"
 ---
 
 {{ site.cli_client_name }} requires User Configuration and Project-Version Configuration.

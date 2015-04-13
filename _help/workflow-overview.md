@@ -1,7 +1,7 @@
 ---
 title:  "Zanata Workflow Overview"
 last-updated: 2014-10-30
-redirect_from: "/help/overview/workflow-overview"
+redirect_from: "/help/overview/workflow-overview/"
 
 ---
 

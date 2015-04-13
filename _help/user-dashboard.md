@@ -1,7 +1,7 @@
 ---
 title:  "User Dashboard"
 last-updated: 2014-10-30
-redirect_from: "/help/dashboard/user-dashboard"
+redirect_from: "/help/dashboard/user-dashboard/"
 ---
 
 The dashboard aims to help you quickly see and navigate to content that is relevant to you. With the dashboard you can:

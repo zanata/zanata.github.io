@@ -1,7 +1,7 @@
 ---
 title:  Adding Translators  
 last-updated: 2014-10-30
-redirect_from: "/help/translation/translator-add"
+redirect_from: "/help/translation/translator-add/"
 ---
 
 ## Requesting Language Team Membership (for Translators)

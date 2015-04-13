@@ -1,7 +1,7 @@
 ---
 title:  "Glossary Roles and Permissions"
 last-updated: 2014-10-30
-redirect_from: "/help/glossary/glossary-roles-permissions"
+redirect_from: "/help/glossary/glossary-roles-permissions/"
 ---
 
 <p class='message--warning'>

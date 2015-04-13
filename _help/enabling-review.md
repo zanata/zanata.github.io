@@ -1,7 +1,7 @@
 ---
 title:  "Enabling Review"
 last-updated: 2014-10-30
-redirect_from: "/help/review/review-activating"
+redirect_from: "/help/review/review-activating/"
 ---
 
 Translation review can be turned on or off for any project-version in Zanata. When translation review is turned off, translations are considered ready to use when they are saved as 'translated' by a translator. When translation review is turned on, translations are not considered ready to use until a reviewer has marked them as 'approved'. More information on the review workflow can be found at [Review Workflow]({{ site.url }}/help/review/review-workflow)

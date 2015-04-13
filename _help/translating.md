@@ -1,7 +1,7 @@
 ---
 title:  Translating
 last-updated: 2014-10-30
-redirect_from: "/help/translation/translating"
+redirect_from: "/help/translation/translating/"
 ---
 
 These instructions are for using the translation editor. Instructions for opening the translation editor can be found at [Preparing for Translation]({{ site.url }}/help/translation/preparing-for-translation).

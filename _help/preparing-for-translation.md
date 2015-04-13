@@ -1,7 +1,7 @@
 ---
 title:  Preparing for Translation
 last-updated: 2014-10-30
-redirect_from: "/help/translation/preparing-for-translation"
+redirect_from: "/help/translation/preparing-for-translation/"
 ---
 
 Before translating, you must join a language team for any language you want to translate. See [Joining a Language Team]({{ site.url }}/help/translation/translator-add)

@@ -1,7 +1,7 @@
 ---
 title:  "Translation Review"
 last-updated: 2014-10-30
-redirect_from: "/help/review/review-workflow"
+redirect_from: "/help/review/review-workflow/"
 ---
 
 Some project-versions require translations to be reviewed before they are considered ready to use. Instructions for changing this setting can be found at [Turning review on or off]({{ site.url }}/help/review/review-activating)

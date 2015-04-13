@@ -1,7 +1,7 @@
 ---
 title:  "Configuring the Maven Plugin"
 last-updated: 2014-10-30
-redirect_from: "/help/maven-plugin/maven-plugin-config"
+redirect_from: "/help/maven-plugin/maven-plugin-config/"
 
 pluginVersion: "3.1.2"
 ---

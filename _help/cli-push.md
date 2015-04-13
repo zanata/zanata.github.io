@@ -1,7 +1,7 @@
 ---
 title:  "Document Upload with Client"
 last-updated: 2014-10-30
-redirect_from: "/help/cli/cli-push"
+redirect_from: "/help/cli/cli-push/"
 ---
 
 To upload documents to your project-version, the command-line client's `push` command can be used.

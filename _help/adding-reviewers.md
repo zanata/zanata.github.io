@@ -1,7 +1,7 @@
 ---
 title:  "Adding Reviewers"
 last-updated: 2014-10-30
-redirect_from: "/help/review/reviewer-add"
+redirect_from: "/help/review/reviewer-add/"
 ---
 
 At the time of writing, translation review can only be performed for a language by users who are reviewers for that language. The language team coordinators for the language decide which users will be reviewers for the language.

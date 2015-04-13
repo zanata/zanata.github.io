@@ -1,7 +1,7 @@
 ---
 title:  "Document Download with Client"
 last-updated: 2014-10-30
-redirect_from: "/help/cli/cli-pull"
+redirect_from: "/help/cli/cli-pull/"
 ---
 
 To download documents from your project-version, the command-line client's `pull` command can be used.

@@ -1,7 +1,7 @@
 ---
 title:  "Importing Projects"
 last-updated: 2014-10-30
-redirect_from: "/help/projects/importing-projects"
+redirect_from: "/help/projects/importing-projects/"
 ---
 
 This document will provide help when importing or migrating projects into Zanata from other translation platforms. You need a user account on the Zanata instance you will migrate to. 
