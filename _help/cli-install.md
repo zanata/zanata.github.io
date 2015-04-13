@@ -1,7 +1,7 @@
 ---
 title:  "Installing the Client"
 last-updated: 2014-10-30
-redirect_from: "/help/projects/cli-install/"
+redirect_from: "/help/cli/cli-install/"
 ---
 
 The Zanata client ({{ site.cli_client_name }}) can be installed on most systems. Installation is easiest under Fedora, other systems can use Apache Ivy for installation. Manual installation is also possible.
