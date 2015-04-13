@@ -62,3 +62,7 @@
 - title: Integrations
   docs:
   - drupal-plugin
+
+- title: API
+  docs:
+  - api-documentation
