@@ -1,6 +1,6 @@
 name: Zanata
 markdown: redcarpet
-highlighter: true
+highlighter: pygments
 url: http://zanata.org
 permalink: /:title
 show_drafts: false
