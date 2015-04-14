@@ -24,8 +24,8 @@ author_username: definite
 The editor prototype can be accessed via the **(Try the new alpha editor)** button at the top of the regular editor.  It showcases the look and feel, workflow and intended direction of Zanata.
 
 <figure>
-<img src="{{ site-url }}/images/posts/new-editor-screenshot.png" alt="New editor">
-<figcaption>Click "Try the new alpha editor" to try the new editor</figcaption>
+<img src="{{ site-url }}/images/posts/new-editor-preview.png" alt="New editor">
+<figcaption>The new alpha editor</figcaption>
 </figure>
 
 
