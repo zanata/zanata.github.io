@@ -17,14 +17,14 @@ author_username: definite
 - [1088137](https://bugzilla.redhat.com/show_bug.cgi?id=1088137) - Translation Editor: Alpha 1 Prototype
 
 <figure>
-   <img src="{{ site-url }}/images/posts/new-editor-button.jpg" alt="Button to the new editor">
+   <img src="{{ site-url }}/images/posts/new-editor-button.png" alt="Button to the new editor">
    <figcaption>Click "Try the new alpha editor" to try the new editor</figcaption>
 </figure>
 
 The editor prototype can be accessed via the **(Try the new alpha editor)** button at the top of the regular editor.  It showcases the look and feel, workflow and intended direction of Zanata.
 
 <figure>
-<img src="{{ site-url }}/images/posts/new-editor-screenshot.jpg" alt="New editor">
+<img src="{{ site-url }}/images/posts/new-editor-screenshot.png" alt="New editor">
 <figcaption>Click "Try the new alpha editor" to try the new editor</figcaption>
 </figure>
 
