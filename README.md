@@ -12,7 +12,7 @@ For more information, see https://help.github.com/articles/using-jekyll-with-pag
 ### Install Jekyll on Fedora
 
 ```bash
-$ yum install ruby ruby-devel gcc
+$ yum install ruby ruby-devel gcc zlib-devel
 $ gem install bundler execjs
 $ bundle install
 $ bundle exec jekyll serve --watch --config _dev_config.yml
