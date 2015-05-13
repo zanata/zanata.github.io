@@ -10,7 +10,7 @@ copytrans: "Copy Trans"
 
 For each string that does not yet have a translation in either a "Translated" or "Approved" state, {{page.copytrans}} searches for strings with exactly the same content that have a translation, and checks every string in every project in Zanata that has a translation in either a "Translated" or "Approved" state. When {{page.copytrans}} finds a matching string,  it checks a set of conditions to determine the next step. This is repeated for each language.
 
-Use the instructions in [Translation Reuse with Copy Trans]({{ site.url }}/help/reuse/copytrans-use) to modify what {{page.copytrans}} does with each condition.
+Use the instructions in [Translation Reuse with Copy Trans](http://docs.zanata.org/en/latest/user-guide/translation-reuse/copy-trans) to modify what {{page.copytrans}} does with each condition.
 
 *Note:* {{page.copytrans}} only considers strings that have exactly the same source content. If you want to use strings that are not exactly the same, use the Translation Memory Merge feature in the editor.
 
