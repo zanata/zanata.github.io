@@ -40,7 +40,7 @@ To add project-version configuration to your project directory:
 
 These steps should be repeated for each project-version before using any {{ site.cli_client_name }} commands for the project-version.
 
-You can customize `zanata.xml` with command hooks so that other tools will automatically run before or after Zanata commands. Read about command hooks at the [command hook page on the wiki](https://github.com/zanata/zanata-server/wiki/Client-Command-Hooks).
+You can customize `zanata.xml` with command hooks so that other tools will automatically run before or after Zanata commands. Read about command hooks at the [command hook page on the wiki](http://zanata-client.readthedocs.org/en/latest/command-hook/).
 
 
 ## Source directory and translation directory

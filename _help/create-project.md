@@ -47,7 +47,7 @@ A short description to provide a little more information for translators to iden
 
 Project Type defines the type of files that your project uses to store source and translation strings. This setting ensures that files for your project will be downloaded in the correct format.
 
-There is a brief description for each project type next to each project type option. If the description is insufficient, more information on each project type is available at [Project Types help page](http://zanata.readthedocs.org/en/latest/user-guide/project-types/).
+There is a brief description for each project type next to each project type option. If the description is insufficient, more information on each project type is available at [Project Types help page](http://docs.zanata.org/en/latest/user-guide/projects/project-types).
 
 ## Project Settings
 
