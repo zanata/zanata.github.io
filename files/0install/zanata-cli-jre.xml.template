@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Zanata command-line client</name>
+  <summary>Maven artifact org.zanata:zanata-cli</summary>
+  <description>Zanata command line client</description>
+  <homepage>http://zanata.org</homepage>
+  <category>Utility</category>
+  <icon href="http://assets-zanata.rhcloud.com/master/assets/img/logo/logo-32.png" type="image/png"/>
+
+  <group license="OSI Approved :: GNU Lesser General Public License (LGPL)">
+    <implementation version="{version}" main="bin/zanata-cli">
+      <manifest-digest/>
+      <archive href="http://search.maven.org/remotecontent?filepath=org/zanata/zanata-cli/{version}/zanata-cli-{version}-dist.zip"/>
+      <requires interface="http://repo.roscidus.com/java/openjdk-jre">
+        <environment name="JAVA_HOME" insert="." mode="replace" />
+      </requires>
+    </implementation>
+  </group>
+</interface>
+<!-- Template for zanata-cli.xml feed.
+     Usage: 0template zanata-cli.xml.template version=1.0 -->
