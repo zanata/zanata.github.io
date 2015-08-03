@@ -1,6 +1,7 @@
 ---
 title: "We've Got More Than 99 Problems and… They've Moved"
 layout: post
+permalink: /blog/bugzilla-to-jira
 categories:
 - blog
 tags:
@@ -23,7 +24,7 @@ Here are some of the benefits we hope the community gets out of this move:
 - An easier way to log bugs/feedback from within Zanata itself (Hopefully in an upcoming release)
 - A better place to ask questions than IRC, where you can ask any time of day and answers will be persistent and searchable by other community members
 
-So without further ado, you [can check out now](https://zanata.atlassian.net).
+So without further ado, you [can check it out now](https://zanata.atlassian.net).
 
 Once you have [created an account on our JIRA issue tracker](https://zanata.atlassian.net/admin/users/sign-up), you can then:
 
