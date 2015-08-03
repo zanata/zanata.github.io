@@ -1,5 +1,5 @@
 ---
-title: "We've Got More Than 99 Problems And… They've Moved"
+title: "We've Got More Than 99 Problems and… They've Moved"
 layout: post
 categories:
 - blog
