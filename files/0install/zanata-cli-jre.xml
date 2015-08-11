@@ -9,9 +9,9 @@
   <icon href="http://assets-zanata.rhcloud.com/master/assets/img/logo/logo-32.png" type="image/png"/>
 
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)">
-    <implementation id="sha1new=63de240c3c9fa906aab961148507d92d227dee35" main="bin/zanata-cli" released="2015-07-24" stability="stable" version="3.7.3">
-      <manifest-digest sha256new="6NVKY3TVZ6GUARU2HTTMDTHP54FSWLTO3BPAARSWWCIRBTUU5SAQ"/>
-      <archive extract="zanata-cli-3.7.3" href="http://search.maven.org/remotecontent?filepath=org/zanata/zanata-cli/3.7.3/zanata-cli-3.7.3-dist.zip" size="16086555"/>
+    <implementation id="sha1new=6628a469193613d8a93e39744380fbc538945400" main="bin/zanata-cli" released="2015-08-11" stability="stable" version="3.7.4">
+      <manifest-digest sha256new="N7GSY3TCVKFDIKYRKET7PUT2SUIMZCNKS53HCMSGF4HJXQCR73DQ"/>
+      <archive extract="zanata-cli-3.7.4" href="http://search.maven.org/remotecontent?filepath=org/zanata/zanata-cli/3.7.4/zanata-cli-3.7.4-dist.zip" size="16086526"/>
       <requires interface="http://repo.roscidus.com/java/openjdk-jre">
         <environment insert="." mode="replace" name="JAVA_HOME"/>
       </requires>
@@ -19,11 +19,11 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJVscgbAAoJEFwxfR5MW7UaI+EIAKscTdUpuU21EbygG5lQgiGZTyOf2A2gwliF
-SvsstVfA/4BH6VgvAkdU6nSVjz3CwvxOqU2c9jWXk548fIC5K9Ejm//ho+TMj7N/lpSavvxGcNQY
-A3cxIfjxoDHqwM4OUHGFjak+bEmsaS/XKXCtjkgwVf5E6bwFN4gCMAomgenCOZL5kFjISnQghLlY
-YM/TUGMYgLkf4lKvdfGKtIVVEZC1neN5I4XKwwFhiAVPui+Uro/OXxl2A4UETkwocCRG7bNOUNVS
-koUulpFbHKyMw8AO/c+zyRwpuWFb4QCs43NkalX3JjcoUgXavQVVWVlHyIJzWKLy8RleQ2l4oQJE
-iVs=
+iQEcBAABAgAGBQJVyYMsAAoJEFwxfR5MW7UagVAIANXDn8CaFuYxehu34vdyyoZZ2A9bB8hLtUam
+qAUUb7CAWyZdaBpzNi9J0mMgP6FRpTJjn+qvm9vxxe1pGfXYejclIVUjjR+WtcZJ/MqoUrguofwI
+p6hGBKBt5S/RvKPzZZk4UyaV5kMcfYbiZNazl9PAlQOCqIVIS8rTW3jeJxbVl0qiuAqvK5og/rF0
+p4yv9GUP7xIte4NsIUtcAczWGKhsEgo4kaMunQN9V8upz/fPy13syE4wvr3Aw0RHdXoiFrUdT7DD
+W2lH4vO8x4/rp9EnrGlujB4XWHBlsF7aBe3yq/1E9lNMCp2/GlAekIa3E2Ds8TdmB8aD3ZhY3H/f
+Eh8=
 
 -->
