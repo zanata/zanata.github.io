@@ -13,14 +13,5 @@ The major practical steps in the workflow are shown here:
 
 Information on each of these steps can be found in these guides. Links to appropriate sections follow:
 
-### Translators
-
- - [View strings and Save translations]({{ site-url }}/help/translation/translating)
-
-
-### Maintainers
-
- - [Create Project]({{ site-url }}/help/projects/create-project)
- - [Add Version]({{ site-url }}/help/projects/create-version)
- - [Push Strings]({{ site-url }}/help/cli/cli-push)
- - [Pull Translations]({{ site-url }}/help/cli/cli-pull)
+- [Maintainer Guide](http://docs.zanata.org/en/release/user-guide/project-maintainer-guide/)
+- [Translator Guide](http://docs.zanata.org/en/release/user-guide/translator-guide/)
