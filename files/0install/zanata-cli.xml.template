@@ -9,13 +9,10 @@
   <icon href="http://assets-zanata.rhcloud.com/master/assets/img/logo/logo-32.png" type="image/png"/>
 
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)">
-    <implementation version="{version}" main="bin/zanata-cli">
+    <implementation version="{version}">
       <manifest-digest/>
-      <archive href="http://search.maven.org/remotecontent?filepath=org/zanata/zanata-cli/{version}/zanata-cli-{version}-dist.zip"/>
-      <!-- Comment out this once https://github.com/0install/0install/blob/42e9fcf6debee1cc595c37f102a7cf0cb21fd858/ocaml/zeroinstall/distro_impls.ml#L430 implement JDK 8
-      <requires interface="http://repo.roscidus.com/java/openjdk-jre">
-        <environment name="JAVA_HOME" insert="." mode="replace" />
-      </requires> -->
+      <archive href="http://search.maven.org/remotecontent?filepath=org/zanata/zanata-cli/{version}/zanata-cli-{version}-dist.zip" dest="zanata/extract"/>
+      <command name="run" path="bin/zanata-cli"></command>
     </implementation>
   </group>
 </interface>

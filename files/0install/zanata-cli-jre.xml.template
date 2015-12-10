@@ -11,7 +11,7 @@
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)">
     <implementation version="{version}" main="bin/zanata-cli">
       <manifest-digest/>
-      <archive href="http://search.maven.org/remotecontent?filepath=org/zanata/zanata-cli/{version}/zanata-cli-{version}-dist.zip"/>
+      <archive href="http://search.maven.org/remotecontent?filepath=org/zanata/zanata-cli/{version}/zanata-cli-{version}-dist.zip" dest="zanata"/>
       <requires interface="http://repo.roscidus.com/java/openjdk-jre">
         <environment name="JAVA_HOME" insert="." mode="replace" />
       </requires>
