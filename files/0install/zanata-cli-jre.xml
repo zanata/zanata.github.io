@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="https://raw.githubusercontent.com/zanata/zanata.github.io/0install-update/files/0install/zanata-cli-jre.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Zanata command-line client</name>
+  <summary>Maven artifact org.zanata:zanata-cli</summary>
+  <description>Zanata command line client</description>
+  <homepage>http://zanata.org</homepage>
+  <category>Utility</category>
+  <icon href="http://assets-zanata.rhcloud.com/master/assets/img/logo/logo-32.png" type="image/png"/>
+
+  <group license="OSI Approved :: GNU Lesser General Public License (LGPL)">
+    <implementation id="sha1new=0871939d6b41b4da3e4f642370191703eea462f1" main="bin/zanata-cli" released="2015-12-10" stability="stable" version="3.8.1">
+      <manifest-digest sha256new="3QCPXQVN4AZ645XPJLROD6KBXZYLFTDAZ53EH72IS2NRDAX6NOUA"/>
+      <archive dest="zanata" extract="zanata-cli-3.8.1" href="http://search.maven.org/remotecontent?filepath=org/zanata/zanata-cli/3.8.1/zanata-cli-3.8.1-dist.zip" size="15100539"/>
+      <requires interface="http://repo.roscidus.com/java/openjdk-jre">
+        <environment insert="." mode="replace" name="JAVA_HOME"/>
+      </requires>
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJWaROTAAoJEFwxfR5MW7UaKCMH/2kX//XeTUapHDvUJmM967Um2tiM6u1bGcEj
+/tE/gsnAvHaNi146uTMFJTW4okejLexjHU11k3/aXovBhFXpkUnc1ecCzvAmocXTuCQPGrUmNI0j
+zJqYuPdBbka78xdtan1ictCPXuKT6+lH2ueN27HTrEl3A/bttyaFfaVcHsEr4ZNGdDKycvGiOUsU
+xsWkSkfhwF4vcGrfWyrCfS/S9OzgtMgKtdSfi+l1WRRNdIC4O3r3Ev3WkGSgi68619VkErTQMUx8
+tB3F/d/G5jQskQSSuptYVn4Hj+E3ifCtOziDMZ2CQsVlwSHfOZPhuIO/R0ngXPIyQ3TpWvJRKtPj
+hWA=
+
+-->

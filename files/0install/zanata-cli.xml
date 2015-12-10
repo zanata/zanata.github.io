@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="https://raw.githubusercontent.com/zanata/zanata.github.io/0install-update/files/0install/zanata-cli.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Zanata command-line client</name>
+  <summary>Maven artifact org.zanata:zanata-cli</summary>
+  <description>Zanata command line client</description>
+  <homepage>http://zanata.org</homepage>
+  <category>Utility</category>
+  <icon href="http://assets-zanata.rhcloud.com/master/assets/img/logo/logo-32.png" type="image/png"/>
+
+  <group license="OSI Approved :: GNU Lesser General Public License (LGPL)">
+    <implementation id="sha1new=e923da3acfaa69fb3144672a7d9daf8dae915da6" released="2015-12-10" stability="stable" version="3.8.1">
+      <manifest-digest sha256new="IVBHMBZRUWOLNC47HP7FPBL2UAZLLD3XZIZ5WMPAZAL7CPK3WPVA"/>
+      <archive dest="zanata/extract" extract="zanata-cli-3.8.1" href="http://search.maven.org/remotecontent?filepath=org/zanata/zanata-cli/3.8.1/zanata-cli-3.8.1-dist.zip" size="15100539"/>
+      <command name="run" path="bin/zanata-cli"/>
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJWaROSAAoJEFwxfR5MW7UaLNQIALWvRkB3CJZs6TAx0mVkiSFSAnHQKfgxwa4l
+WKP0aCoB3o0OOLyOSd7WkSGSmxzxCX+0r6BEItP3aL4iEgw6/tx3xXj0Rn3ITchYIoIPBVLUKQ9C
+m2vDvVbvVUve6X6kT1jmU4ovfBkJdp22aDDX4o4Uf74aiJlKZTsHG2lP9fYuJoa8T0MeyP4cwq0w
+28LT8BPR7DiqpenXYhcOvfiseh4rd1Wka63i6VKa/LC9ejsd3gVv2wUP+UcuD0N8cNxbjxN8hSvO
+1tLqJmNr9mtbbhdhqcCEX8MFQXBPWMs+O5zIY3CIp+3cyicbRRKjOaU4NliJPfcA0gXjwTqfKprB
+YjY=
+
+-->
