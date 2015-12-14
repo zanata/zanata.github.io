@@ -16,7 +16,7 @@ author_username: definite
 Zanata client version 3.8.1 is released.
 
 ## Highlights
-* From 3.8.0, copy Trans will nolonger run by default. 
+* From 3.8.0, copy Trans will no longer run by default. 
   Option `--copy-trans` is now required to invoke copy trans when pushing.
 
 ## Details
