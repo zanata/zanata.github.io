@@ -37,6 +37,18 @@ at the moment.
 <figcaption>Project creator permission in dialog Manage User</figcaption>
 </figure>
 
+### Project Team Management
+Project maintainers can now grant the users they trust to translate or manage the translators.
+
+If you know who are good at French, no need to wait for global French translation team permission,
+go to the tag **People** in project view, click **Add Someone**, 
+then you can add them as French translators of your project and start working.
+
+<figure>
+<img src="{{ site-url }}/images/posts/project-team-management.png" alt="Project team management">
+<figcaption>Project team management</figcaption>
+</figure>
+
 
 ### Search User in Main Search Bar
 The main search bar seen on the top of the page can now be used to search users.
