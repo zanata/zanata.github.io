@@ -3,9 +3,9 @@ title: About
 layout: page
 ---
 
-<p class="txt--lead">Zanata is a web-based system for managing localization projects. Localization (L10n) is the process of translating software or documentation into different languages.</p>
+<p class="txt--lead">Zanata is a web-based translation platform for managing localization projects. Localization (L10n) is the process of translating software or documentation into different languages.</p>
 
-Zanata is written in Java and uses modern web technologies such as JBoss, Seam, GWT, and Hibernate. It also presents a REST API. It currently supports translation of software through Gettext/PO, Java Properties and XLIFF (partial), and DocBook/Publican documentation through PO files. Projects can be uploaded to and downloaded from a Zanata server using a Maven plugin or a command-line client.
+Zanata is written in Java and uses modern web technologies such as JBoss, Seam, GWT, ReactJS and Hibernate. It also presents a REST API. It currently supports translation of software through Gettext/PO, Java Properties and XLIFF (partial), and DocBook/Publican documentation through PO files. Projects can be uploaded to and downloaded from a Zanata server using a Maven plugin or a command-line client.
 
 A public instance of Zanata is hosted on translate.zanata.org which accepts content from open source projects for translation.
 
