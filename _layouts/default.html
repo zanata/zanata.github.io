@@ -18,9 +18,14 @@
         <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/custom.css" />
         <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/syntax.css" />
         <!--<link rel="alternate" type="application/rss+xml"  href="{{ site.url }}/blog/rss.xml" title="Zanata Blog Posts Feed" />-->
+        <!--[if lte IE 8]>
+        <div id="ie-warn" class="bg--warning" style="padding: 25px 36px 25px 40px;">
+        <p>IE8 is not supported. You are using an UNSUPPORTED version of Internet Explorer and this website may not render correctly.</p>
+        <p>Please use an alternative browser such as <a href="https://www.google.com.au/chrome/browser/desktop">Chrome</a>, <a href="https://www.mozilla.org/en-GB/firefox/new/">Firefox</a> or <a href="http://www.opera.com/download">Opera</a>.</p>
+        </div>
+        <![endif]-->
     </head>
     <body class="new-zanata-body new-zanata" id="zanata-help">
-
       <header role="banner" class="header">
         <div class="constrain">
           {% if page.layout == "home" %}
