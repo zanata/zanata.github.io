@@ -15,7 +15,7 @@ Please
 
 ## Highlights
 
-This release has many UI changes an many improvements for web interface for web UI users, REST API users and system administrators.
+This release includes many UI changes and improvements to the web interface for web UI users, REST API users and system administrators.
 
 ### For Web UI End Users
 * 0% matched translation will never bother you again in TM panel.
