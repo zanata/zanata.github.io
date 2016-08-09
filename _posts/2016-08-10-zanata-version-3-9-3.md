@@ -10,12 +10,12 @@ tags:
 author: Ding-Yi Chen
 author_username: definite
 ---
-zanata-server-3.9.1 is released and deploy to all our servers.
-Please 
+zanata-server-3.9.3 is released and deploy to all our servers.
 
 ## Highlights
 
-This release includes many UI changes and improvements to the web interface for web UI users, REST API users and system administrators.
+This release fixes the login problems for Fedora and Yahoo
+authentication. As will as many UI changes and improvements to the web interface for web UI users, REST API users and system administrators.
 
 ### For Web UI End Users
 * 0% matched translation will never bother you again in TM panel.
