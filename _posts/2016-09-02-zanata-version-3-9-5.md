@@ -11,10 +11,10 @@ author: Ding-Yi Chen
 author_username: definite
 ---
 zanata-server-3.9.5 is released and deployed to all our servers.
-The improvement since last deploy (version 3.9.3) are:
+The improvements since last deploy (version 3.9.3) are:
 
  * Fixes the bug when users have non-ASCII characters in their full name,
- * Javascript alert and confirm dialogs becomes modal
+ * Javascript alert and confirm dialogs become modal
  * Better log for exception
 
 
