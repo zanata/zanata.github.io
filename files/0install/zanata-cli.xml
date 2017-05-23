@@ -25,10 +25,14 @@
       <manifest-digest sha256new="VWMORYIJE2FKZKACVWDWFNWQTZSBIYTS52H5SQ42XL22A55PODCA"/>
       <archive extract="zanata-cli-4.1.0" href="http://search.maven.org/remotecontent?filepath=org/zanata/zanata-cli/4.1.0/zanata-cli-4.1.0-dist.zip" size="16037492"/>
     </implementation>
+    <implementation id="sha1new=479726046fc7c42d7007a1500ec1dd423de83453" main="bin/zanata-cli" released="2017-05-23" version="4.1.1">
+      <manifest-digest sha256new="6YIRYD6GJZVQ3LAUBRFBKLCLIDVJULY4UYMO4IXKWIY7MATUX6HA"/>
+      <archive extract="zanata-cli-4.1.1" href="http://search.maven.org/remotecontent?filepath=org/zanata/zanata-cli/4.1.1/zanata-cli-4.1.1-dist.zip" size="16037507"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAlkjozwACgkQ53X6ZIsz1sBh3wCfdfUYKANXn1+9y0aJ3cvFIGLvNOYAn3AA7i8x
-weljfNSABmllDxDxfwWR
+iEYEABECAAYFAlkjzXAACgkQ53X6ZIsz1sCbngCeLumtqZO1JdNu5aP1178Oy4bDq1gAmgP5wSMl
+fIsRFd+OVP+REhcdeBCY
 
 -->

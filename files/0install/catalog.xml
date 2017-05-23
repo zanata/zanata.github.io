@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='resources/catalog.xsl'?>
+<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="https://raw.githubusercontent.com/zanata/zanata.github.io/master/files/0install/zanata-cli-jre.xml"><name>Zanata command-line client</name><summary>Maven artifact org.zanata:zanata-cli</summary><description>Zanata command line client</description><homepage>http://zanata.org</homepage><category>Utility</category><icon href="http://assets-zanata.rhcloud.com/master/assets/img/logo/logo-32.png" type="image/png"/></interface><interface uri="https://raw.githubusercontent.com/zanata/zanata.github.io/master/files/0install/zanata-cli.xml"><name>Zanata command-line client</name><summary>Maven artifact org.zanata:zanata-cli</summary><description>Zanata command line client</description><homepage>http://zanata.org</homepage><category>Utility</category><icon href="http://assets-zanata.rhcloud.com/master/assets/img/logo/logo-32.png" type="image/png"/></interface></c:catalog>
+<!-- Base64 Signature
+iEYEABECAAYFAlkjzUUACgkQ53X6ZIsz1sDQOwCfXw+GyNOtShhngtLU6vejdjv0jagAoIZGV1Py
+3tarXWPd0CAcyiIGBoM0
+
+-->
