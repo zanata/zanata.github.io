@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='resources/feed.xsl'?>
 <interface uri="https://raw.githubusercontent.com/zanata/zanata.github.io/master/files/0install/zanata-cli.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Zanata command-line client</name>
   <summary>Maven artifact org.zanata:zanata-cli</summary>
@@ -28,11 +28,7 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJYoTgJAAoJEFwxfR5MW7UaEQgH/RRXZ8Xrzd9xEWfMOrWGq4vOYK0qqiAiGKm7
-domSXRLBAB8aa0Ds807TyyMBeXsxtg2G/LBRPy2jV+9Lu6ZNhbudyr7esBdo50FtzIKy72WZ8Jce
-M0DM4zv5NB2+oyGkr4tHAYtyKXXkXLg/aZv2cHyRJIK7q1lWGDMDRFyqNZQlXkPuqzUA4Eps6AMp
-D+Zn7P8/2DtFndF1Vyp0hMqarEywRZrwlCtna7GgWbz9eRiWQ2q3X1YmMwtqXKgH/VPpuOPu+oui
-bEgQvsCrYUrD+F6aylDPJtMVzbKuRz10mgK1jjaSIWJb9qtdkHnh36QbY5qn+1qyWhJxveHOln0n
-SXQ=
+iEYEABECAAYFAlkjozwACgkQ53X6ZIsz1sBh3wCfdfUYKANXn1+9y0aJ3cvFIGLvNOYAn3AA7i8x
+weljfNSABmllDxDxfwWR
 
 -->

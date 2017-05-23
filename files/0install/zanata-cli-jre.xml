@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='resources/feed.xsl'?>
 <interface uri="https://raw.githubusercontent.com/zanata/zanata.github.io/master/files/0install/zanata-cli-jre.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Zanata command-line client</name>
   <summary>Maven artifact org.zanata:zanata-cli</summary>
@@ -28,14 +28,15 @@
       <manifest-digest sha256new="VWMORYIJE2FKZKACVWDWFNWQTZSBIYTS52H5SQ42XL22A55PODCA"/>
       <archive extract="zanata-cli-4.1.0" href="http://search.maven.org/remotecontent?filepath=org/zanata/zanata-cli/4.1.0/zanata-cli-4.1.0-dist.zip" size="16037492"/>
     </implementation>
+    <group>
+      <requires interface="http://repo.roscidus.com/java/openjdk-jre">
+        <environment insert="." mode="replace" name="JAVA_HOME"/>
+      </requires>
+    </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJYoTgLAAoJEFwxfR5MW7UauugIAJXcOMxABZz3frTxp1CrQJthKa+H/nulgPRj
-gx4W9Bj7ZFHTjDFLf0CQblvmLiiyd59fx3Ofa3UUsn0xUqYx1A8IT0gLanJaEPmb8hzM8i+/Wq/p
-8w6Po4yY6+5njIq/ksYBakz4QSGr1O1cJ+wU8XIIBeij4DnGQOmojAWTTmOewdc4ILegRBbq44vS
-l7Z8CPj2KSBS1SKxE5Jn0koFlf9vY51nFwyNS2IQJuQB4/xF0CDRnvEB63WG9Fb1vCDGp2tBaX6k
-loB6GDhYYKI8lan7HYnEUGlfJqqp+v/Bz8EYaUqJ6n2ErNk9ZDpl1Thw6nHkh3sF12XXJU3jwHuf
-4uQ=
+iEYEABECAAYFAlkjo0gACgkQ53X6ZIsz1sBXYACfVTUrQ+QpdyJCRv0jjKfb5Z7RESgAn35YsSvh
+aRangNXSAuQpUHJMxcUk
 
 -->
