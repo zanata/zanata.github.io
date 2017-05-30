@@ -11,7 +11,7 @@
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)">
     <implementation version="{version}" stability="{stability}" main="bin/zanata-cli">
       <manifest-digest/>
-      <archive href="http://search.maven.org/remotecontent?filepath=org/zanata/zanata-cli/{artifactVersion}/zanata-cli-{artifactVersion}-dist.zip"/>
+      <archive href="{dist_url_prefix}/{artifactVersion}/zanata-cli-{artifactVersion}-dist.zip"/>
     </implementation>
   </group>
   <feed-for interface="https://raw.githubusercontent.com/zanata/zanata.github.io/master/files/0install/zanata-cli.xml" />
