@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='resources/feed.xsl'?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
 <interface uri="https://raw.githubusercontent.com/zanata/zanata.github.io/master/files/0install/zanata-cli-jre.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Zanata command-line client</name>
   <summary>Maven artifact org.zanata:zanata-cli</summary>
@@ -40,15 +40,19 @@
         <manifest-digest sha256new="GNIHAD53UYFKX7YAOB6ZGX6UYRNW5UX62DOG2S6CV2RD6UABQEKQ"/>
         <archive extract="zanata-cli-4.2.0-rc-4" href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.2.0-rc-4/zanata-cli-4.2.0-rc-4-dist.zip" size="18334"/>
       </implementation>
+      <implementation id="sha1new=ffe823ccac582a49256c786f350b96752779bb8a" main="bin/zanata-cli" released="2017-06-01" stability="stable" version="4.2.1">
+        <manifest-digest sha256new="PNW2LXI4GIPTTGI7TLVTRTMHB4PQPZEEXNBVGCZT6P6TDCMP66JA"/>
+        <archive extract="zanata-cli-4.2.1" href="http://search.maven.org/remotecontent?filepath=org/zanata/zanata-cli/4.2.1/zanata-cli-4.2.1-dist.zip" size="16059596"/>
+      </implementation>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJZL5FNAAoJEFwxfR5MW7UaknQIAKIdaS81iaCwieF1F/j8KrDMly3v9xw/IwVI
-zy6o+caDfVAudMQboZAZSgvIr9PCVVxb5p8Ftja1lK77kLaH5hJ++MTgD+NxXe7P9HpS+JGjyK68
-M0nLo/bQuIWeKaaVxQlLF3nkrG5UbESrd8rH12Wzp4rJMOn46JxjBp2tP3wNcOaWaeLZmgW6VXoU
-enp/BdDW/VvWoo2DK6O0VHQsDYpbyIsGg0boJmAYmROh51cbD7QC/+9e3SsfXX0SgVnCxXJcNwc9
-ARaLtlRhq0IHynW5IQYtMZXxWNJ9uzJNO/aczPjOKSfcJqjd7qY7O5i0z8dptgHWEc/JCyfzVQ20
-0+w=
+iQEcBAABAgAGBQJZL5VzAAoJEFwxfR5MW7UaE6wH+wd2EQmQ2MOiWZLqN+laD+hDGtXGoQtldywm
+RYTG//yLXljvfE/zDsWNxFqFkZl4MJJ0hTF8ZBk5qO/W46cP+aQynbMLwFC0Wp2ZJ72bQlgfJ6bI
+C3KKWclyP2TscQ3CmE3jzDT2oSt7fNRQJaKrPGC5l7YGEjuwUCW6l7jMiiNYkqFuyDvO1+B8s0TX
+Qp7zD3ZbyN+Wb8gFL6QLr3GPnU/CxJEvtWS5CzHeN3zqf/HZ+DYXSEJfqb4PpdPjrA4K/qEkL29y
+qSawBDykq26YhdbHH51bpbFwYgcyonk0xDH51QpRZ9vlbqZDS5vuO11+MjdwFxCQTLJ3rDkze7VG
+6u8=
 
 -->
