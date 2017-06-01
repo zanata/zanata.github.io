@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type='text/xsl' href='resources/catalog.xsl'?>
-<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="https://raw.githubusercontent.com/zanata/zanata.github.io/master/files/0install/zanata-cli-jre.xml"><name>Zanata command-line client</name><summary>Maven artifact org.zanata:zanata-cli</summary><description>Zanata command line client</description><homepage>http://zanata.org</homepage><category>Utility</category><icon href="http://assets-zanata.rhcloud.com/master/assets/img/logo/logo-32.png" type="image/png"/></interface><interface uri="https://raw.githubusercontent.com/zanata/zanata.github.io/master/files/0install/zanata-cli.xml"><name>Zanata command-line client</name><summary>Maven artifact org.zanata:zanata-cli</summary><description>Zanata command line client</description><homepage>http://zanata.org</homepage><category>Utility</category><icon href="http://assets-zanata.rhcloud.com/master/assets/img/logo/logo-32.png" type="image/png"/></interface></c:catalog>
+<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="https://raw.githubusercontent.com/zanata/zanata.github.io/master/files/0install/zanata-cli.xml"><name>Zanata command-line client</name><summary>Maven artifact org.zanata:zanata-cli</summary><description>Zanata command line client</description><homepage>http://zanata.org</homepage><category>Utility</category><icon href="http://assets-zanata.rhcloud.com/master/assets/img/logo/logo-32.png" type="image/png"/></interface><interface uri="https://raw.githubusercontent.com/zanata/zanata.github.io/master/files/0install/zanata-cli-jre.xml"><name>Zanata command-line client</name><summary>Maven artifact org.zanata:zanata-cli</summary><description>Zanata command line client</description><homepage>http://zanata.org</homepage><category>Utility</category><icon href="http://assets-zanata.rhcloud.com/master/assets/img/logo/logo-32.png" type="image/png"/></interface></c:catalog>
 <!-- Base64 Signature
-iEYEABECAAYFAlkj65cACgkQ53X6ZIsz1sAPOQCeN5O6EL/rjHl+XEc0SBauzZthwYgAmwY4Bpwu
-9bvuC6l7mexKL1VEQU95
+iQEcBAABAgAGBQJZL492AAoJEFwxfR5MW7UaLdUH/29yxR1Kz6VW738KS18M5rzLcXVTZdcFsVUP
+DTsKQv1wPzmq2sUj3DMdkt+nz4/SrjPFrigMZr4f/RLpqqdb2b1yztogWEN9hk9lhl9wCeLVBoaz
+4mzGVg0CuM/AdXeZ/tXriCg4HKLKiyYvHvbYbI/P+o9kn5dHcNxaZLKskdI7fI07uv1RWzNQAe5G
+ZICJ/UkLdQd6o9Xfb7HWb7bpgAqSLhIrvfeXSY+LnKwMSvu8+qJvxfOnPAfAAIWu3lNBYloiHVnj
+QfWFJvpk4brj6jZp+1Pub2H+3XXObYFc4SDQc81gJPT+fk34wEPuIDdt5XDHMArc2FElsMa/x7UB
+mys=
 
 -->
