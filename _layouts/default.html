@@ -8,12 +8,11 @@
         {% else %}
         <title>{{ page.title }} | Zanata</title>
         {% endif %}
-        <link rel="shortcut icon" href="//assets-zanata.rhcloud.com/7/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="{{ site.url }}/images/favicon.ico" type="image/x-icon" />
         <meta name="viewport" content="width=device-width">
         <meta name="keywords" content="translation platform, translation, web based translation platform">
         {% if page.redirect-to %}<meta http-equiv="refresh" content="0; url={{ page.redirect-to }}">{% endif %}
-        <link rel="stylesheet" href="https://assets-zanata.rhcloud.com/7/assets/css/style.css">
-        <!-- <link rel="stylesheet" href="http://localhost:5000/assets/css/style.css"> -->
+        <link rel="stylesheet" href="{{ site.url }}/css/style.css">
         <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,400italic" />
         <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/custom.css" />
         <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/syntax.css" />
@@ -29,9 +28,9 @@
       <header role="banner" class="header">
         <div class="constrain">
           {% if page.layout == "home" %}
-          <h1 class="header__title heading--sub"><a href="{{ site.url }}"><img alt="logo" class="header__site-logo" src="https://assets-zanata.rhcloud.com/master/logo.svg"> Zanata</a></h1>
+          <h1 class="header__title heading--sub"><a href="{{ site.url }}"><img alt="logo" class="header__site-logo" src="{{ site.url }}/images/logo/logo.svg"> Zanata</a></h1>
           {% else %}
-          <h2 class="header__title heading--sub"><a href="{{ site.url }}"><img alt="logo" class="header__site-logo" src="https://assets-zanata.rhcloud.com/master/logo.svg"> Zanata</a></h2>
+          <h2 class="header__title heading--sub"><a href="{{ site.url }}"><img alt="logo" class="header__site-logo" src="{{ site.url }}/images/logo/logo.svg"> Zanata</a></h2>
           {% endif %}
           <nav id="nav-main" class="header__main-nav js-dropdown">
             <a href="#nav-main" class="header__main-nav__toggle js-dropdown__toggle"><i class="i i--huge i--list"></i><span class="is-invisible">Menu</span></a>
@@ -117,7 +116,7 @@
         </div>
       </footer>
       <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-      <script src="https://assets-zanata.rhcloud.com/4/assets/js/script.js"></script>
+      <script src="{{ site.url }}/js/assets-script.js"></script>
       <script src="{{ site.url }}/js/jquery.fastLiveFilter.js"></script>
       <script src="{{ site.url }}/js/script.js"></script>
     </body>
