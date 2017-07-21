@@ -11,6 +11,10 @@ Bstrap library last updated: June 2017
 
 ` index.html `
 
+` about.html `
+
+` release-notes.html `
+
 ` README.md `
 
 ` zanata.css `
@@ -22,9 +26,7 @@ Bstrap library last updated: June 2017
 ` assets/ `
 
 ## To Do
-1. About page
-2. Release notes page
-3. Communities page
-4. Blog page (first post on features)
-5. URLs (all pages)
-6. Grab remote scripts
+1. Communities page
+2. Blog page (first post on features)
+3. URLs (all pages)
+4. Grab remote scripts
