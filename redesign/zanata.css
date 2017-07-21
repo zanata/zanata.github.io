@@ -7,6 +7,12 @@ body {
     font-family: 'Open Sans', 'Source Sans Pro', 'Helvetica', sans-serif;
     background-color: #F0F2F4;
 }
+
+#not-home.container {
+    padding: 60px 15px 30px;
+    background-color: #f2f2f2;
+}
+
 a {
     color: #03A6D7;
 }
