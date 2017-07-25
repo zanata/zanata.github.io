@@ -7,12 +7,30 @@ body {
     font-family: 'Open Sans', 'Source Sans Pro', 'Helvetica', sans-serif;
     background-color: #F0F2F4;
 }
-
 #not-home.container {
     padding: 60px 15px 30px;
     background-color: #f2f2f2;
 }
-
+#not-home h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+#not-home h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+#not-home h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1.4rem;
+}
+#not-home h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+#not-home h5 {
+    font-size: 1.1rem;
+    margin-bottom: 1.1rem;
+}
 a {
     color: #03A6D7;
 }
