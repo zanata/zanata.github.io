@@ -62,7 +62,7 @@ a:active {
 .communities a img.img-thumbnail {
     background-color: transparent;
     border: none;
-    padding: 1rem;
+    padding: 0;
 }
 .container {
     width: auto;
@@ -79,6 +79,9 @@ a:active {
     background-color: #20718A;
     text-align: center;
     color: #fefefe;
+}
+#not-home .footer {
+    position: absolute;
 }
 .footer .container {
     width: inherit;
@@ -105,6 +108,7 @@ a:active {
   padding-right: 1rem;
   width:100%;
   padding-top: 1rem;
+  text-align: left;
 }
 .rh-footer .copyright, .rh-footer .supported {
   width: 100%;
@@ -233,6 +237,10 @@ a.navbar-brand img {
 .navbar-nav .nav-link {
     font-size: 1.1rem;
 }
+nav.blog-pagination {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
 .tab-content {
     background-color: #fefefe;
     padding: 2rem;
@@ -314,6 +322,9 @@ i.fa.fa-language {
     }
     .rh-footer .supported p {
       text-align: right;
+    }
+    .communities a img.img-thumbnail {
+      padding: 2rem;
     }
 }
 /* Medium devices (tablets, 768px and up) */
