@@ -4144,19 +4144,19 @@ Sub-headings can be used when placing a heading under another heading.
   margin-top: -0.1625em;
 }
 .new-zanata .list__item--fedora:before {
-  background-image: url(../img/fedora-logo.svg);
+  background-image: url(../images/fedora-logo.svg);
 }
 .new-zanata .list__item--google:before {
-  background-image: url(../img/google-logo.svg);
+  background-image: url(../images/google-logo.svg);
 }
 .new-zanata .list__item--yahoo:before {
-  background-image: url(../img/yahoo-logo.svg);
+  background-image: url(../images/yahoo-logo.svg);
 }
 .new-zanata .list__item--openid:before {
-  background-image: url(../img/openid-logo.svg);
+  background-image: url(../images/openid-logo.svg);
 }
 .new-zanata .list__item--zanata:before {
-  background-image: url(../img/logo/logo.svg);
+  background-image: url(../images/logo/logo.svg);
 }
 
 /*
@@ -6984,16 +6984,16 @@ Used in panel headers to match the header layout
   background-size: contain;
 }
 .new-zanata .button--fedora {
-  background-image: url(../img/fedora-logo.svg);
+  background-image: url(../images/fedora-logo.svg);
 }
 .new-zanata .button--google {
-  background-image: url(../img/google-logo.svg);
+  background-image: url(../images/google-logo.svg);
 }
 .new-zanata .button--yahoo {
-  background-image: url(../img/yahoo-logo.svg);
+  background-image: url(../images/yahoo-logo.svg);
 }
 .new-zanata .button--openid {
-  background-image: url(../img/openid-logo.svg);
+  background-image: url(../images/openid-logo.svg);
 }
 
 /*
@@ -8628,7 +8628,7 @@ a.loader.is-active, a.is-active.loader--mini, a.is-active.loader--small, a.is-ac
   text-align: center;
   height: 1.39286em;
   width: 4.99107em;
-  background: transparent url("../img/logo/logo-text.svg") 1.50893em center no-repeat;
+  background: transparent url("../images/logo/logo-text.svg") 1.50893em center no-repeat;
   background-size: 3.48214em;
   text-indent: 100%;
   white-space: nowrap;
