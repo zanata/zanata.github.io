@@ -80,7 +80,7 @@ a:active {
     text-align: center;
     color: #fefefe;
 }
-#not-home .footer {
+.short-page .footer {
     position: absolute;
 }
 .footer .container {
