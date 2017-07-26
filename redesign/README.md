@@ -26,7 +26,4 @@ Bstrap library last updated: June 2017
 ` assets/ `
 
 ## To Do
-1. Communities page
-2. Blog page (first post on features)
-3. URLs (all pages)
-4. Grab remote scripts
+Grab remote scripts
