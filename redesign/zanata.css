@@ -80,9 +80,6 @@ a:active {
     text-align: center;
     color: #fefefe;
 }
-.short-page .footer {
-    position: absolute;
-}
 .footer .container {
     width: inherit;
     padding: 1rem;
@@ -323,6 +320,9 @@ i.fa.fa-language {
     .rh-footer .supported p {
       text-align: right;
     }
+    .short-page .footer {
+        position: absolute;
+    }
     .communities a img.img-thumbnail {
       padding: 2rem;
     }
@@ -351,6 +351,9 @@ i.fa.fa-language {
     }
     .tab-content {
         padding-top: 2rem;
+    }
+    .shortish-page .footer {
+        position: absolute;
     }
 }
 /* Medium devices (tablets, 768px and up) */
