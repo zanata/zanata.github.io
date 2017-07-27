@@ -6,7 +6,7 @@ html {
 body {
     font-family: 'Open Sans', 'Source Sans Pro', 'Helvetica', sans-serif;
     background-color: #F0F2F4;
-    color: #333;
+    color: #546677;
 }
 #not-home.container {
     padding: 60px 15px 30px;
@@ -244,7 +244,7 @@ nav.blog-pagination {
 }
 .navbar-inverse .navbar-nav .nav-link,
 .navbar-inverse .navbar-nav .active>.nav-link {
-    color: #333;
+    color: #546677;
 }
 .navbar-inverse .navbar-nav .active>.nav-link {
     font-weight: 600;
@@ -259,7 +259,7 @@ nav.blog-pagination {
     width: 6rem !important;
 }
 i.fa.fa-github-square {
-    color: #333;
+    color: #546677;
     vertical-align: middle;
     opacity: 0.9;
 }
@@ -297,6 +297,9 @@ i.fa.fa-language {
 }
 .nav-tabs .nav-link {
     font-size: 0.875rem;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #546677;
 }
 /* Extra small devices (portrait phones, less than 576px) */
 /* No media query since this is the default in Bootstrap */
@@ -352,9 +355,6 @@ i.fa.fa-language {
     .tab-content {
         padding-top: 2rem;
     }
-    .shortish-page .footer {
-        position: absolute;
-    }
 }
 /* Medium devices (tablets, 768px and up) */
 
@@ -384,6 +384,9 @@ i.fa.fa-language {
     }
     .jumbotron p.small {
         padding-top: 1rem;
+    }
+    .shortish-page .footer {
+        position: absolute;
     }
 }
 
