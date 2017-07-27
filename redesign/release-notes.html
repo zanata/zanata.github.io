@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name=
-            "viewport">
+      "viewport">
     <meta content="" name="description">
     <meta content="" name="author">
     <link href="favicon.ico" rel="icon">
@@ -17,14 +17,14 @@
 <body>
 <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
     <button aria-controls="navbarsExampleDefault" aria-expanded="false"
-            aria-label="Toggle navigation"
-            class="navbar-toggler navbar-toggler-right"
-            data-target="#navbarsExampleDefault" data-toggle="collapse" type=
-                    "button"><span class="navbar-toggler-icon"></span></button>
+      aria-label="Toggle navigation"
+      class="navbar-toggler navbar-toggler-right"
+      data-target="#navbarsExampleDefault" data-toggle="collapse" type=
+      "button"><span class="navbar-toggler-icon"></span></button>
     <a class="navbar-brand" href="#"><img alt="Zanata logo"
-                                          src="assets/logo.svg">
+      src="assets/logo.svg">
         <span class="logo-text"><img alt="Zanata logo" src=
-                "assets/logo-text.svg"></span></a>
+          "assets/logo-text.svg"></span></a>
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
@@ -46,14 +46,15 @@
         </ul>
         <form class="my-2 my-lg-0">
             <a href="https://translate.zanata.org" role="button"
-               class="btn btn-outline-primary my-2 my-sm-0">Go to app</a>
-            <a href="https://zanata.ci.cloudbees.com/job/zanata-api-site/site/zanata-common-api/rest-api-docs/index.html"
-               role="button" class="btn btn-outline-default my-2 my-sm-0">API
+              class="btn btn-outline-primary my-2 my-sm-0">Go to app</a>
+            <a
+              href="https://zanata.ci.cloudbees.com/job/zanata-api-site/site/zanata-common-api/rest-api-docs/index.html"
+              role="button" class="btn btn-outline-default my-2 my-sm-0">API
                 docs</a>
             <a href="http://docs.zanata.org/" role="button"
-               class="btn btn-outline-default my-2 my-sm-0">Docs</a>
+              class="btn btn-outline-default my-2 my-sm-0">Docs</a>
             <a href="http://github.com/zanata/zanata-platform" role="button"
-               class="btn btn-link my-2 my-sm-0">
+              class="btn btn-link my-2 my-sm-0">
                 <i class="fa fa-github-square fa-2x"></i>
             </a>
         </form>
@@ -230,7 +231,8 @@
                 - Update information in frontend/src/main/web/docs/*.md
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-481">ZNTA-481</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-481">ZNTA-481</a>
                 - RFE: User should be able to log in with their username, or
                 their email
             </li>
@@ -440,11 +442,13 @@
                 - Use cleaner URLs for OpenID
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-107">ZNTA-107</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-107">ZNTA-107</a>
                 - RFE/TECH DEBT: Create build script for Zanata
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-100">ZNTA-100</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-100">ZNTA-100</a>
                 - RFE: Changing group settings does not show a success
                 notification
             </li>
@@ -565,16 +569,19 @@
                 - Change of contact details on Language Team with no members
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-579">ZNTA-579</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-579">ZNTA-579</a>
                 - Project creation "restrict access" feature too ambiguous.
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-468">ZNTA-468</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-468">ZNTA-468</a>
                 - Missing information about CopyTrans state "Approved" when copy
                 from "Approved"
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-61">ZNTA-61</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-61">ZNTA-61</a>
                 - Add suggestion match details view to React editor.
             </li>
             <li><a href="https://zanata.atlassian.net/browse/ZNTA-3">ZNTA-3</a>
@@ -610,10 +617,12 @@
         <h5 id="migration-guide">Migration Guide</h5>
         <p>From version 4.0.0, Zanata platform depends on JBossEAP 7 or Wildfly
             10, thus please refer
-            <a href="https://access.redhat.com/documentation/en/red-hat-jboss-enterprise-application-platform/7.0/single/migration-guide/">JBoss
+            <a
+              href="https://access.redhat.com/documentation/en/red-hat-jboss-enterprise-application-platform/7.0/single/migration-guide/">JBoss
                 EAP 7 Migration Guide</a>
             or
-            <a href="https://docs.jboss.org/author/display/WFLY10/How+do+I+migrate+my+application+from+AS7+to+WildFly">Migrate
+            <a
+              href="https://docs.jboss.org/author/display/WFLY10/How+do+I+migrate+my+application+from+AS7+to+WildFly">Migrate
                 my appliction from AS7 to WildFly</a> to migrate your
             configuration.</p>
         <p>Zanata has used system properties instead of JNDI since 3.9.0, but in
@@ -621,39 +630,40 @@
             deployment will abort if obsolete JNDI entries like the following
             are present:</p>
         <pre><code class="xml hljs"><span class="hljs-tag">&lt;<span
-                class="hljs-title">subsystem</span> <span
-                class="hljs-attribute">xmlns</span>=<span class="hljs-value">"urn:jboss:domain:naming:1.3"</span>&gt;</span>
+          class="hljs-title">subsystem</span> <span
+          class="hljs-attribute">xmlns</span>=<span class="hljs-value">"urn:jboss:domain:naming:1.3"</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-title">bindings</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-title">simple</span> <span
-            class="hljs-attribute">name</span>=<span class="hljs-value">"java:global/zanata/security/auth-policy-names/kerberos"</span> <span
-            class="hljs-attribute">value</span>=<span class="hljs-value">"zanata.kerberos"</span>/&gt;</span>
+      class="hljs-attribute">name</span>=<span class="hljs-value">"java:global/zanata/security/auth-policy-names/kerberos"</span> <span
+      class="hljs-attribute">value</span>=<span class="hljs-value">"zanata.kerberos"</span>/&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-title">simple</span> <span
-            class="hljs-attribute">name</span>=<span class="hljs-value">"java:global/zanata/security/admin-users"</span> <span
-            class="hljs-attribute">value</span>=<span
-            class="hljs-value">"admin"</span>/&gt;</span>
+      class="hljs-attribute">name</span>=<span class="hljs-value">"java:global/zanata/security/admin-users"</span> <span
+      class="hljs-attribute">value</span>=<span
+      class="hljs-value">"admin"</span>/&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-title">simple</span> <span
-            class="hljs-attribute">name</span>=<span class="hljs-value">"java:global/zanata/files/document-storage-directory"</span> <span
-            class="hljs-attribute">value</span>=<span class="hljs-value">"/var/lib/zanata/files"</span>/&gt;</span>
+      class="hljs-attribute">name</span>=<span class="hljs-value">"java:global/zanata/files/document-storage-directory"</span> <span
+      class="hljs-attribute">value</span>=<span class="hljs-value">"/var/lib/zanata/files"</span>/&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-title">simple</span> <span
-            class="hljs-attribute">name</span>=<span class="hljs-value">"java:global/zanata/email/default-from-address"</span> <span
-            class="hljs-attribute">value</span>=<span class="hljs-value">"{{ zanata_noreply_address }}"</span>/&gt;</span>
+      class="hljs-attribute">name</span>=<span class="hljs-value">"java:global/zanata/email/default-from-address"</span> <span
+      class="hljs-attribute">value</span>=<span class="hljs-value">"{{ zanata_noreply_address }}"</span>/&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-title">simple</span> <span
-            class="hljs-attribute">name</span>=<span class="hljs-value">"java:global/zanata/security/auth-policy-names/internal"</span> <span
-            class="hljs-attribute">value</span>=<span class="hljs-value">"zanata.internal"</span>/&gt;</span>
+      class="hljs-attribute">name</span>=<span class="hljs-value">"java:global/zanata/security/auth-policy-names/internal"</span> <span
+      class="hljs-attribute">value</span>=<span class="hljs-value">"zanata.internal"</span>/&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-title">simple</span> <span
-            class="hljs-attribute">name</span>=<span class="hljs-value">"java:global/zanata/security/auth-policy-names/jaas"</span> <span
-            class="hljs-attribute">value</span>=<span class="hljs-value">"zanata.jaas"</span>/&gt;</span>
+      class="hljs-attribute">name</span>=<span class="hljs-value">"java:global/zanata/security/auth-policy-names/jaas"</span> <span
+      class="hljs-attribute">value</span>=<span
+      class="hljs-value">"zanata.jaas"</span>/&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-title">simple</span> <span
-            class="hljs-attribute">name</span>=<span class="hljs-value">"java:global/zanata/security/auth-policy-names/openid"</span> <span
-            class="hljs-attribute">value</span>=<span class="hljs-value">"zanata.openid"</span>/&gt;</span>
+      class="hljs-attribute">name</span>=<span class="hljs-value">"java:global/zanata/security/auth-policy-names/openid"</span> <span
+      class="hljs-attribute">value</span>=<span class="hljs-value">"zanata.openid"</span>/&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-title">simple</span> <span
-            class="hljs-attribute">name</span>=<span class="hljs-value">"java:global/zanata/smtp/port"</span> <span
-            class="hljs-attribute">value</span>=<span class="hljs-value">"${smtp.port,env.SMTP_PORT:2552}"</span> /&gt;</span>
+      class="hljs-attribute">name</span>=<span class="hljs-value">"java:global/zanata/smtp/port"</span> <span
+      class="hljs-attribute">value</span>=<span class="hljs-value">"${smtp.port,env.SMTP_PORT:2552}"</span> /&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-title">lookup</span> <span
-            class="hljs-attribute">name</span>=<span class="hljs-value">"java:jboss/exported/zanata/files/document-storage-directory"</span>
+      class="hljs-attribute">name</span>=<span class="hljs-value">"java:jboss/exported/zanata/files/document-storage-directory"</span>
       <span class="hljs-attribute">lookup</span>=<span class="hljs-value">"java:global/zanata/files/document-storage-directory"</span>/&gt;</span>
   <span class="hljs-tag">&lt;/<span
-          class="hljs-title">bindings</span>&gt;</span>
+    class="hljs-title">bindings</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-title">remote-naming</span>/&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-title">subsystem</span>&gt;</span>
 </code></pre>
@@ -840,82 +850,100 @@
                 - Client should use file types from server
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-958">ZNTA-958</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-958">ZNTA-958</a>
                 - Integrate sidebar
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-942">ZNTA-942</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-942">ZNTA-942</a>
                 - Zanata Sync authentication prototype
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-938">ZNTA-938</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-938">ZNTA-938</a>
                 - Webhook event for translation updated
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-858">ZNTA-858</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-858">ZNTA-858</a>
                 - Add new side menu bar to the server
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-841">ZNTA-841</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-841">ZNTA-841</a>
                 - Remove Angular from the zanata-spa build
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-840">ZNTA-840</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-840">ZNTA-840</a>
                 - Replace Angular ajax calls with an equivalent
                 framework-agnostic library
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-839">ZNTA-839</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-839">ZNTA-839</a>
                 - Replace all Angular services with async actions
                 (redux-thunk-middleware)
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-838">ZNTA-838</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-838">ZNTA-838</a>
                 - Move service state into the redux state tree
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-837">ZNTA-837</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-837">ZNTA-837</a>
                 - Combine the 3 redux stores (header, content, suggestions) to a
                 single store
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-836">ZNTA-836</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-836">ZNTA-836</a>
                 - Switch to redux to handle all state and events for document
                 content panel
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-835">ZNTA-835</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-835">ZNTA-835</a>
                 - Create React component tree for all UI in document content
                 panel
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-834">ZNTA-834</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-834">ZNTA-834</a>
                 - Code review and ensure full test coverage
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-746">ZNTA-746</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-746">ZNTA-746</a>
                 - Add a shortcut key for approving and rejecting translations
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-689">ZNTA-689</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-689">ZNTA-689</a>
                 - Support Qt TS files
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-685">ZNTA-685</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-685">ZNTA-685</a>
                 - Migrate document content (trans units) from AngularJS to
                 ReactJS
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-667">ZNTA-667</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-667">ZNTA-667</a>
                 - JSON file support
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-509">ZNTA-509</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-509">ZNTA-509</a>
                 - RFE: The table search 'x' button is in a funny place, put it
                 next to 'Cancel'?
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-52">ZNTA-52</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-52">ZNTA-52</a>
                 - [RFE] Allow admin to change native name of language
             </li>
         </ul>
@@ -1125,109 +1153,133 @@
                 - Redirection after login doesn't pick up hash location in url
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-906">ZNTA-906</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-906">ZNTA-906</a>
                 - NullPointerException in getLocaleAliasesByIteration
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-895">ZNTA-895</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-895">ZNTA-895</a>
                 - Glossary entries endpoint not working for application/xml
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-872">ZNTA-872</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-872">ZNTA-872</a>
                 - Superfluous 'Cancel' button on "New User" page
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-855">ZNTA-855</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-855">ZNTA-855</a>
                 - fedora.zanata.org allows FAS users to change their username
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-846">ZNTA-846</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-846">ZNTA-846</a>
                 - Group "request add project version" needs field limit
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-773">ZNTA-773</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-773">ZNTA-773</a>
                 - Documents list loader visible over header
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-527">ZNTA-527</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-527">ZNTA-527</a>
                 - UI waits unnecessarily for stats before displaying other info
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-504">ZNTA-504</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-504">ZNTA-504</a>
                 - Create Project description field validates only after user has
                 pressed save
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-459">ZNTA-459</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-459">ZNTA-459</a>
                 - Proto: New Project creation - where's the button?
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-448">ZNTA-448</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-448">ZNTA-448</a>
                 - RFE: As a translator, I would like to have a direct link to
                 the referencing entry in Translation Memory detail, so I can see
                 the context of the translation in TM and translate more
                 accurately
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-421">ZNTA-421</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-421">ZNTA-421</a>
                 - Reverse the compare order for TM diffs, remove strikeout
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-388">ZNTA-388</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-388">ZNTA-388</a>
                 - Invalid url validation on admin-&gt;server config Register url
                 field
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-369">ZNTA-369</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-369">ZNTA-369</a>
                 - RFE: Search results page should include Projects, People,
                 Groups
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-311">ZNTA-311</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-311">ZNTA-311</a>
                 - RFE: Zanata to handle English glossary translations and
                 ordering
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-289">ZNTA-289</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-289">ZNTA-289</a>
                 - RFE: Add an indicator to the sorting when it can be sorted in
                 asc or desc order
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-236">ZNTA-236</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-236">ZNTA-236</a>
                 - Cancel button on a glossary upload doesn't cancel
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-134">ZNTA-134</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-134">ZNTA-134</a>
                 - Long document names are not dealt with, and stretch outside
                 the bounds of panels
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-132">ZNTA-132</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-132">ZNTA-132</a>
                 - "Rejected" text state breaks the new editor
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-58">ZNTA-58</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-58">ZNTA-58</a>
                 - Show current workspace info as title of browser tab in React
                 editor
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-47">ZNTA-47</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-47">ZNTA-47</a>
                 - Have a consistent format for page titles
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-44">ZNTA-44</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-44">ZNTA-44</a>
                 - Java client is missing glossary commands
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-27">ZNTA-27</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-27">ZNTA-27</a>
                 - RFE: Autofocus on fields in create pages
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-18">ZNTA-18</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-18">ZNTA-18</a>
                 - Glossary push doesn't work if transLang not specified
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-16">ZNTA-16</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-16">ZNTA-16</a>
                 - Poor usability of history/bookmark feature
             </li>
             <li><a href="https://zanata.atlassian.net/browse/ZNTA-7">ZNTA-7</a>
@@ -1302,7 +1354,8 @@
         <h5 id="bug-fixes_7">Bug Fixes</h5>
         <ul>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-608">ZNTA-608</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-608">ZNTA-608</a>
                 - Error (exception) on project page after removing an alias
             </li>
         </ul>
@@ -1360,35 +1413,42 @@
             <li><a href="../user-guide/system-admin/configuration/installation">Installation</a>
             </li>
             <li>
-                <a href="../user-guide/system-admin/configuration/authentication">Configuration</a>
+                <a
+                  href="../user-guide/system-admin/configuration/authentication">Configuration</a>
             </li>
             <li>
-                <a href="../user-guide/system-admin/configuration/document-storage-directory">Document
+                <a
+                  href="../user-guide/system-admin/configuration/document-storage-directory">Document
                     Storage Directory</a></li>
         </ul>
         <h5 id="new-feature">New feature</h5>
         <ul>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-746">ZNTA-746</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-746">ZNTA-746</a>
                 - Add shortcut key for approve and reject translation
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-938">ZNTA-938</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-938">ZNTA-938</a>
                 - Webhook event for translation update by user.
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-746">ZNTA-746</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-746">ZNTA-746</a>
                 - Add shorcut key for approve and reject translation
             </li>
             <li><a href="https://zanata.atlassian.net/browse/ZNTA-1059">ZNTA-1059</a>
                 - Language coordinator can contact team members
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-858">ZNTA-858</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-858">ZNTA-858</a>
                 - New side menu bar replace top and bottom panel
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-855">ZNTA-855</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-855">ZNTA-855</a>
                 - Add system property to enforce username for registration
             </li>
         </ul>
@@ -1410,24 +1470,25 @@
         extension is present in the <code>extensions</code> section like this:
         <p></p>
         <pre><code class="hljs vbscript-html"><span class="xml">    <span
-                class="hljs-tag">&lt;<span class="hljs-title">extensions</span>&gt;</span>
+          class="hljs-tag">&lt;<span
+          class="hljs-title">extensions</span>&gt;</span>
         ...
         <span class="hljs-tag">&lt;<span
-                class="hljs-title">extension</span> <span
-                class="hljs-attribute">module</span>=<span class="hljs-value">"org.jboss.as.weld"</span> /&gt;</span>
+          class="hljs-title">extension</span> <span
+          class="hljs-attribute">module</span>=<span class="hljs-value">"org.jboss.as.weld"</span> /&gt;</span>
         ...
     <span class="hljs-tag">&lt;/<span
-            class="hljs-title">extensions</span>&gt;</span>
+      class="hljs-title">extensions</span>&gt;</span>
 </span></code></pre>
         <ul>
             <li>Secondly, please ensure the Weld subsystem is present in the
                 <code>profiles</code> section, eg like this:
                 <pre><code class="hljs vbscript-html"><span class="xml"><span
-                        class="hljs-tag">&lt;<span
-                        class="hljs-title">profiles</span>&gt;</span>
+                  class="hljs-tag">&lt;<span
+                  class="hljs-title">profiles</span>&gt;</span>
     ...
     <span class="hljs-tag">&lt;<span class="hljs-title">subsystem</span> <span
-            class="hljs-attribute">xmlns</span>=<span class="hljs-value">"urn:jboss:domain:weld:1.0"</span> /&gt;</span>
+      class="hljs-attribute">xmlns</span>=<span class="hljs-value">"urn:jboss:domain:weld:1.0"</span> /&gt;</span>
     ...
 <span class="hljs-tag">&lt;/<span class="hljs-title">profiles</span>&gt;</span>
 </span></code></pre>
@@ -1442,65 +1503,80 @@
                 - Refactor translation update event to use batches
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-957">ZNTA-957</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-957">ZNTA-957</a>
                 - User profile
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-956">ZNTA-956</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-956">ZNTA-956</a>
                 - Migrate glossary to redux
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-939">ZNTA-939</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-939">ZNTA-939</a>
                 - Update to WildFly 10 (ready for EAP 7)
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-905">ZNTA-905</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-905">ZNTA-905</a>
                 - 0% matching translation listed in TM
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-894">ZNTA-894</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-894">ZNTA-894</a>
                 - dswid is not unique after opening link in new tab (in projects
                 list)
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-892">ZNTA-892</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-892">ZNTA-892</a>
                 - Performance tests for REST in Jenkins
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-887">ZNTA-887</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-887">ZNTA-887</a>
                 - Conversation scope message not displaying
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-879">ZNTA-879</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-879">ZNTA-879</a>
                 - Display user email based on admin configuration
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-833">ZNTA-833</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-833">ZNTA-833</a>
                 - Reduce JS runtime warnings and errors
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-797">ZNTA-797</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-797">ZNTA-797</a>
                 - Replace SeamAutowire with real CDI in tests
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-793">ZNTA-793</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-793">ZNTA-793</a>
                 - TranslationMemoryAction.lastTaskResult appears to be useless
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-744">ZNTA-744</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-744">ZNTA-744</a>
                 - Add review data to the contribution statistics API
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-742">ZNTA-742</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-742">ZNTA-742</a>
                 - Get a list of contributors for a Project version via the API
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-699">ZNTA-699</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-699">ZNTA-699</a>
                 - Migrate page navigation flow from Seam pages.xml to
                 faces-config.xml
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-684">ZNTA-684</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-684">ZNTA-684</a>
                 - Migrate suggestions panel from AngularJS to ReactJS
             </li>
         </ul>
@@ -1560,79 +1636,97 @@
                 TextFlowTarget
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-991">ZNTA-991</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-991">ZNTA-991</a>
                 - Cannot change email addresses in app config
                 (ClassNotFoundException)
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-981">ZNTA-981</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-981">ZNTA-981</a>
                 - Uploading a .pot file via Web UI retains the extension
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-931">ZNTA-931</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-931">ZNTA-931</a>
                 - Reset password feature fails on session closed
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-928">ZNTA-928</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-928">ZNTA-928</a>
                 - Readonly project doesn't have "lock" icon in UI
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-871">ZNTA-871</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-871">ZNTA-871</a>
                 - Changing user email address redirects to invalid page
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-870">ZNTA-870</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-870">ZNTA-870</a>
                 - Reset Password feature not inserting key into database
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-850">ZNTA-850</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-850">ZNTA-850</a>
                 - org.zanata.async.AsyncTaskManager: Exception when executing an
                 asynchronous task.
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-804">ZNTA-804</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-804">ZNTA-804</a>
                 - Coordinators' email addresses should be BCC in Contact
                 Coordinator
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-693">ZNTA-693</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-693">ZNTA-693</a>
                 - ClientAbortException: java.net.SocketException: Connection
                 reset
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-668">ZNTA-668</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-668">ZNTA-668</a>
                 - ServerConfiguration tests unstable
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-537">ZNTA-537</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-537">ZNTA-537</a>
                 - Expired sessions have poor usability
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-470">ZNTA-470</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-470">ZNTA-470</a>
                 - RFE: Prevent user sending large text in 'contact admin' emails
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-412">ZNTA-412</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-412">ZNTA-412</a>
                 - RFE: Link displayed usernames to profile page
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-393">ZNTA-393</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-393">ZNTA-393</a>
                 - Redirect to a "good" page if URL is not known to zanata
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-358">ZNTA-358</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-358">ZNTA-358</a>
                 - Unable to sign up with user specified OpenID
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-54">ZNTA-54</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-54">ZNTA-54</a>
                 - Can't remove languages
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-12">ZNTA-12</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-12">ZNTA-12</a>
                 - User cannot send two messages to admin in a row
                 <h5>New Features</h5></li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-689">ZNTA-689</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-689">ZNTA-689</a>
                 - Support Qt TS files
             </li>
         </ul>
@@ -1640,41 +1734,50 @@
 
         <ul>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-804">ZNTA-804</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-804">ZNTA-804</a>
                 - Coordinators' email addresses should be BCC in Contact
                 Coordinator
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-693">ZNTA-693</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-693">ZNTA-693</a>
                 - Handle ClientAbortException exception and reduce severity.
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-742">ZNTA-742</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-742">ZNTA-742</a>
                 - Get a list of contributors for a Project version via the API
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-744">ZNTA-744</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-744">ZNTA-744</a>
                 - Add review data to the contribution statistics API
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-879">ZNTA-879</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-879">ZNTA-879</a>
                 - Allow admin to configure the visibility of user email
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-412">ZNTA-412</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-412">ZNTA-412</a>
                 - Profile link to project maintainers, language members, and
                 version group maintainers
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-905">ZNTA-905</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-905">ZNTA-905</a>
                 - Remove 0% matching translation memory entry
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-928">ZNTA-928</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-928">ZNTA-928</a>
                 - Readonly project doesn't have "lock" icon in UI
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-54">ZNTA-54</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-54">ZNTA-54</a>
                 - Allow delete language
             </li>
             <li><a href="https://zanata.atlassian.net/browse/ZNTA-1066">ZNTA-1066</a>
@@ -1720,7 +1823,8 @@
         <h5 id="bug-fixes_11">Bug fixes</h5>
         <ul>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-959">ZNTA-959</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-959">ZNTA-959</a>
                 - Copy version fails silently and leaves version readonly
             </li>
             <li><a href="https://zanata.atlassian.net/browse/ZNTA-1013">ZNTA-1013</a>
@@ -1731,7 +1835,8 @@
                 WildFly
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-125">ZNTA-125</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-125">ZNTA-125</a>
                 - zanata-cli on Fedora for xliff project has
                 NullPointerException during push when --validate is not
                 specified
@@ -1746,18 +1851,18 @@
         <em> <a href="https://zanata.atlassian.net/browse/ZNTA-854">ZNTA-854</a>
             - Fast scrolling(infinite scroll) in glossary table not loading data
         </em> <a
-            href="https://zanata.atlassian.net/browse/ZNTA-519">ZNTA-519</a> -
+          href="https://zanata.atlassian.net/browse/ZNTA-519">ZNTA-519</a> -
         Unable to push the POT file beginning from the underscore (_) in the
         filename
         <em> <a href="https://zanata.atlassian.net/browse/ZNTA-843">ZNTA-843</a>
             - Improve/fix 0install bug
         </em> <a
-            href="https://zanata.atlassian.net/browse/ZNTA-901">ZNTA-901</a> -
+          href="https://zanata.atlassian.net/browse/ZNTA-901">ZNTA-901</a> -
         txw2 should be included in zanata-cli 0install
         <em> <a href="https://zanata.atlassian.net/browse/ZNTA-930">ZNTA-930</a>
             - Zanata init command fails when specifying "file" project type
         </em> <a
-            href="https://zanata.atlassian.net/browse/ZNTA-937">ZNTA-937</a> -
+          href="https://zanata.atlassian.net/browse/ZNTA-937">ZNTA-937</a> -
         zanata-client: need better error message for unexpected html response
         <p></p>
         <h2 id="381">3.8.1</h2>
@@ -1777,7 +1882,8 @@
 
         <ul>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-844">ZNTA-844</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-844">ZNTA-844</a>
                 - Merge Translations dialog broken
             </li>
         </ul>
@@ -1834,104 +1940,126 @@
                 - Groups filter by archived not working
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-615">ZNTA-615</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-615">ZNTA-615</a>
                 - Fix glossary permission
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-643">ZNTA-643</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-643">ZNTA-643</a>
                 - Fix concurrent map modification issue in language page
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-624">ZNTA-624</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-624">ZNTA-624</a>
                 - Increase password length to 1024.
             </li>
             <li><a href="https://zanata.atlassian.net/browse/ZNTA-9">ZNTA-9</a>
                 - Account activation message not displaying
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-696">ZNTA-696</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-696">ZNTA-696</a>
                 - Fix user service for null authenticated user
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-634">ZNTA-634</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-634">ZNTA-634</a>
                 - Users being logged out after a short period of inactivity
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-719">ZNTA-719</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-719">ZNTA-719</a>
                 - Translation merge targets the wrong source version
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-718">ZNTA-718</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-718">ZNTA-718</a>
                 - Allow admin and project maintainer to merge translation from
                 all active projects.
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-639">ZNTA-639</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-639">ZNTA-639</a>
                 - Expired sessions causing ViewExpiredExceptions
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-720">ZNTA-720</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-720">ZNTA-720</a>
                 - Redirect to login page after account activation
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-767">ZNTA-767</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-767">ZNTA-767</a>
                 - File names / paths with spaces cannot be navigated to via the
                 Documents tab. <strong>Note:</strong> This will invalidate all
                 existing bookmarked URL with selected document in the project
                 version page.
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-815">ZNTA-815</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-815">ZNTA-815</a>
                 - New user login redirected to login screen again instead of
                 Dashboard
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-657">ZNTA-657</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-657">ZNTA-657</a>
                 - Add new language uses the search text instead of the selected
                 locale
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-817">ZNTA-817</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-817">ZNTA-817</a>
                 - Fix default terms of use url
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-816">ZNTA-816</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-816">ZNTA-816</a>
                 - No success/confirmation message after updating email via
                 Settings-&gt;Profile
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-811">ZNTA-811</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-811">ZNTA-811</a>
                 - Downloaded translated .pot file has no extension
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-726">ZNTA-726</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-726">ZNTA-726</a>
                 - leading/trailing newline validation should not check the line
                 numbers
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-818">ZNTA-818</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-818">ZNTA-818</a>
                 - 'SHOW' does not work while changing password in the Settings
                 twice
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-813">ZNTA-813</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-813">ZNTA-813</a>
                 - Add tooltip for disabled account
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-814">ZNTA-814</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-814">ZNTA-814</a>
                 - handle enter key in inactive account page
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-812">ZNTA-812</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-812">ZNTA-812</a>
                 - Project text search and replace does bad html safe encoding on
                 search text
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-354">ZNTA-354</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-354">ZNTA-354</a>
                 - Improve Zanata client installation documentation and workflow
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-664">ZNTA-664</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-664">ZNTA-664</a>
                 - Change client push command not to run copy trans by default
             </li>
         </ul>
@@ -1951,7 +2079,8 @@
                 users
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-555">ZNTA-555</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-555">ZNTA-555</a>
                 - Internal "user request management" and tracking
             </li>
             <li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1214502">1214502</a>
@@ -1962,7 +2091,8 @@
                 - Update project search page to include user
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-108">ZNTA-108</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-108">ZNTA-108</a>
                 - Improved glossary management: add, edit and delete individual
                 glossary entries
             </li>
@@ -1973,17 +2103,20 @@
 
         <ul>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-686">ZNTA-686</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-686">ZNTA-686</a>
                 - Editor filter by last modified date uses wrong date pattern to
                 validate
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-707">ZNTA-707</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-707">ZNTA-707</a>
                 - mysql on Mac throws error migrating DB with indexname
                 'Idx_lastChanged' vs 'Idx_LastChanged'
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-721">ZNTA-721</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-721">ZNTA-721</a>
                 - Fuzzy/automatic TM search not finding good/exact matches
             </li>
         </ul>
@@ -1992,11 +2125,13 @@
 
         <ul>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-653">ZNTA-653</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-653">ZNTA-653</a>
                 - Include MDC values in log emails
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-665">ZNTA-665</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-665">ZNTA-665</a>
                 - liquibase merge addColumn changes
                 It helps to reduce the database migration time.
             </li>
@@ -2005,16 +2140,19 @@
 
         <ul>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-594">ZNTA-594</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-594">ZNTA-594</a>
                 - Project-wide search and replace only shows 15 results per
                 document
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-615">ZNTA-615</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-615">ZNTA-615</a>
                 - Glossarist/-admin not getting glossary-update permission
             </li>
             <li>
-                <a href="https://zanata.atlassian.net/browse/ZNTA-643">ZNTA-643</a>
+                <a
+                  href="https://zanata.atlassian.net/browse/ZNTA-643">ZNTA-643</a>
                 - javax.servlet.ServletException:
                 java.util.ConcurrentModificationException , Caused by:
                 javax.faces.el.EvaluationException:
@@ -2046,12 +2184,12 @@
                     JBoss timeout value in standalone.xml. This example sets a
                     timeout of two hours, which should be more than enough:</p>
                 <pre><code class="hljs vbscript-html"><span class="xml"><span
-                        class="hljs-tag">&lt;<span class="hljs-title">system-properties</span>&gt;</span>
+                  class="hljs-tag">&lt;<span class="hljs-title">system-properties</span>&gt;</span>
     ...
     <span class="hljs-tag">&lt;<span class="hljs-title">property</span> <span
-            class="hljs-attribute">name</span>=<span class="hljs-value">"jboss.as.management.blocking.timeout"</span> <span
-            class="hljs-attribute">value</span>=<span
-            class="hljs-value">"7200"</span>/&gt;</span>
+      class="hljs-attribute">name</span>=<span class="hljs-value">"jboss.as.management.blocking.timeout"</span> <span
+      class="hljs-attribute">value</span>=<span
+      class="hljs-value">"7200"</span>/&gt;</span>
     ...
 <span class="hljs-tag">&lt;/<span class="hljs-title">system-properties</span>&gt;</span>
 </span></code></pre>
@@ -2059,7 +2197,7 @@
             <li>
                 <p>The Zanata administrator will also need to reindex HProject
                     table via the Administration menu. See <a
-                            href="../user-guide/admin/manage-search">Manage
+                  href="../user-guide/admin/manage-search">Manage
                         search</a> for more information.</p>
             </li>
         </ul>
@@ -2070,17 +2208,19 @@
                 <p>Zanata now uses Infinispan as its cache provider, and the
                     cache needs to be configured in Jboss'
                     <code>standalone.xml</code> file. Please see the <a
-                            href="../user-guide/system-admin/configuration/infinispan">Infinispan</a>
+                  href="../user-guide/system-admin/configuration/infinispan">Infinispan</a>
                     section for more information.</p>
             </li>
             <li>
                 <p>
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1207423">1207423</a>
+                    <a
+                      href="https://bugzilla.redhat.com/show_bug.cgi?id=1207423">1207423</a>
                     - zanata-assets(javascipts and css style) now are packaged
                     as jar and is part of zanata-server dependency.
-                    <a href="http://repository-zanata.forge.cloudbees.com/release/org/zanata/zanata-assets/">Release</a>
+                    <a
+                      href="http://repository-zanata.forge.cloudbees.com/release/org/zanata/zanata-assets/">Release</a>
                     and <a
-                        href="http://repository-zanata.forge.cloudbees.com/snapshot/org/zanata/zanata-assets/">snapshot</a>
+                      href="http://repository-zanata.forge.cloudbees.com/snapshot/org/zanata/zanata-assets/">snapshot</a>
                 </p>
             </li>
         </ul>
@@ -2096,7 +2236,7 @@
                     <li>Zanata now uses <code>java:jboss/mail/Default</code>
                         mail session for SMTP configuration. See "Email
                         configuration" in <a
-                                href="http://docs.zanata.org/en/latest/user-guide/system-admin/configuration/installation/index.html">System
+                      href="http://docs.zanata.org/en/latest/user-guide/system-admin/configuration/installation/index.html">System
                             admin guide</a> for details.
                     </li>
                 </ul>
@@ -2271,7 +2411,7 @@
 
         <ul>
             <li>Added Liquibase logging (as part of <a
-                    href="https://bugzilla.redhat.com/show_bug.cgi?id=1207575">1207575</a>)
+              href="https://bugzilla.redhat.com/show_bug.cgi?id=1207575">1207575</a>)
             </li>
         </ul>
         <hr>
@@ -2375,7 +2515,7 @@
         <p>Zanata now requires JMS to be configured in standalone.xml in order
             to queue up some messages going out of the system. For instructions
             on how to do this, please <a
-                    href="../user-guide/system-admin/configuration/jms-messaging">See
+          href="../user-guide/system-admin/configuration/jms-messaging">See
                 Here</a></p>
         <h5>Drupal Plugin</h5>
 
@@ -2395,12 +2535,14 @@
         <ul>
             <li>
                 <p>
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1044261">1044261</a>
+                    <a
+                      href="https://bugzilla.redhat.com/show_bug.cgi?id=1044261">1044261</a>
                     - Drupal integration with Zanata</p>
             </li>
             <li>
                 <p>
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1127066">1127066</a>
+                    <a
+                      href="https://bugzilla.redhat.com/show_bug.cgi?id=1127066">1127066</a>
                     - Copy Version button on project version listing</p>
             </li>
             <li><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1162383">1162383</a>
@@ -2781,7 +2923,7 @@
 
         <ul>
             <li>Now requires (i.e. is tested on) <a
-                    href="http://www.jboss.org/products/eap">JBoss EAP</a> 6.2.0
+              href="http://www.jboss.org/products/eap">JBoss EAP</a> 6.2.0
                 instead of 6.1.1
             </li>
         </ul>
@@ -2793,7 +2935,8 @@
                     - RFE: support roff as an input/output format</p>
                 <ul>
                     <li>This feature is implemented on the client side only with
-                        <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1038449">1038449
+                        <a
+                          href="https://bugzilla.redhat.com/show_bug.cgi?id=1038449">1038449
                             - command hook</a>. Users who wish to push .roff
                         file can use a command hook to invoke external tool
                         (po4a) before push to convert .roff into .pot. Invoke
@@ -2804,7 +2947,8 @@
             </li>
             <li>
                 <p>
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1036435">1036435</a>
+                    <a
+                      href="https://bugzilla.redhat.com/show_bug.cgi?id=1036435">1036435</a>
                     - RFE: Upgrade to Liquibase 3.x</p>
             </li>
             <li>
@@ -2818,7 +2962,8 @@
             </li>
             <li>
                 <p>
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1067253">1067253</a>
+                    <a
+                      href="https://bugzilla.redhat.com/show_bug.cgi?id=1067253">1067253</a>
                     - RFE:/Tech Debt - Propagate translation done by upload and
                     copyTrans to editor</p>
                 <ul>
@@ -2833,7 +2978,8 @@
             </li>
             <li>
                 <p>
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1002378">1002378</a>
+                    <a
+                      href="https://bugzilla.redhat.com/show_bug.cgi?id=1002378">1002378</a>
                     - RFE: Introduce a modular translation structure, and gwt
                     generate the *Messages.properties files</p>
                 <ul>
@@ -3421,9 +3567,10 @@
             <li>Allow Project Maintainers to Delete a Source Document</li>
         </ul>
         <p>
-            <a href="https://bugzilla.redhat.com/buglist.cgi?j_top=OR&amp;f1=cf_fixed_in&amp;o1=substring&amp;classification=Community&amp;o2=substring&amp;query_format=advanced&amp;f2=cf_fixed_in&amp;bug_status=VERIFIED&amp;bug_status=RELEASE_PENDING&amp;bug_status=POST&amp;bug_status=CLOSED&amp;v1=2.0.3&amp;product=Zanata"></a>
+            <a
+              href="https://bugzilla.redhat.com/buglist.cgi?j_top=OR&amp;f1=cf_fixed_in&amp;o1=substring&amp;classification=Community&amp;o2=substring&amp;query_format=advanced&amp;f2=cf_fixed_in&amp;bug_status=VERIFIED&amp;bug_status=RELEASE_PENDING&amp;bug_status=POST&amp;bug_status=CLOSED&amp;v1=2.0.3&amp;product=Zanata"></a>
         </p><h5><a
-            href="https://bugzilla.redhat.com/buglist.cgi?j_top=OR&amp;f1=cf_fixed_in&amp;o1=substring&amp;classification=Community&amp;o2=substring&amp;query_format=advanced&amp;f2=cf_fixed_in&amp;bug_status=VERIFIED&amp;bug_status=RELEASE_PENDING&amp;bug_status=POST&amp;bug_status=CLOSED&amp;v1=2.0.3&amp;product=Zanata">Bug
+          href="https://bugzilla.redhat.com/buglist.cgi?j_top=OR&amp;f1=cf_fixed_in&amp;o1=substring&amp;classification=Community&amp;o2=substring&amp;query_format=advanced&amp;f2=cf_fixed_in&amp;bug_status=VERIFIED&amp;bug_status=RELEASE_PENDING&amp;bug_status=POST&amp;bug_status=CLOSED&amp;v1=2.0.3&amp;product=Zanata">Bug
         fixes | Bugzilla</a></h5>
         <p></p>
         <hr>
@@ -3470,33 +3617,37 @@
             <li>View history of translations for a text flow</li>
         </ul>
         <p>
-            <a href="https://bugzilla.redhat.com/buglist.cgi?j_top=OR&amp;f1=cf_fixed_in&amp;o1=substring&amp;classification=Community&amp;o2=substring&amp;query_format=advanced&amp;f2=cf_fixed_in&amp;bug_status=CLOSED&amp;v1=1.8.0&amp;v2=2.0.0&amp;product=Zanata"></a>
+            <a
+              href="https://bugzilla.redhat.com/buglist.cgi?j_top=OR&amp;f1=cf_fixed_in&amp;o1=substring&amp;classification=Community&amp;o2=substring&amp;query_format=advanced&amp;f2=cf_fixed_in&amp;bug_status=CLOSED&amp;v1=1.8.0&amp;v2=2.0.0&amp;product=Zanata"></a>
         </p><h5><a
-            href="https://bugzilla.redhat.com/buglist.cgi?j_top=OR&amp;f1=cf_fixed_in&amp;o1=substring&amp;classification=Community&amp;o2=substring&amp;query_format=advanced&amp;f2=cf_fixed_in&amp;bug_status=CLOSED&amp;v1=1.8.0&amp;v2=2.0.0&amp;product=Zanata">Bug
+          href="https://bugzilla.redhat.com/buglist.cgi?j_top=OR&amp;f1=cf_fixed_in&amp;o1=substring&amp;classification=Community&amp;o2=substring&amp;query_format=advanced&amp;f2=cf_fixed_in&amp;bug_status=CLOSED&amp;v1=1.8.0&amp;v2=2.0.0&amp;product=Zanata">Bug
         fixes | Bugzilla</a></h5>
         <p></p>
         <hr>
         <h2 id="173">1.7.3</h2>
         <p>
-            <a href="https://bugzilla.redhat.com/buglist.cgi?f1=cf_fixed_in&amp;o1=substring&amp;classification=Community&amp;query_format=advanced&amp;bug_status=CLOSED&amp;v1=1.7.3&amp;product=Zanata"></a>
+            <a
+              href="https://bugzilla.redhat.com/buglist.cgi?f1=cf_fixed_in&amp;o1=substring&amp;classification=Community&amp;query_format=advanced&amp;bug_status=CLOSED&amp;v1=1.7.3&amp;product=Zanata"></a>
         </p><h5><a
-            href="https://bugzilla.redhat.com/buglist.cgi?f1=cf_fixed_in&amp;o1=substring&amp;classification=Community&amp;query_format=advanced&amp;bug_status=CLOSED&amp;v1=1.7.3&amp;product=Zanata">Bug
+          href="https://bugzilla.redhat.com/buglist.cgi?f1=cf_fixed_in&amp;o1=substring&amp;classification=Community&amp;query_format=advanced&amp;bug_status=CLOSED&amp;v1=1.7.3&amp;product=Zanata">Bug
         fixes | Bugzilla</a></h5>
         <p></p>
         <hr>
         <h2 id="172">1.7.2</h2>
         <p>
-            <a href="https://bugzilla.redhat.com/buglist.cgi?classification=Community&amp;target_release=1.7.2&amp;query_format=advanced&amp;bug_status=CLOSED&amp;product=Zanata"></a>
+            <a
+              href="https://bugzilla.redhat.com/buglist.cgi?classification=Community&amp;target_release=1.7.2&amp;query_format=advanced&amp;bug_status=CLOSED&amp;product=Zanata"></a>
         </p><h5><a
-            href="https://bugzilla.redhat.com/buglist.cgi?classification=Community&amp;target_release=1.7.2&amp;query_format=advanced&amp;bug_status=CLOSED&amp;product=Zanata">Bug
+          href="https://bugzilla.redhat.com/buglist.cgi?classification=Community&amp;target_release=1.7.2&amp;query_format=advanced&amp;bug_status=CLOSED&amp;product=Zanata">Bug
         fixes | Bugzilla</a></h5>
         <p></p>
         <hr>
         <h2 id="171">1.7.1</h2>
         <p>
-            <a href="https://bugzilla.redhat.com/buglist.cgi?classification=Community&amp;target_release=1.7.1&amp;query_format=advanced&amp;bug_status=CLOSED&amp;product=Zanata"></a>
+            <a
+              href="https://bugzilla.redhat.com/buglist.cgi?classification=Community&amp;target_release=1.7.1&amp;query_format=advanced&amp;bug_status=CLOSED&amp;product=Zanata"></a>
         </p><h5><a
-            href="https://bugzilla.redhat.com/buglist.cgi?classification=Community&amp;target_release=1.7.1&amp;query_format=advanced&amp;bug_status=CLOSED&amp;product=Zanata">Bug
+          href="https://bugzilla.redhat.com/buglist.cgi?classification=Community&amp;target_release=1.7.1&amp;query_format=advanced&amp;bug_status=CLOSED&amp;product=Zanata">Bug
         fixes | Bugzilla</a></h5>
         <p></p>
         <hr>
@@ -3519,9 +3670,10 @@
             <li>Translation Memory now uses word-based indexing</li>
         </ul>
         <p>
-            <a href="https://bugzilla.redhat.com/buglist.cgi?classification=Community&amp;target_release=1.6.2&amp;target_release=1.7&amp;query_format=advanced&amp;bug_status=CLOSED&amp;product=Zanata"></a>
+            <a
+              href="https://bugzilla.redhat.com/buglist.cgi?classification=Community&amp;target_release=1.6.2&amp;target_release=1.7&amp;query_format=advanced&amp;bug_status=CLOSED&amp;product=Zanata"></a>
         </p><h5><a
-            href="https://bugzilla.redhat.com/buglist.cgi?classification=Community&amp;target_release=1.6.2&amp;target_release=1.7&amp;query_format=advanced&amp;bug_status=CLOSED&amp;product=Zanata">Bug
+          href="https://bugzilla.redhat.com/buglist.cgi?classification=Community&amp;target_release=1.6.2&amp;target_release=1.7&amp;query_format=advanced&amp;bug_status=CLOSED&amp;product=Zanata">Bug
         fixes | Bugzilla</a></h5>
         <p></p>
         <hr>
@@ -3531,9 +3683,10 @@
             </li>
         </ul>
         <p>
-            <a href="https://bugzilla.redhat.com/buglist.cgi?classification=Community&amp;target_release=1.6.1&amp;query_format=advanced&amp;bug_status=CLOSED&amp;product=Zanata"></a>
+            <a
+              href="https://bugzilla.redhat.com/buglist.cgi?classification=Community&amp;target_release=1.6.1&amp;query_format=advanced&amp;bug_status=CLOSED&amp;product=Zanata"></a>
         </p><h5><a
-            href="https://bugzilla.redhat.com/buglist.cgi?classification=Community&amp;target_release=1.6.1&amp;query_format=advanced&amp;bug_status=CLOSED&amp;product=Zanata">Bug
+          href="https://bugzilla.redhat.com/buglist.cgi?classification=Community&amp;target_release=1.6.1&amp;query_format=advanced&amp;bug_status=CLOSED&amp;product=Zanata">Bug
         fixes | Bugzilla</a></h5>
         <p></p>
         <hr>
@@ -3560,9 +3713,10 @@
             <li>Overview for available keyboard shortcuts in web editor</li>
         </ul>
         <p>
-            <a href="https://bugzilla.redhat.com/buglist.cgi?classification=Community&amp;target_release=1.6&amp;target_release=1.6-alpha-1&amp;target_release=1.6-beta-1&amp;query_format=advanced&amp;bug_status=CLOSED&amp;product=Zanata"></a>
+            <a
+              href="https://bugzilla.redhat.com/buglist.cgi?classification=Community&amp;target_release=1.6&amp;target_release=1.6-alpha-1&amp;target_release=1.6-beta-1&amp;query_format=advanced&amp;bug_status=CLOSED&amp;product=Zanata"></a>
         </p><h5><a
-            href="https://bugzilla.redhat.com/buglist.cgi?classification=Community&amp;target_release=1.6&amp;target_release=1.6-alpha-1&amp;target_release=1.6-beta-1&amp;query_format=advanced&amp;bug_status=CLOSED&amp;product=Zanata">Bug
+          href="https://bugzilla.redhat.com/buglist.cgi?classification=Community&amp;target_release=1.6&amp;target_release=1.6-alpha-1&amp;target_release=1.6-beta-1&amp;query_format=advanced&amp;bug_status=CLOSED&amp;product=Zanata">Bug
         fixes</a></h5>
         <p></p>
         <hr>
@@ -4026,13 +4180,16 @@
         <ul class="col-xs-12 col-sm-6 col-md-3">
             <li class="lead">Getting started</li>
             <li>
-                <a href="http://docs.zanata.org/en/release/user-guide/translator-guide/">Translator
+                <a
+                  href="http://docs.zanata.org/en/release/user-guide/translator-guide/">Translator
                     guide</a></li>
             <li>
-                <a href="http://docs.zanata.org/en/release/user-guide/project-maintainer-guide/">Project
+                <a
+                  href="http://docs.zanata.org/en/release/user-guide/project-maintainer-guide/">Project
                     maintainer guide</a></li>
             <li>
-                <a href="http://docs.zanata.org/en/release/user-guide/system-admin/configuration/installation/">System
+                <a
+                  href="http://docs.zanata.org/en/release/user-guide/system-admin/configuration/installation/">System
                     admin guide</a></li>
         </ul>
         <ul class="col-xs-12 col-sm-6 col-md-3">
@@ -4048,15 +4205,18 @@
             <li><a href="http://github.com/zanata/zanata-platform">GitHub
                 project</a></li>
             <li>
-                <a href="http://docs.zanata.org/en/latest/user-guide/system-admin/configuration/installation/">Download</a>
+                <a
+                  href="http://docs.zanata.org/en/latest/user-guide/system-admin/configuration/installation/">Download</a>
             </li>
             <li>
-                <a href="https://github.com/zanata/zanata-server/wiki/Developer-Guide">Developer
+                <a
+                  href="https://github.com/zanata/zanata-server/wiki/Developer-Guide">Developer
                     Wiki</a></li>
             <li><a href="https://zanata.ci.cloudbees.com/">Continuous
                 Integration</a></li>
             <li>
-                <a href="https://zanata.ci.cloudbees.com/job/zanata-api-site/site/zanata-common-api/rest-api-docs/index.html">REST
+                <a
+                  href="https://zanata.ci.cloudbees.com/job/zanata-api-site/site/zanata-common-api/rest-api-docs/index.html">REST
                     API Docs</a></li>
         </ul>
         <ul class="col-xs-12 col-sm-6 col-md-3">
@@ -4078,13 +4238,13 @@
     </div>
 </footer>
 <script
-        src="https://code.jquery.com/jquery-3.1.1.slim.min.js">
+  src="https://code.jquery.com/jquery-3.1.1.slim.min.js">
 </script>
 <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js">
+  src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js">
 </script>
 <script
-        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js">
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js">
 </script>
 </body>
 </html>
