@@ -59,6 +59,9 @@ a:active {
     text-decoration: underline;
     color: #03A6D7 !important;
 }
+.communities .col {
+    align-self: center;
+}
 .communities a img.img-thumbnail {
     background-color: transparent;
     border: none;
