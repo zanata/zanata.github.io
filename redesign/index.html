@@ -46,9 +46,6 @@
         </ul>
         <form class="my-2 my-lg-0">
             <a href="https://translate.zanata.org" role="button" class="btn btn-outline-primary my-2 my-sm-0">Go to app</a>
-            <a href="https://zanata.ci.cloudbees.com/job/zanata-api-site/site/zanata-common-api/rest-api-docs/index.html"
-               role="button" class="btn btn-outline-default my-2 my-sm-0">API
-                docs</a>
             <a href="http://docs.zanata.org/" role="button" class="btn btn-outline-default my-2 my-sm-0">Docs</a>
             <a href="http://github.com/zanata/zanata-platform" role="button" class="btn btn-link my-2 my-sm-0">
                 <i class="fa fa-github-square fa-2x"></i>
@@ -72,7 +69,7 @@
                     <p class="small">For the technically minded, run Zanata yourself
                         <br>
                         <a href="http://docs.zanata.org/en/latest/user-guide/system-admin/configuration/installation/">
-                            Download Zanata</a>and read the
+                            Download Zanata</a> and read the
                         <a href="http://docs.zanata.org/en/release/user-guide/system-admin/configuration/installation/">
                             System Admin Guide</a>
                     </p>
@@ -100,25 +97,14 @@
             <strong>translators</strong>, <strong>content creators</strong> and
             <strong>developers</strong> to manage localisation projects.</p>
     </div>
-    <ul class="nav nav-tabs nav-fill" role="tablist">
-        <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#trans" role="tab">Translators</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link active" data-toggle="tab" href="#creators" role="tab">Content Creators</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#dev" role="tab">Developers</a>
-        </li>
-    </ul>
-    <!-- Tab panes -->
-    <div class="tab-content">
-        <div class="tab-pane" id="trans" role="tabpanel">
+
+    <h1 class="text-center text-info" id="want-text">I want to...</h1>
+
             <div class="row">
                 <div class="col-md-4">
-                    <i class="fa fa-language"></i>
-                </div>
-                <div class="col-md-8">
+                    <h2><i class="fa fa-keyboard-o"></i>
+                        <span class="text-info">help translate</span>
+                    </h2>
                     <ul>
                         <li>All you need is a web browser</li>
                         <li>Translate from any computer with an Internet connection
@@ -129,18 +115,12 @@
                         </li>
                         <li>See updates from other translators in seconds</li>
                     </ul>
-                    <a href="http://docs.zanata.org/en/release/user-guide/translator-guide/" role="button"
-                       class="btn btn-lg btn-outline-primary my-2">Translator
-                        guide</a>
                 </div>
-            </div>
-        </div>
-        <div class="tab-pane active" id="creators" role="tabpanel">
-            <div class="row">
+
                 <div class="col-md-4">
-                    <i class="fa fa-keyboard-o"></i>
-                </div>
-                <div class="col-md-8">
+                    <h3><i class="fa fa-file-text-o"></i>
+                        <span class="text-info">translate content</span>
+                        </h3>
                     <ul>
                         <li>Localise your documentation</li>
                         <li>Enable communities to translate your files</li>
@@ -151,19 +131,12 @@
                             and plaintext
                         </li>
                     </ul>
-                    <a href="http://docs.zanata.org/en/release/user-guide/project-maintainer-guide" role="button"
-                       class="btn btn-lg btn-outline-primary my-2">Project
-                        maintainer
-                        guide</a>
-                </div>
-            </div>
         </div>
-        <div class="tab-pane" id="dev" role="tabpanel">
-            <div class="row">
                 <div class="col-md-4">
-                    <i class="fa fa-code"></i>
-                </div>
-                <div class="col-md-8">
+                    <h3><i class="fa fa-code"></i>
+                        <span class="text-info">translate software</span>
+                    </h3>
+
                     <ul>
                         <li>Localise your software interface and messages</li>
                         <li>Enable communities to translate your files</li>
@@ -175,13 +148,16 @@
                             PO files, Java Properties, XLIFF
                         </li>
                     </ul>
-                    <a href="http://docs.zanata.org/en/release/user-guide/project-maintainer-guide" role="button"
-                       class="btn btn-lg btn-outline-primary my-2">Project
-                        maintainer
-                        guide</a>
                 </div>
             </div>
-        </div>
+    <div class="col-xs-12 text-center">
+        <a href="http://docs.zanata.org/en/release/user-guide/translator-guide/" role="button"
+           class="btn btn-lg btn-outline-primary my-2">Translator
+            guide</a>
+        <a href="http://docs.zanata.org/en/release/user-guide/project-maintainer-guide" role="button"
+           class="btn btn-lg btn-outline-primary my-2">Project
+            maintainer
+            guide</a>
     </div>
     <div class="col-xs-12">
         <p class="lead" id="contact">Want to get in touch? Find us on
@@ -228,7 +204,7 @@
                 <a href="http://docs.zanata.org/en/latest/user-guide/system-admin/configuration/installation/">Download</a>
             </li>
             <li>
-                <a href="https://github.com/zanata/zanata-server/wiki/Developer-Guide">Developer
+                <a href="https://github.com/zanata/zanata-platform/wiki/Developer-Guide">Developer
                     Wiki</a>
             </li>
             <li><a href="https://zanata.ci.cloudbees.com/">Continuous
