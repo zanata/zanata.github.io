@@ -423,6 +423,10 @@ i.fa.fa-github-square {
     .short-page .footer {
         position: absolute;
     }
+    .image-row.row {
+        height: 140px;
+        margin-bottom: 1rem;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
