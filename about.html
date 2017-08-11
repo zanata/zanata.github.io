@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no"
           name="viewport">
-    <meta content="" name="description">
-    <meta content="" name="author">
+    <meta content="Zanata translation software homepage" name="description">
+    <meta content="Zanata team" name="author">
     <link href="favicon.ico" rel="icon">
-    <title>Instances: Zanata: Open Translation for Everyone</title>
+    <title>About: Zanata: Open Translation for Everyone</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
@@ -16,7 +16,7 @@
     <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="">
 <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
     <button aria-controls="navbarsExampleDefault" aria-expanded="false"
             aria-label="Toggle navigation"
@@ -35,8 +35,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+            <li class="nav-item active">
+                <a class="nav-link" href="about.html">About&nbsp;
+                    <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="release-notes.html">Release Notes</a>
@@ -47,9 +48,8 @@
             <li class="nav-item">
                 <a class="nav-link" href="communities.html">Communities</a>
             </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="instances.html">Instances&nbsp;
-                    <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+                <a class="nav-link" href="instances.html">Instances</a>
             </li>
         </ul>
         <form class="my-2 my-lg-0">
@@ -65,54 +65,82 @@
     </div>
 </nav>
 <div class="container" id="not-home">
-    <h1>Zanata Instances</h1>
-    <div class="image-row row instances">
+    <h1>About</h1>
+    <p>Zanata is a web-based translation platform for managing localization
+        projects.
+        Localization (L10n) is the process of translating software or
+        documentation
+        into different languages.</p>
+    <p>Zanata is written in Java and uses the following modern web
+        technologies:</p>
+    <div class="image-row row">
         <div class="col">
-            <p class="text-center"><a href="https://translate.jboss.org">
-                <img class="img-thumbnail" src="../redesign/assets/wildfly.png"
-                     alt="wildfly"/>
-            </a><a href="https://translate.jboss.org">https://translate.jboss.org</a>
-            </p>
+            <a href="https://www.java.com/en">
+                <img class="img-thumbnail" src="assets/java.png"
+                     alt="java"/>
+            </a>
         </div>
         <div class="col">
-            <p class="text-center">
-                <a href="https://fedora.zanata.org">
-                    <img class="img-thumbnail"
-                         src="../redesign/assets/fedora.png" alt="fedora"/>
-                </a><a href="https://fedora.zanata.org">https://fedora.zanata.org</a>
-            </p>
+            <a href="http://wildfly.org/">
+                <img class="img-thumbnail"
+                     src="assets/wildfly.png" alt="wildfly"/>
+            </a>
         </div>
         <div class="col">
-            <p class="text-center">
-                <a href="https://translate.openstack.org">
-                    <img class="img-thumbnail"
-                         src="../redesign/assets/openstack.png" alt="openstack"
-                    />
-                </a>
-                <a href="https://translate.openstack.org">https://translate.openstack.org
-            </p>
-        </div>
-    </div>
-    <div class="image-row row instances">
-        <div class="col">
-            <p class="text-center">
-                <a href="https://translate.zanata.org">
-                <img class="img-thumbnail zanata-img"
-                     src="../redesign/assets/logo-text.svg"
-                     alt="zanata" /></a>
-                <a href="https://translate.zanata.org">https://translate.zanata
-                .org</a>
-            </p>
-        </div>
-        <div class="col">
-        </div>
-        <div class="col">
+            <a href="http://www.gwtproject.org/">
+                <img class="img-thumbnail" src="assets/gwt.png"
+                     alt="GWT"
+                />
+            </a>
         </div>
     </div>
-    <p>Disclaimer:  The Zanata team does not manage these instances. We do
-        not know whether they are kept up to date, what content is hosted or
-        how much spam there might be.</p>
+    <div class="image-row row">
+        <div class="col">
+            <a href="https://facebook.github.io/react/">
+                <img class="img-thumbnail" src="assets/react.png"
+                     alt="react"/>
+            </a>
+        </div>
+        <div class="col">
+            <a href="hibernate.org">
+                <img class="img-thumbnail"
+                     src="assets/hibernate.png" alt="hibernate"/>
+            </a>
+        </div>
+        <div class="col">
+        </div>
+    </div>
+
+    <p>It also presents a <a
+            href="https://zanata.ci.cloudbees.com/job/zanata-api-site/site/zanata-common-api/rest-api-docs/index.html">
+        REST API</a> and currently supports software and documentation
+        translation
+        of <a href="http://docs.zanata.org/en/release/user-guide/projects/project-types/#supported-types">
+            various file types</a>.
+    <p>Projects can be uploaded to and downloaded
+        from a Zanata server using a Maven plugin or a
+        <a href="http://docs.zanata.org/en/release/client/">command-line
+            client.</a>
+    </p>
+    <p>A public instance of Zanata is hosted on
+        <a href=" https://translate.zanata.org">https://translate.zanata.org</a>
+        which
+        accepts content from open source projects for translation.</p>
+    <p>For projects hosted on jboss.org, use the JBoss instance of Zanata at
+        <a href="https://translate.jboss.org">translate.jboss.org</a>. For
+        more projects, see the
+        <a href="instances.html">Instances</a> page.</p>
+    <p>Zanata is free software licensed under the LGPL. For more information see
+        the Documentation available at
+        <a href="https://docs.zanata.org">docs.zanata.org</a>
+    </p>
+    <p align="right">
+        <a href="https://www.cloudbees.com/products/jenkins-cloud">
+            <img src="assets/builtonCB.png" />
+        </a>
+    </p>
 </div>
+
 <footer class="footer">
     <div class="container d-sm-inline-block d-md-inline-flex">
         <ul class="col-xs-12 col-sm-6 col-md-3">
