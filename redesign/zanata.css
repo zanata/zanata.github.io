@@ -398,6 +398,10 @@ i.fa.fa-github-square {
     color: #20718A !important;
 }
 
+img.zanata-img {
+    width: 170px;
+    margin-bottom: 2.5rem;
+}
 /* Extra small devices (portrait phones, less than 576px) */
 /* No media query since this is the default in Bootstrap */
 /* Small devices (landscape phones, 576px and up) */
@@ -433,6 +437,11 @@ i.fa.fa-github-square {
         height: 140px;
         margin-bottom: 1rem;
     }
+
+    .image-row.row.instances {
+        margin-bottom: 4rem;
+    }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
