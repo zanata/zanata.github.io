@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no"
-          name="viewport">
-    <meta content="About Zanata translation software" name="description">
-    <meta content="The Zanata team" name="Red Hat">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+          shrink-to-fit=no">
+    <meta name="description" content="About Zanata translation software">
+    <meta name="author" content="The Zanata team">
     <link href="favicon.ico" rel="icon">
     <title>About: Zanata: Open Translation for Everyone</title>
     <!-- Bootstrap core CSS -->
@@ -59,7 +59,8 @@
                class="btn btn-outline-default my-2 my-sm-0">Docs</a>
             <a href="http://github.com/zanata/zanata-platform" role="button"
                class="btn btn-link my-2 my-sm-0">
-                <i class="fa fa-github-square fa-2x"></i>
+                <i class="fa fa-github-square fa-2x">
+                    <span class="sr-only">Github</span></i>
             </a>
         </form>
     </div>
@@ -71,21 +72,52 @@
         Localization (L10n) is the process of translating software or
         documentation
         into different languages.</p>
-    <p>Zanata is written in Java and uses the following modern web
+    <p>Zanata is written in Java and JavaScript, and uses the following modern
+        web
         technologies:</p>
     <div class="image-row row">
         <div class="col">
             <a href="https://www.java.com/en">
                 <img class="img-thumbnail" src="assets/java.png"
-                     alt="java"/>
+                     alt="Java"/>
+            </a>
+        </div>
+        <div class="col">
+            <a href="https://www.javascript.com/">
+                <img class="img-thumbnail" src="assets/js.png"
+                     alt="JavaScript"/>
             </a>
         </div>
         <div class="col">
             <a href="http://wildfly.org/">
                 <img class="img-thumbnail"
-                     src="assets/wildfly.png" alt="wildfly"/>
+                     src="assets/wildfly.png" alt="Wildfly"/>
             </a>
         </div>
+
+    </div>
+    <div class="image-row row">
+        <div class="col">
+            <a href="https://facebook.github.io/react/">
+                <img class="img-thumbnail" src="assets/react.png"
+                     alt="React"/>
+            </a>
+        </div>
+        <div class="col">
+            <a href="http://redux.js.org/">
+                <img class="img-thumbnail" src="assets/redux.png"
+                     alt="Redux"
+                />
+            </a>
+        </div>
+        <div class="col">
+            <a href="hibernate.org">
+                <img class="img-thumbnail"
+                     src="assets/hibernate.png" alt="Hibernate"/>
+            </a>
+        </div>
+    </div>
+    <div class="image-row row">
         <div class="col">
             <a href="http://www.gwtproject.org/">
                 <img class="img-thumbnail" src="assets/gwt.png"
@@ -93,34 +125,21 @@
                 />
             </a>
         </div>
-    </div>
-    <div class="image-row row">
         <div class="col">
-            <a href="https://facebook.github.io/react/">
-                <img class="img-thumbnail" src="assets/react.png"
-                     alt="react"/>
-            </a>
-        </div>
-        <div class="col">
-            <a href="hibernate.org">
-                <img class="img-thumbnail"
-                     src="assets/hibernate.png" alt="hibernate"/>
-            </a>
         </div>
         <div class="col">
         </div>
     </div>
 
-    <p>It also presents a <a
+    <p>Zanata presents a <a
             href="https://zanata.ci.cloudbees.com/job/zanata-api-site/site/zanata-common-api/rest-api-docs/index.html">
         REST API</a> and currently supports software and documentation
         translation
         of <a href="http://docs.zanata.org/en/release/user-guide/projects/project-types/#supported-types">
             various file types</a>.
-    <p>Projects can be uploaded to and downloaded
-        from a Zanata server using a Maven plugin or a
-        <a href="http://docs.zanata.org/en/release/client/">command-line
-            client.</a>
+    <p>"You can upload to and download from Zanata using a Maven plugin, <a
+        href="http://docs.zanata.org/en/release/client/">command-line
+    client</a>, or through the website.
     </p>
     <p>A public instance of Zanata is hosted on
         <a href=" https://translate.zanata.org">https://translate.zanata.org</a>
@@ -166,7 +185,7 @@
             </li>
             <li><a href="mailing-lists.html">Mailing Lists</a>
             </li>
-            <li><a href="issues.html">Issues on Jira</a>
+            <li><a href="issues.html">Issues</a>
             </li>
         </ul>
         <ul class="col-xs-12 col-sm-6 col-md-3">

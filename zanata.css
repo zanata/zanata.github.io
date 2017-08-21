@@ -72,6 +72,11 @@ a:active {
     color: #03A6D7 !important;
 }
 
+a.footer-active {
+    font-weight: 600;
+    color: #BDD4DC;
+}
+
 .list-group-item {
     background-color: rgba(255,255,255,0.3);
     border: 1px solid #BDD4DC;
