@@ -74,11 +74,11 @@ a:active {
 
 a.footer-active {
     font-weight: 600;
-    color: #BDD4DC;
+    color: #BDD4DC !important;
 }
 
 .list-group-item {
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255, 255, 255, 0.3);
     border: 1px solid #BDD4DC;
 }
 
@@ -408,8 +408,9 @@ i.fa.fa-github-square {
 }
 
 .image-row .img-thumbnail {
-    height: 140px;
+    max-width: 100%;
 }
+
 /* Extra small devices (portrait phones, less than 576px) */
 /* No media query since this is the default in Bootstrap */
 /* Small devices (landscape phones, 576px and up) */
@@ -490,8 +491,7 @@ i.fa.fa-github-square {
         position: absolute;
         right: 0;
         top: 0;
-        padding-bottom: 3rem;
-        padding-top: 1rem;
+        padding-bottom: 2.6rem;
         margin-top: -3rem;
     }
 
@@ -505,6 +505,7 @@ i.fa.fa-github-square {
 
     .jumbotron p.small {
         padding-top: 1rem;
+        padding-left: 3rem;
     }
 
     .shortish-page .footer {
