@@ -1,5 +1,5 @@
 name: Zanata
-markdown: redcarpet
+markdown: kramdown
 highlighter: true
 url: http://localhost:4000
 permalink: /:title
