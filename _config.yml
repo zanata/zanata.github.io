@@ -1,5 +1,5 @@
 name: Zanata
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 url: http://zanata.org
 permalink: /:title
