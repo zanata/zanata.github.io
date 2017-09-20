@@ -7,6 +7,7 @@
           shrink-to-fit=no">
     <meta name="description" content="{{ page.description }}">
     <meta name="author" content="The Zanata team">
+    {% if page.redirect-to %}<meta http-equiv="refresh" content="0; url={{ page.redirect-to }}">{% endif %}
     <link href="/favicon.ico" rel="icon">
     {% if page.currentnav == "home" %}
     <title>Zanata: Open Translation for Everyone</title>
