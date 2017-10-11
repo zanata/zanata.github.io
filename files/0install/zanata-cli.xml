@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='resources/feed.xsl'?>
 <interface uri="https://raw.githubusercontent.com/zanata/zanata.github.io/master/files/0install/zanata-cli.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Zanata command-line client</name>
   <summary>Maven artifact org.zanata:zanata-cli</summary>
@@ -37,18 +37,22 @@
       <manifest-digest sha256new="GNIHAD53UYFKX7YAOB6ZGX6UYRNW5UX62DOG2S6CV2RD6UABQEKQ"/>
       <archive extract="zanata-cli-4.2.0-rc-4" href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.2.0-rc-4/zanata-cli-4.2.0-rc-4-dist.zip" size="18334"/>
     </implementation>
-    <implementation id="sha1new=ffe823ccac582a49256c786f350b96752779bb8a" main="bin/zanata-cli" released="2017-06-01" stability="stable" version="4.2.1">
-      <manifest-digest sha256new="PNW2LXI4GIPTTGI7TLVTRTMHB4PQPZEEXNBVGCZT6P6TDCMP66JA"/>
-      <archive extract="zanata-cli-4.2.1" href="http://search.maven.org/remotecontent?filepath=org/zanata/zanata-cli/4.2.1/zanata-cli-4.2.1-dist.zip" size="16059596"/>
+    <implementation id="sha1new=f7a8221eed8b66aa6626f28bf7c8d985359ebed0" main="bin/zanata-cli" released="2017-09-04" stability="stable" version="4.2.4">
+      <manifest-digest sha256new="NBF3X4MA5QJ4ASPZBC44Z2QDMF5MJ3RO7MEMUQDJW7NCIXZ7FLXQ"/>
+      <archive extract="zanata-cli-4.2.4" href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.2.4/zanata-cli-4.2.4-dist.zip" size="16069294"/>
+    </implementation>
+    <implementation id="sha1new=c298825f63f9b05070aabc9ff5c6dfd18fc006d3" main="bin/zanata-cli" released="2017-10-09" stability="stable" version="4.3.0">
+      <manifest-digest sha256new="NMDEO3X5OTXMVE3ETIKY5SMEZNTSJFXDGN5QLS5YP7VWTSU2ASXA"/>
+      <archive extract="zanata-cli-4.3.0" href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.3.0/zanata-cli-4.3.0-dist.zip" size="16071223"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJZL5VzAAoJEFwxfR5MW7UaRvkIANXuMA+PuWXDt61hXq9yiM9pZTVw/lQkINXg
-Cf89v8mtX3EZ4WgqX8+VbtNxv7ko80h82niwTOov+/JKcHljJPa9vrwnoBHPNGaM2pBFyRp384RZ
-ncHp5PMSN65XwMEqpCxZHkRQIlXQdQFMfZoA6YwVCtd7Ub7TsLcg/UPnHkDuEDv8/mt3xA36NJyW
-Y8C3El0RpgpvJTnQf6n5m+vRHHo/1aqmiVGHvCo9HvXhNIfFF/S0YgeWFNsPJmWHXTY9jqrnOJr2
-CX6BLQk8Sss3652PxJ8zfop+KyfsQFGDuEvQDjeRxNJ+nNnIV4VIveoJfY5Yb+raF7XwuxbnEitD
-B4w=
+iQEcBAABAgAGBQJZ2zagAAoJEFwxfR5MW7UaiO4IAK0gzxb6ZU0KjKTyffRYkOfGnlrMWgR2UPFr
+qz+lJ2co3CTIYiH6l9U4jTcXM2mmKvQSYHeQmtU4IVKYkvMFAVCLpF1/Ait9/5G3sYoAsuPSzFcq
+kTGBkKq3KyMB9DPxnrdHK3twHhFkqWNL/Vi4fK0QKu+9Ad2+PFVEUhCkr6dpsrWwU+HlWHvx5nwg
+krhv8ZbU5Pn+RWPLZIyh541mjl5D1pMhJpmWKBrMmCDduF4Kqvlx5a0oP5uDrfHO5FUXiEXQYfEW
+3O7Nvp1YTtAlk161PoG85XpLHqG9qDDafDJowIc6HFewIp+WV0HwsmROIMJvhxrU3maet/04G48M
+Sps=
 
 -->
