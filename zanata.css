@@ -372,10 +372,11 @@ i.fa.fa-github-square {
     color: #BDD4DC;
 }
 
-.darksm {
-    margin-top: 2rem;
+.dark {
+    margin-top: 1rem;
     background: rgba(0, 0, 0, 0.5);
     padding: 1rem;
+    border-radius: 4px;
 }
 
 .tab-pane .row .col-md-4 {
@@ -447,7 +448,7 @@ i.fa.fa-github-square {
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-    .darksm {
+    .dark {
         margin-left: 3rem;
         padding: 1.75rem;
         margin-top: 0;
@@ -479,29 +480,7 @@ i.fa.fa-github-square {
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 992px) {
-    .darklg {
-        transform: skew(20deg);
-        -webkit-transform: skew(20deg);
-        -moz-transform: skew(20deg);
-        -o-transform: skew(20deg);
-        background: rgba(0, 0, 0, 0.5);
-        overflow: hidden;
-        transform-origin: bottom;
-        padding-left: 1rem;
-        position: absolute;
-        right: 0;
-        top: 0;
-        padding-bottom: 2.6rem;
-        margin-top: -3rem;
-    }
 
-    .col-lg-6.darklg > .container {
-        padding-top: 4rem;
-        transform: skew(-20deg);
-        -webkit-transform: skew(-20deg);
-        -moz-transform: skew(-20deg);
-        -o-transform: skew(-20deg);
-    }
 
     .jumbotron p.small {
         padding-top: 1rem;
