@@ -488,7 +488,7 @@ i.fa.fa-github-square {
 
 @media (min-width: 768px) and (max-width: 991px) {
     .jumbotron h1 {
-        padding-top: 6rem;
+        padding-top: 5rem;
     }
 }
 /* Medium devices (tablets, 768px and up) */
@@ -496,7 +496,7 @@ i.fa.fa-github-square {
 @media (min-width: 992px) {
 
     .jumbotron h1 {
-        padding-top: 2.5rem;
+        padding-top: 4.5rem;
     }
 
     .jumbotron p.small {
@@ -509,14 +509,25 @@ i.fa.fa-github-square {
     }
 
     .dark {
-        padding-bottom: 0.5rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+
     }
 }
 
-@media (min-width: 1110px) and (max-width: 1134px) {
+@media (min-width: 1110px)  {
+    .jumbotron h1 {
+        padding-top: 3.5rem;
+    }
+    .dark {
+        margin-bottom: 1rem;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
+    .dark {
+        margin-top: 1.5rem;
+    }
 }
