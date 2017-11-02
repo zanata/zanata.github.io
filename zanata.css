@@ -487,16 +487,12 @@ i.fa.fa-github-square {
         background: rgba(0, 0, 0, 0.5);
         overflow: hidden;
         transform-origin: bottom;
-        padding-left: 1rem;
-        position: absolute;
         right: 0;
         top: 0;
-        padding-bottom: 2.6rem;
-        margin-top: -3rem;
+        padding: 1rem;
     }
 
     .col-lg-6.darklg > .container {
-        padding-top: 4rem;
         transform: skew(-20deg);
         -webkit-transform: skew(-20deg);
         -moz-transform: skew(-20deg);
