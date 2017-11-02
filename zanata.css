@@ -208,11 +208,12 @@ ul {
 .jumbotron {
     background-color: #03A6D7;
     background-image: url(assets/languages.png);
+    padding: 4rem 2rem 3rem 2rem;
 }
 
 .jumbotron h1 {
     color: #fefefe;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .jumbotron h1 span {
@@ -372,10 +373,11 @@ i.fa.fa-github-square {
     color: #BDD4DC;
 }
 
-.darksm {
+.dark {
     margin-top: 2rem;
     background: rgba(0, 0, 0, 0.5);
     padding: 1rem;
+    border-radius: 4px;
 }
 
 .tab-pane .row .col-md-4 {
@@ -420,6 +422,10 @@ i.fa.fa-github-square {
         float: left;
     }
 
+    .jumbotron {
+        padding:4rem 2rem 3rem 2rem;
+    }
+
     .nav-tabs .nav-link {
         font-size: 1rem;
     }
@@ -447,14 +453,17 @@ i.fa.fa-github-square {
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-    .darksm {
+    .dark {
         margin-left: 3rem;
         padding: 1.75rem;
         margin-top: 0;
+        margin-bottom: 1rem;
     }
 
     .jumbotron h1 {
         font-size: 4.5rem;
+        padding-top: 3rem;
+        margin-top: 0.5rem;
     }
 
     .jumbotron .row {
@@ -476,31 +485,18 @@ i.fa.fa-github-square {
     }
 }
 
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .jumbotron h1 {
+        padding-top: 5rem;
+    }
+}
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 992px) {
-    .darklg {
-        transform: skew(20deg);
-        -webkit-transform: skew(20deg);
-        -moz-transform: skew(20deg);
-        -o-transform: skew(20deg);
-        background: rgba(0, 0, 0, 0.5);
-        overflow: hidden;
-        transform-origin: bottom;
-        padding-left: 1rem;
-        position: absolute;
-        right: 0;
-        top: 0;
-        padding-bottom: 2.6rem;
-        margin-top: -3rem;
-    }
 
-    .col-lg-6.darklg > .container {
-        padding-top: 4rem;
-        transform: skew(-20deg);
-        -webkit-transform: skew(-20deg);
-        -moz-transform: skew(-20deg);
-        -o-transform: skew(-20deg);
+    .jumbotron h1 {
+        padding-top: 4.5rem;
     }
 
     .jumbotron p.small {
@@ -511,12 +507,27 @@ i.fa.fa-github-square {
     .shortish-page .footer {
         position: absolute;
     }
+
+    .dark {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+
+    }
 }
 
-@media (min-width: 1110px) and (max-width: 1134px) {
+@media (min-width: 1110px)  {
+    .jumbotron h1 {
+        padding-top: 3.5rem;
+    }
+    .dark {
+        margin-bottom: 1rem;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
+    .dark {
+        margin-top: 1.5rem;
+    }
 }
