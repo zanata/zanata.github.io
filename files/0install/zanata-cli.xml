@@ -49,14 +49,18 @@
       <manifest-digest sha256new="ZOUU3RREP5VI4E3ZONI2OT3MWNIJBMEZQYWHUYM54IBAUHCUFNEA"/>
       <archive extract="zanata-cli-4.3.1" href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.3.1/zanata-cli-4.3.1-dist.zip" size="16071213"/>
     </implementation>
+    <implementation id="sha1new=6f5720c15c5f94e74bcdde3336a3c4aa5ad84139" main="bin/zanata-cli" released="2017-11-24" stability="stable" version="4.3.2">
+      <manifest-digest sha256new="HQ25HMAHVNGPZBNI6EC2H44ILOPAJ62BRBA7DWZCICLVJEEL2MEA"/>
+      <archive extract="zanata-cli-4.3.2" href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.3.2/zanata-cli-4.3.2-dist.zip" size="16071249"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJaAAEZAAoJEFwxfR5MW7Uao+YIAMuRs4lz1TUscZ7i79SSNw0Nn7PccrGxTCLO
-aVBitHUildFn39cJ1xAFRJLWPeSJm826WSBh/mxmFQ2EybSHE5NGaLKsF43OgXnGalSuwQzRWeEE
-6T1FYM6cNVDtr8K9YQ5avlRodplvOaSr4J37OEHgjB4MNBfJCS96YM5NeWgRmzoLnne4KVqxlNSm
-R+fzaGPEYlby7YFrctx5FLcFSFoAahdDQ8WbvlG8YK7okePqz3TVSQxBkRIRlbhEdKsMytG1wb7R
-SrnDtB55nVBXB9jswRJtp/Fol/JYcZtS+0x+SKKWNNi+ufuNX8Z7XyyZHg3tiVFhdUiGnaEqE+oa
-GBU=
+iQEcBAABAgAGBQJaF7k4AAoJEFwxfR5MW7UaM4cIAMEYyYiRm4k93hf8s+1unNglY6XLBUjwSnCS
+NfvdL15avxoa32ZtflldlmCIZpsp6ak0JZvjFh4qFP18i+d3JO9OFbJkEMiGecJrroQiFXvSVBqw
+RpbTUN7haEldAoWFwdT7IqG8iH7hhZYweK8olGkr0My0GSZ2Cr4ahA9xmo2RaJlTyz6gORz/l+gA
+6rcc/XxHPxTeWhK7kCfmxXDgqpurUufILnlqWWVQjXWWpXEY1QNbo49mefRIwbH5vBBTaZPaFiC/
+AnMOG9CaTfyGcdMclatZnN9aXIbF15DLy/cOA7F7UEWz7HFtyHSxHeoKLRvrE160+S3vNQT9DErG
+XyA=
 
 -->
