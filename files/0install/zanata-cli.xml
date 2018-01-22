@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='resources/feed.xsl'?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
 <interface uri="https://raw.githubusercontent.com/zanata/zanata.github.io/master/files/0install/zanata-cli.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Zanata command-line client</name>
   <summary>Maven artifact org.zanata:zanata-cli</summary>
@@ -53,14 +53,18 @@
       <manifest-digest sha256new="HQ25HMAHVNGPZBNI6EC2H44ILOPAJ62BRBA7DWZCICLVJEEL2MEA"/>
       <archive extract="zanata-cli-4.3.2" href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.3.2/zanata-cli-4.3.2-dist.zip" size="16071249"/>
     </implementation>
+    <implementation id="sha1new=bb723d4b3482a469a7930a570348825d12804cb0" released="2017-12-17" stability="stable" version="4.3.3">
+      <manifest-digest sha256="ad055479058ee2f77aa0a76e3e798440a6bc02c4e7d1e77f4f4181bb70584801"/>
+      <archive href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.3.3/zanata-cli-4.3.3-dist.zip" size="16071216"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJaF7k4AAoJEFwxfR5MW7UaM4cIAMEYyYiRm4k93hf8s+1unNglY6XLBUjwSnCS
-NfvdL15avxoa32ZtflldlmCIZpsp6ak0JZvjFh4qFP18i+d3JO9OFbJkEMiGecJrroQiFXvSVBqw
-RpbTUN7haEldAoWFwdT7IqG8iH7hhZYweK8olGkr0My0GSZ2Cr4ahA9xmo2RaJlTyz6gORz/l+gA
-6rcc/XxHPxTeWhK7kCfmxXDgqpurUufILnlqWWVQjXWWpXEY1QNbo49mefRIwbH5vBBTaZPaFiC/
-AnMOG9CaTfyGcdMclatZnN9aXIbF15DLy/cOA7F7UEWz7HFtyHSxHeoKLRvrE160+S3vNQT9DErG
-XyA=
+iQEcBAABAgAGBQJaZY0CAAoJEFwxfR5MW7UaIMIH/1oImSrbVrMi8SG6F2CFlRC4dI2mfzKC6J5j
+M1RHKCU67Nt3XV+iJJ44w090w9rIfQT/BJUKw2IcD7g3MyCTuhhhG+1ocS8WJnZHamm6pfo0+xgY
+O48ki2Uz9lNS3SSkAEH+GgM1m1pClUee9cwwEu0ZZsNHi1RYmRAUEX8lqKAn5tkADlTTDZWqvXm/
+GBZJH6ZrY/pKDK5H2SdNNoXhg0sE9Y1LAx6aQqeYL0FzUohFar3uSBVvcGiZhu0LCVTVuS0Kd35N
+WO/dTU1Dc/BCUCxFHqmHGbloptkzo8nwxZZqcvIicQbZ5u/9pJmHBy2NcwfqLCQwv17UGIM2ZNRR
+V2Y=
 
 -->
