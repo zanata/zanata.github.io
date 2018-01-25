@@ -1,13 +1,13 @@
 name: Zanata
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 url: http://zanata.org
 permalink: /:title
 show_drafts: false
 
 cli_client_name: zanata-cli
 
-gems:
+plugins:
   - jekyll-redirect-from
 
 collections:
