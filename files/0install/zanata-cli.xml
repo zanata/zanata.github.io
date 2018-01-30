@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='resources/feed.xsl'?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
 <interface uri="https://raw.githubusercontent.com/zanata/zanata.github.io/master/files/0install/zanata-cli.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Zanata command-line client</name>
   <summary>Maven artifact org.zanata:zanata-cli</summary>
@@ -53,14 +53,18 @@
       <manifest-digest sha256new="HQ25HMAHVNGPZBNI6EC2H44ILOPAJ62BRBA7DWZCICLVJEEL2MEA"/>
       <archive extract="zanata-cli-4.3.2" href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.3.2/zanata-cli-4.3.2-dist.zip" size="16071249"/>
     </implementation>
+    <implementation id="sha1new=bb723d4b3482a469a7930a570348825d12804cb0" main="bin/zanata-cli" released="2018-01-30" stability="stable" version="4.3.3">
+      <manifest-digest sha256new="VUCVI6IFR3RPO6VAU5XD46MEICTLYAWE47I6O72PIGA3W4CYJAAQ"/>
+      <archive href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.3.3/zanata-cli-4.3.3-dist.zip" size="16071216"/>
+    </implementation>
+    <implementation id="sha1new=77dc9e0cce62c76f2ff830f59ad3b378480c488a" main="bin/zanata-cli" released="2018-01-30" stability="testing" version="4.4.0-pre3">
+      <manifest-digest sha256new="FDJPYHT5JGECJMTEIVRC7WRRCV74MMETAJW7Q36DACCYJ7GHL7DQ"/>
+      <archive href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.4.0-alpha-3/zanata-cli-4.4.0-alpha-3-dist.zip" size="16618887"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJaF7k4AAoJEFwxfR5MW7UaM4cIAMEYyYiRm4k93hf8s+1unNglY6XLBUjwSnCS
-NfvdL15avxoa32ZtflldlmCIZpsp6ak0JZvjFh4qFP18i+d3JO9OFbJkEMiGecJrroQiFXvSVBqw
-RpbTUN7haEldAoWFwdT7IqG8iH7hhZYweK8olGkr0My0GSZ2Cr4ahA9xmo2RaJlTyz6gORz/l+gA
-6rcc/XxHPxTeWhK7kCfmxXDgqpurUufILnlqWWVQjXWWpXEY1QNbo49mefRIwbH5vBBTaZPaFiC/
-AnMOG9CaTfyGcdMclatZnN9aXIbF15DLy/cOA7F7UEWz7HFtyHSxHeoKLRvrE160+S3vNQT9DErG
-XyA=
+iEYEABECAAYFAlpv5pQACgkQ53X6ZIsz1sCPYgCfa+ujGXkMYjVLGZ+p4dwqKx/4MtEAniruuG/Y
+DF2zZx/LaQBnIIm/aArg
 
 -->

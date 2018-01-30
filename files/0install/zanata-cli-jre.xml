@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='resources/feed.xsl'?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
 <interface uri="https://raw.githubusercontent.com/zanata/zanata.github.io/master/files/0install/zanata-cli-jre.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Zanata command-line client</name>
   <summary>Maven artifact org.zanata:zanata-cli</summary>
@@ -56,15 +56,19 @@
         <manifest-digest sha256new="HQ25HMAHVNGPZBNI6EC2H44ILOPAJ62BRBA7DWZCICLVJEEL2MEA"/>
         <archive extract="zanata-cli-4.3.2" href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.3.2/zanata-cli-4.3.2-dist.zip" size="16071249"/>
       </implementation>
+      <implementation id="sha1new=bb723d4b3482a469a7930a570348825d12804cb0" main="bin/zanata-cli" released="2018-01-30" stability="stable" version="4.3.3">
+        <manifest-digest sha256new="VUCVI6IFR3RPO6VAU5XD46MEICTLYAWE47I6O72PIGA3W4CYJAAQ"/>
+        <archive href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.3.3/zanata-cli-4.3.3-dist.zip" size="16071216"/>
+      </implementation>
+      <implementation id="sha1new=77dc9e0cce62c76f2ff830f59ad3b378480c488a" main="bin/zanata-cli" released="2018-01-30" stability="testing" version="4.4.0-pre3">
+        <manifest-digest sha256new="FDJPYHT5JGECJMTEIVRC7WRRCV74MMETAJW7Q36DACCYJ7GHL7DQ"/>
+        <archive href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.4.0-alpha-3/zanata-cli-4.4.0-alpha-3-dist.zip" size="16618887"/>
+      </implementation>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJaF7k6AAoJEFwxfR5MW7UaERwH/iHxImWrE6ldextMz5fLiQ8Y6qfWAByIL3KV
-IefODL2b1TBXn3wK5xBZ/20SlzNfyohM5d6ZhzyBPgpeApJfnc9mN8J/VTYWfdWgEdkTtiR2O0JK
-dlZjwcOYfo5Fndfsf1V5/xlYZJAwPtFBXPXaKe4bxXSEb8MT0+YJlI7s0KrUK2kOcs0wLBh2ikW2
-rrwlDPUJJ8GJKSmqEQhjVfnHqJ9tzxpIhu00XQ25xr2Iw4zuKctG+BdfSq/7RAvqbfXMWhQA6BvI
-lhTUsO+dk78aN5M8HTL5Ghe794YXJ0w1DublwFwkEQl+2FuexiwjRgigF5klXpIdV5PBMqPRyxaJ
-UBM=
+iEYEABECAAYFAlpv5pUACgkQ53X6ZIsz1sAGZQCfTxoH6PFiJjnZ7KTKGFlqai09tboAmwWvM75o
+4mrxmhi7CQMA9AFp4xX9
 
 -->
