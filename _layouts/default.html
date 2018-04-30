@@ -1,123 +1,140 @@
 <!DOCTYPE html>
-<html class="new-zanata new-zanata-html" lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        {% if page.url == "/index.html" %}
-        <title>{{ page.title }}</title>
-        {% else %}
-        <title>{{ page.title }} | Zanata</title>
-        {% endif %}
-        <link rel="shortcut icon" href="{{ site.url }}/images/favicon.ico" type="image/x-icon" />
-        <meta name="viewport" content="width=device-width">
-        <meta name="keywords" content="translation platform, translation, web based translation platform">
-        {% if page.redirect-to %}<meta http-equiv="refresh" content="0; url={{ page.redirect-to }}">{% endif %}
-        <link rel="stylesheet" href="{{ site.url }}/css/style.css">
-        <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,400italic" />
-        <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/custom.css" />
-        <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/syntax.css" />
-        <!--<link rel="alternate" type="application/rss+xml"  href="{{ site.url }}/blog/rss.xml" title="Zanata Blog Posts Feed" />-->
-        <!--[if lte IE 8]>
-        <div id="ie-warn" class="bg--warning" style="padding: 25px 36px 25px 40px;">
-        <p>IE8 is not supported. You are using an UNSUPPORTED version of Internet Explorer and this website may not render correctly.</p>
-        <p>Please use an alternative browser such as <a href="https://www.google.com.au/chrome/browser/desktop">Chrome</a>, <a href="https://www.mozilla.org/en-GB/firefox/new/">Firefox</a> or <a href="http://www.opera.com/download">Opera</a>.</p>
-        </div>
-        <![endif]-->
-    </head>
-    <body class="new-zanata-body new-zanata" id="zanata-help">
-      <header role="banner" class="header">
-        <div class="constrain">
-          {% if page.layout == "home" %}
-          <h1 class="header__title heading--sub"><a href="{{ site.url }}"><img alt="logo" class="header__site-logo" src="{{ site.url }}/images/logo/logo.svg"> Zanata</a></h1>
-          {% else %}
-          <h2 class="header__title heading--sub"><a href="{{ site.url }}"><img alt="logo" class="header__site-logo" src="{{ site.url }}/images/logo/logo.svg"> Zanata</a></h2>
-          {% endif %}
-          <nav id="nav-main" class="header__main-nav js-dropdown">
-            <a href="#nav-main" class="header__main-nav__toggle js-dropdown__toggle"><i class="i i--huge i--list"></i><span class="is-invisible">Menu</span></a>
-            <div class="header__main-nav__group js-dropdown__content">
-              <ul class="header__main-nav__menu">
-                <li><a href="{{site.url}}/about">About</a></li>
-                <li><a href="{{site.url}}/features">Features</a></li>
-                <li><a href="{{site.url}}/blog">Blog</a></li>
-                <li><a href="{{site.url}}/help"{% if page.layout == "help" %}class="is-active"{% endif %}>Help</a></li>
-                <li class="is-hidden--m-up l--pad-all-half"><a href="http://translate.zanata.org" class="button--primary button--full">Go to the app</a></li>
-              </ul>
-            </div>
-          </nav>
-          <div class="header__login l--float-right is-hidden--s">
-            <a href="http://translate.zanata.org" class="button--primary button--full">Go to the app</a>
-          </div>
-        </div>
-      </header>
+<html lang="en">
 
-      {{ content }}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+          shrink-to-fit=no">
+    <meta name="description" content="{{ page.description }}">
+    <meta name="author" content="The Zanata team">
+    <link href="/images/favicon.ico" rel="icon">
+    {% if page.currentnav == "home" %}
+    <title>Zanata: Community powered translation</title>
+    {% else %}
+    <title>{{ page.title }}: Zanata: Open Translation for Everyone</title>
+    {% endif %}
+    <!-- Bootstrap core CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="/zanata.css" rel="stylesheet">
+    <link href="/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+</head>
 
-      <footer role="content-info" class="footer bg--lower">
-        <div class="l__wrapper l--pad-v-1">
-          <div class="g">
-            <div class="g__item w--1-4 l--push-bottom-1">
-              <h2 class="delta">Getting Started</h2>
-              <ul class="list--slat">
-                <li><a href="http://docs.zanata.org/en/release/user-guide/translator-guide/">Translator guide</a></li>
-                <li><a href="http://docs.zanata.org/en/release/user-guide/project-maintainer-guide/">Project maintainer guide</a></li>
-                <li><a href="http://docs.zanata.org/en/release/user-guide/system-admin/configuration/installation/">System admin guide</a></li>
-              </ul>
-            </div>
-            <!-- <div class="g__item w--1-4 l--push-bottom-1">
-              <h2 class="delta">Live Instances</h2>
-              <ul class="list--slat">
-                <li><a href="http://translate.zanata.org">translate.zanata.org</a></li>
-                <li><a href="http://translate.jboss.org">translate.jboss.org</a></li>
-              </ul>
-            </div> -->
-            <div class="g__item w--1-4 l--push-bottom-1">
-              <h2 class="delta">Support</h2>
-              <ul class="list--slat">
-                <li><a href="{{ site.url }}/help">Help</a></li>
-                <li><a href="http://webchat.freenode.net/?channels=zanata">IRC</a></li>
-                <li><a href="{{ site.url }}/mailing-lists">Mailing Lists</a></li>
-                <li><a href="{{ site.url }}/issues">Issues</a></li>
-              </ul>
-            </div>
-            <div class="g__item w--1-4 l--push-bottom-1">
-              <h2 class="delta">Development</h2>
-              <ul class="list--slat">
-                <li><a href="http://github.com/zanata/zanata-server">Github Project</a></li>
-                <li><a href="{{ site.url }}/download">Download</a></li>
-                <li><a href="https://github.com/zanata/zanata-server/wiki/Developer-Guide">Developer Wiki</a></li>
-                <li><a href="https://www.ohloh.net/p/zanata/">Ohloh</a></li>
-                <li><a href="https://zanata.ci.cloudbees.com/">Continuous Integration</a></li>
-                <li><a href="http://zanata.org/zanata-platform/rest-api-docs/">REST API docs</a></li>
-              </ul>
-            </div>
-            <div class="g__item w--1-4 l--push-bottom-1">
-              <h2 class="delta">Technologies</h2>
-              <ul class="list--slat">
-                <li><a href="http://www.jboss.org/">JBoss AS</a></li>
-                <li><a href="http://www.seamframework.org/">Seam</a></li>
-                <li><a href="http://hibernate.org/">Hibernate</a></li>
-                <li><a href="https://cloudbees.com/">CloudBees</a></li>
-                <li><a href="{{ site.url }}/technologies">All Technologies</a></li>
-              </ul>
-            </div>
-          </div>
+<body class="{{ page.bodyclass }}">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="/">
+      <img alt="Zanata logo" src="/images/logo/logo.svg">
+      <span class="logo-text"><img alt="Zanata logo" src="/images/logo/logo-text.svg"></span>
+    </a>
+    <button aria-controls="navbars" aria-expanded="false"
+            aria-label="Toggle navigation"
+            class="navbar-toggler navbar-toggler-right"
+            data-target="#navbars"
+            data-toggle="collapse" type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbars">
+        <ul class="navbar-nav mr-auto">
+            {% include navitem.html id="home" href="/" label="Home" %}
+            {% include navitem.html id="about" href="/about/" label="About" %}
+            {% include navitem.html id="release-notes" href="http://docs.zanata.org/en/latest/release-notes/index.html" label="Release Notes" %}
+            {% include navitem.html id="communities" href="/communities/" label="Communities" %}
+            {% include navitem.html id="instances" href="/instances/" label="Instances" %}
+        </ul>
+        <form class="my-2 my-lg-0">
+            <a href="https://translate.zanata.org" role="button"
+               class="btn btn-outline-primary my-2 my-sm-0">Go to app</a>
+            <a href="http://docs.zanata.org/" role="button"
+               class="btn btn-outline-default my-2 my-sm-0">Docs</a>
+            <a href="http://github.com/zanata/zanata-platform" role="button"
+               class="btn btn-link my-2 my-sm-0">
+                <i class="fa fa-github-square fa-2x">
+                    <span class="sr-only">Github</span></i>
+            </a>
+        </form>
+    </div>
+</nav>
+{{ content }}
+<footer class="footer">
+    <div class="container d-sm-inline-block d-md-inline-flex">
+        <ul class="col-xs-12 col-sm-6 col-md-3">
+            <li class="lead">Getting started</li>
+            <li>
+                <a href="http://docs.zanata.org/en/release/user-guide/translator-guide/">Translator
+                    guide</a>
+            </li>
+            <li>
+                <a href="http://docs.zanata.org/en/release/user-guide/project-maintainer-guide/">Project
+                    maintainer guide</a>
+            </li>
+            <li>
+                <a href="http://docs.zanata.org/en/release/user-guide/system-admin/configuration/installation/">System
+                    admin guide</a>
+            </li>
+        </ul>
+        <ul class="col-xs-12 col-sm-6 col-md-3">
+            <li class="lead">Support</li>
+            <li><a href="http://docs.zanata.org/">docs.zanata.org</a>
+            </li>
+            <li><a href="http://webchat.freenode.net/?channels=zanata">IRC</a>
+            </li>
+            <li><a href="/mailing-lists/" {% if page.currentnav == "mailing-lists" %}class="footer-active"{% endif %}>Mailing Lists</a>
+            </li>
+            <li><a href="/issues/" {% if page.currentnav == "issues" %}class="footer-active"{% endif %}">Issues</a>
+            </li>
+        </ul>
+        <ul class="col-xs-12 col-sm-6 col-md-3">
+            <li class="lead">Development</a>
+            </li>
+            <li><a href="http://github.com/zanata/zanata-platform">GitHub
+                project</a>
+            </li>
+            <li>
+                <a href="http://docs.zanata.org/en/latest/user-guide/system-admin/configuration/installation/">Download</a>
+            </li>
+            <li>
+                <a href="https://github.com/zanata/zanata-platform/wiki/Developer-Guide">Developer
+                    Wiki</a>
+            </li>
+            <li><a href="https://zanata.ci.cloudbees.com/">Continuous
+                Integration</a>
+            </li>
+            <li>
+                <a href="http://zanata.org/zanata-platform/rest-api-docs/">REST
+                    API Docs</a>
+            </li>
+        </ul>
+        <ul class="col-xs-12 col-sm-6 col-md-3">
+            <li class="lead">Technologies</li>
+            <li><a href="http://wildfly.org/">Wildfly</a>
+            </li>
+            <li><a href="http://hibernate.org/">Hibernate</a>
+            </li>
+            <li><a href="https://www.cloudbees.com/">Cloudbees</a>
+            </li>
+            <li><a href="/about/">All technologies</a>
+            </li>
+        </ul>
+    </div>
+    <div class="rh-footer">
+        <div class="copyright">
+            <p>Copyright © 2008-2017 <a href="https://www.redhat.com">Red
+                Hat</a>
+            </p>
         </div>
-        <div class="bg--lowest l--pad-v-1 txt--invert">
-          <div class="l__wrapper">
-            <div class="g l--pad-v-half">
-              <div class="g__item w--1-2">
-                <p class="l--pad-v-quarter">Copyright &copy; 2008-{{ site.time | date: '%Y' }} <a href="http://redhat.com">Red Hat</a></p>
-              </div>
-              <div class="g__item w--1-2 txt--align-right">
-                <p>Supported by <img class="bx--inline-block l--push-left-half" style="vertical-align:middle" src="{{ site.url }}/images/redhat.png" alt="Red Hat" ></p>
-              </div>
-            </div>
-          </div>
+        <div class="supported">
+            <p>Supported by <img src="/images/assets/redhat.png" alt="Red Hat"/>
+            </p>
         </div>
-      </footer>
-      <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-      <script src="{{ site.url }}/js/assets-script.js"></script>
-      <script src="{{ site.url }}/js/jquery.fastLiveFilter.js"></script>
-      <script src="{{ site.url }}/js/script.js"></script>
-    </body>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js">
+</script>
+</body>
+
 </html>
