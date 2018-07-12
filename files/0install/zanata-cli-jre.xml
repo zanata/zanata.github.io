@@ -40,19 +40,63 @@
         <manifest-digest sha256new="GNIHAD53UYFKX7YAOB6ZGX6UYRNW5UX62DOG2S6CV2RD6UABQEKQ"/>
         <archive extract="zanata-cli-4.2.0-rc-4" href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.2.0-rc-4/zanata-cli-4.2.0-rc-4-dist.zip" size="18334"/>
       </implementation>
-      <implementation id="sha1new=ffe823ccac582a49256c786f350b96752779bb8a" main="bin/zanata-cli" released="2017-06-01" stability="stable" version="4.2.1">
-        <manifest-digest sha256new="PNW2LXI4GIPTTGI7TLVTRTMHB4PQPZEEXNBVGCZT6P6TDCMP66JA"/>
-        <archive extract="zanata-cli-4.2.1" href="http://search.maven.org/remotecontent?filepath=org/zanata/zanata-cli/4.2.1/zanata-cli-4.2.1-dist.zip" size="16059596"/>
+      <implementation id="sha1new=f7a8221eed8b66aa6626f28bf7c8d985359ebed0" main="bin/zanata-cli" released="2017-09-04" stability="stable" version="4.2.4">
+        <manifest-digest sha256new="NBF3X4MA5QJ4ASPZBC44Z2QDMF5MJ3RO7MEMUQDJW7NCIXZ7FLXQ"/>
+        <archive extract="zanata-cli-4.2.4" href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.2.4/zanata-cli-4.2.4-dist.zip" size="16069294"/>
+      </implementation>
+      <implementation id="sha1new=c298825f63f9b05070aabc9ff5c6dfd18fc006d3" main="bin/zanata-cli" released="2017-10-09" stability="stable" version="4.3.0">
+        <manifest-digest sha256new="NMDEO3X5OTXMVE3ETIKY5SMEZNTSJFXDGN5QLS5YP7VWTSU2ASXA"/>
+        <archive extract="zanata-cli-4.3.0" href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.3.0/zanata-cli-4.3.0-dist.zip" size="16071223"/>
+      </implementation>
+      <implementation id="sha1new=a75bf35f72a526321c8991fe6225cbd5401a7287" main="bin/zanata-cli" released="2017-11-06" stability="stable" version="4.3.1">
+        <manifest-digest sha256new="ZOUU3RREP5VI4E3ZONI2OT3MWNIJBMEZQYWHUYM54IBAUHCUFNEA"/>
+        <archive extract="zanata-cli-4.3.1" href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.3.1/zanata-cli-4.3.1-dist.zip" size="16071213"/>
+      </implementation>
+      <implementation id="sha1new=6f5720c15c5f94e74bcdde3336a3c4aa5ad84139" main="bin/zanata-cli" released="2017-11-24" stability="stable" version="4.3.2">
+        <manifest-digest sha256new="HQ25HMAHVNGPZBNI6EC2H44ILOPAJ62BRBA7DWZCICLVJEEL2MEA"/>
+        <archive extract="zanata-cli-4.3.2" href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.3.2/zanata-cli-4.3.2-dist.zip" size="16071249"/>
+      </implementation>
+      <implementation id="sha1new=73f4a294cdbfe48fbbfe4f3209e987678fccb99c" main="bin/zanata-cli" released="2018-01-30" stability="stable" version="4.3.3">
+        <manifest-digest sha256new="VKC2ZEJCJWRF6XYJL7G7VEZ2LNNPNPZ2XEBI6RXTXQ7RBUXOME2A"/>
+        <archive extract="zanata-cli-4.3.3" href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.3.3/zanata-cli-4.3.3-dist.zip" size="16071216"/>
+      </implementation>
+      <implementation id="sha1new=ddc628ee5e263330916bad8b9ea9e01801e8e851" main="bin/zanata-cli" released="2018-01-30" stability="stable" version="4.4.0">
+        <manifest-digest sha256new="AHQANDZZXGRTBGXBD5ODFTLNDL22GS5DLQ3RH2QQIMDIWGCYC3FA"/>
+        <archive extract="zanata-cli-4.4.0" href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.4.0/zanata-cli-4.4.0-dist.zip" size="16083675"/>
+      </implementation>
+      <implementation id="sha1new=ac897937050d22859ca4ffc091e1d403ed119829" main="bin/zanata-cli" released="2018-02-01" stability="stable" version="4.4.1">
+        <manifest-digest sha256="0202ac8fe79066c9f0208efdd14e23a10fc58448d1db8bef499a5f9d7dcd5e8b"/>
+        <archive extract="zanata-cli-4.4.1" href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.4.1/zanata-cli-4.4.1-dist.zip" size="16083689"/>
+      </implementation>
+      <implementation id="sha1new=4e7615d2f58b1b399d11d3da8a740a4ea32c325e" main="bin/zanata-cli" released="2018-02-07" stability="stable" version="4.4.3">
+        <manifest-digest sha256="cda9f3a0bdaf62b5f32f2a3367a4831b54c3d556d721ba4de50c5ff3c1e4a598"/>
+        <archive extract="zanata-cli-4.4.3" href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.4.3/zanata-cli-4.4.3-dist.zip" size="16083682"/>
+      </implementation>
+      <implementation id="sha1new=0e552c700fc9062dd1327f010a37cae662d53242" main="bin/zanata-cli" released="2018-05-04" stability="stable" version="4.4.4">
+        <manifest-digest sha256="1cd0636b6a3f1a66d7ede8510f5c611f5dc23209d674074c9f349c9787820eae"/>
+        <archive extract="zanata-cli-4.4.4" href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.4.4/zanata-cli-4.4.4-dist.zip" size="16158642"/>
+      </implementation>
+      <implementation id="sha1new=c53f37b3d636aa74024e6c60dd7054d82ad14108" main="bin/zanata-cli" released="2018-05-10" stability="stable" version="4.4.5">
+        <manifest-digest sha256="290713e0a2552a0586e14497d5f42f2020aa73b8beeeafb276e5ad7299b1979d"/>
+        <archive extract="zanata-cli-4.4.5" href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.4.5/zanata-cli-4.4.5-dist.zip" size="16158642"/>
+      </implementation>
+      <implementation id="sha1new=c415a309a182e93bdc56d6a6493f3ef0ff2d0ef5" main="bin/zanata-cli" released="2018-06-05" stability="testing" version="4.5.0-rc2">
+        <manifest-digest sha256="1ef30a4afcf34a252a961a44739248b9620a6f69dd7766bc4725e9c73b921652"/>
+        <archive extract="zanata-cli-4.5.0-rc-2" href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.5.0-rc-2/zanata-cli-4.5.0-rc-2-dist.zip" size="16282739"/>
+      </implementation>
+      <implementation id="sha1new=62683a6835684591df5e9d740cd95f89ee9adb3b" main="bin/zanata-cli" released="2018-06-25" stability="stable" version="4.5.0">
+        <manifest-digest sha256new="FNDY7N5WJLSLC4DMIIF456IHH4TRRRYK3TBMCE4XAVR2EVHSOP3Q"/>
+        <archive extract="zanata-cli-4.5.0" href="https://repo1.maven.org/maven2/org/zanata/zanata-cli/4.5.0/zanata-cli-4.5.0-dist.zip" size="16281543"/>
       </implementation>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJZL5VzAAoJEFwxfR5MW7UaE6wH+wd2EQmQ2MOiWZLqN+laD+hDGtXGoQtldywm
-RYTG//yLXljvfE/zDsWNxFqFkZl4MJJ0hTF8ZBk5qO/W46cP+aQynbMLwFC0Wp2ZJ72bQlgfJ6bI
-C3KKWclyP2TscQ3CmE3jzDT2oSt7fNRQJaKrPGC5l7YGEjuwUCW6l7jMiiNYkqFuyDvO1+B8s0TX
-Qp7zD3ZbyN+Wb8gFL6QLr3GPnU/CxJEvtWS5CzHeN3zqf/HZ+DYXSEJfqb4PpdPjrA4K/qEkL29y
-qSawBDykq26YhdbHH51bpbFwYgcyonk0xDH51QpRZ9vlbqZDS5vuO11+MjdwFxCQTLJ3rDkze7VG
-6u8=
+iQEcBAABAgAGBQJbMJn/AAoJEFwxfR5MW7Ua+hoIAKQWYtOOVMoMxVDQe5z/iN0RDPi3560YdjQ6
+I0rDUY1rSdoWCZqgPu2n1ujUVa9BHJwBRwq3SAYgiBiMuDyx8p1Ad+s8yjKUlFqI2ijsFNb/HssK
+a29FGt06fER3Fy8Eqe4WjhYMBXu8VyakrjjXtMr9NaWwtN0e7eJVPUCV0cOSq7yhUvAo0rurWnjG
+8Bd32fvfnsfhmvHkX16jAWw6moyyf1bbVFhbuh8aRV/tQTF/xr/OCaL+Mo52Gkp3dqtManetfNrb
+l/7ClK/OmZhPgNZIos/gFmsNVAfBTuxdrEFlCng7LbE8CiI7DkcDqRSDMk0yoUftIGSe63oL10s2
+TdI=
 
 -->

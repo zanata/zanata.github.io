@@ -1,19 +1,9 @@
 name: Zanata
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 url: http://zanata.org
 permalink: /:title
 show_drafts: false
-
-cli_client_name: zanata-cli
-
-gems:
-  - jekyll-redirect-from
-
-collections:
-  help:
-    output: true
-    permalink: /help/:path/
 
 defaults:
   -
@@ -21,8 +11,9 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
-  -
-    scope:
-      type: help
-    values:
-      layout: help
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CNAME
